@@ -37,3 +37,22 @@
 @use "font-awesome/brands";
 @use "font-awesome/solid";
 @use "font-awesome/regular";
+
+.profile img {
+  width: 320px;
+  max-width: 100%;
+  height: auto;
+}
+
+.about-text {
+  text-align: justify;
+}
+
+.about-contact {
+  clear: both;
+  margin-top: 2rem;
+}
+
+.about .profile {
+  margin-left: 2rem;
+}
