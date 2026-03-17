@@ -9,9 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    <p>Contact</p>
     <p>email: ekremcem19@gmail.com</p>
     <p>mobile: +90 537 652 6494</p>
-
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
