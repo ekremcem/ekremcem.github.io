@@ -39,20 +39,32 @@
 @use "font-awesome/regular";
 
 .profile img {
-  width: 320px;
+  width: 360px;
   max-width: 100%;
   height: auto;
 }
 
 .about-text {
   text-align: justify;
+  margin-right: 390px;
+  margin-bottom: 1.2rem;
 }
 
 .about-contact {
   clear: both;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
 }
 
 .about .profile {
   margin-left: 2rem;
+}
+
+@media (max-width: 900px) {
+  .about-text {
+    margin-right: 0;
+  }
+
+  .profile img {
+    width: 280px;
+  }
 }
