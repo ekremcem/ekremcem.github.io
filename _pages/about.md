@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>General Directorate of Agricultural Research and Policiees, Sheep Breeding Research Institute, Fisheries Department</a>
 
 profile:
   align: right
