@@ -6,9 +6,8 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Ekrem Cem
 middle_name: 
 last_name: Çankırılıgil
-contact_note: Looking for partnerships on seafood chemistry, macroalgae biochemistry, marine bioactive compounds, and polar science. >
-  You can even add a little note about which of these is the best way to reach you.
-description: Academic cv for Dr. Ekrem Cem Çankırılıgil > # the ">" symbol means to ignore newlines until "footer_text:"
+contact_note: > Looking for partnerships on seafood chemistry, macroalgae biochemistry, marine bioactive compounds, and polar science. 
+description: > Academic cv for Dr. Ekrem Cem Çankırılıgil # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
