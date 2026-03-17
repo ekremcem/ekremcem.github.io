@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>e-mail: ekremcem19@gmail.com</p>
+    <p>email: ekremcem19@gmail.com</p>
     <p>mobile: +90 537 652 6494</p>
 
 
