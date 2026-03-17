@@ -8,28 +8,24 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
-  more_info: >
-    <p><strong>Position:</strong> Researcher / Fisheries Engineer</p>
-    <p><strong>Contact</strong></p>
-    <p>ekremcem19@gmail.com</p>
-    <p>+90 537 652 6494</p>
 
-selected_papers: true
-social: true
+selected_papers: false
+social: false
 
 announcements:
-  enabled: true
-  scrollable: true
-  limit: 5
+  enabled: false
 
 latest_posts:
-  enabled: true
-  scrollable: true
-  limit: 3
+  enabled: false
 ---
 
-Ekrem Cem Çankırılıgil was born on January 3, 1987, in Istanbul, Türkiye. He currently works at the Department of Fisheries at the Sheep Breeding Research Institute in Bandırma, Balıkesir, Türkiye.
+Ekrem Cem Çankırılıgil was born on January 3, 1987, in Istanbul, Türkiye. He graduated from the Faculty of Fisheries at Çanakkale Onsekiz Mart University in 2009 and completed his PhD in 2019. His academic background has been shaped by a strong interest in marine sciences, aquaculture, and fisheries research.
 
-His research focuses on aquaculture, seafood chemistry, marine natural products, and secondary metabolites derived from fish, bivalves, macroalgae, and sponges.
+He has been working as a researcher at the Department of Fisheries, Sheep Breeding Research Institute, under the General Directorate of Agricultural Research and Policies (TAGEM), since 2013. Based in Bandırma, Balıkesir, Türkiye, he has been involved in research activities focusing on fisheries, marine resources, and applied aquaculture for more than a decade.
 
-He is currently leading two main research topics. The first aims to investigate the biochemical composition and biological activities of Antarctic seaweed species. The second focuses on the effects of climate change-driven environmental factors on the chemical composition, reproductive physiology, and energy metabolism of scallop and oyster species distributed in the Sea of Marmara, with implications for future aquaculture strategies.
+His areas of expertise include aquaculture, seafood chemistry, marine natural products, and secondary metabolites derived from fish, bivalves, macroalgae, and sponges. His broader research interests also cover marine biodiversity, Antarctic marine resources, shellfish physiology, reproductive biology, and the biochemical responses of marine organisms to environmental change. He is currently leading two main research topics. The first investigates the biochemical composition and biological activities of Antarctic seaweed species. The second focuses on the effects of climate change-driven environmental factors on the chemical composition, reproductive physiology, and energy metabolism of scallop and oyster species distributed in the Sea of Marmara, with implications for future aquaculture strategies.
+
+## Contact
+
+**Email:** ekremcem19@gmail.com  
+**Mobile:** +90 537 652 6494
