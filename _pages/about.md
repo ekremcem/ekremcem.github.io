@@ -2,13 +2,17 @@
 layout: page
 title: about
 permalink: /
-subtitle: General Directorate of Agricultural Research and Policies, Sheep Breeding Research Institute, Department of Fisheries
 ---
+
+<h1 style="margin-bottom: 0.3rem;">Ekrem Cem Çankırılıgil</h1>
+<p style="font-size: 1.05rem; color: #666; margin-top: 0; margin-bottom: 2rem;">
+  General Directorate of Agricultural Research and Policies, Sheep Breeding Research Institute, Department of Fisheries
+</p>
 
 <div style="overflow: hidden;">
 
-  <div style="float: right; width: 340px; margin-left: 2rem; margin-bottom: 1.5rem;">
-    <img src="/assets/img/ekremcem.jpg" alt="Ekrem Cem Çankırılıgil" style="width: 100%; height: auto; display: block; border-radius: 0;" />
+  <div style="float: right; width: 360px; margin-left: 2rem; margin-bottom: 1.5rem;">
+    <img src="/assets/img/ekremcem.jpg" alt="Ekrem Cem Çankırılıgil" style="width: 100%; height: auto; display: block;" />
   </div>
 
   <p style="text-align: justify; margin-bottom: 1.2rem;">
@@ -25,7 +29,7 @@ subtitle: General Directorate of Agricultural Research and Policies, Sheep Breed
 
 </div>
 
-<div style="clear: both; padding-top: 1.5rem;">
+<div style="clear: both; padding-top: 1.8rem;">
   <h2>Contact</h2>
   <p><strong>E-mail:</strong> ekremcem19@gmail.com, cem.cankiriligil@tarimorman.gov.tr</p>
   <p><strong>Mobile:</strong> +90 537 652 6494</p>
