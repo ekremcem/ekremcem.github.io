@@ -9,19 +9,19 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-experience",
-          title: "Experience",
-          description: "Research, administrative roles, skills, and languages.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/experience/";
-          },
-        },{id: "nav-education",
+  },{id: "nav-education",
           title: "Education",
           description: "Academic background.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/education/";
+          },
+        },{id: "nav-experience",
+          title: "Experience",
+          description: "Research, administrative roles, skills, and languages.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/experience/";
           },
         },{id: "nav-projects",
           title: "Projects",
