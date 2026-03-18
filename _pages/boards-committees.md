@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Boards & Committees
-permalink: /boards-committees/
-nav: false
+title: Committees
+permalink: /committees/
+nav: true
 nav_order: 7
 description: Working groups, committees, and conference roles.
 ---
@@ -11,7 +11,7 @@ description: Working groups, committees, and conference roles.
   <h2 class="section-title">Working Groups</h2>
   <div class="list-grid">
     <div class="list-item"><strong>2023 – 2024</strong> Technical Working Group — Assessing the Threats of Invasive Alien Species in Important Marine Biodiversity Areas (MARIAS)</div>
-    <div class="list-item"><strong>2022 – 2024</strong> European Union EU4Algae Working Group member</div>
+    <div class="list-item"><strong>2022 – 2024</strong> European Union EU4Algae Working Group Member</div>
   </div>
 </div>
 
