@@ -19,7 +19,7 @@ description: Academic background.
         <p>Çanakkale Onsekiz Mart University</p>
         <p>Natural and Applied Sciences Institute, Fishing and Processing Technology</p>
         <p></p>
-        <p><strong>Thesis:</strong> Determination of Flesh Quality of Black Sea Trout (Salmo labrax PALLAS, 1814) Fed with Carotenoid-Supplemented Diets</p>
+        <p><strong>Thesis:</strong> Determination of Flesh Quality of Black Sea Trout (<em>Salmo labrax</em> PALLAS, 1814) Fed with Carotenoid-Supplemented Diets</p>
       </div>
     </div>
 
