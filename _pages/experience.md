@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Experience
+title: <strong>Experience</strong>
 permalink: /experience/
 nav: true
 nav_order: 2
@@ -13,15 +13,7 @@ description: Research, administrative roles, skills, and languages.
       <h2 class="section-title">Work Experience</h2>
 
       <div class="timeline-entry">
-        <div class="timeline-year">2023</div>
-        <div class="timeline-body">
-          <h3>Researcher / Expedition Participant</h3>
-          <p>7th National Antarctic Science Expedition</p>
-        </div>
-      </div>
-
-      <div class="timeline-entry">
-        <div class="timeline-year">2021 – Present</div>
+        <div class="timeline-year" style="color: var(--global-theme-color); font-weight:700;">2021 – Present</div>
         <div class="timeline-body">
           <h3>Researcher</h3>
           <p>Sheep Breeding Research Institute, Department of Fisheries — Balıkesir</p>
@@ -29,7 +21,15 @@ description: Research, administrative roles, skills, and languages.
       </div>
 
       <div class="timeline-entry">
-        <div class="timeline-year">2013 – 2021</div>
+        <div class="timeline-year" style="color: var(--global-theme-color); font-weight:700;">2023</div>
+        <div class="timeline-body">
+          <h3>Researcher / Expedition Participant</h3>
+          <p>7th National Antarctic Science Expedition</p>
+        </div>
+      </div>
+      
+      <div class="timeline-entry">
+        <div class="timeline-year" style="color: var(--global-theme-color); font-weight:700;">2013 – 2021</div>
         <div class="timeline-body">
           <h3>Researcher</h3>
           <p>Central Fisheries Research Institute, Aquaculture Department — Trabzon</p>
@@ -37,7 +37,7 @@ description: Research, administrative roles, skills, and languages.
       </div>
 
       <div class="timeline-entry">
-        <div class="timeline-year">2012 – 2013</div>
+        <div class="timeline-year" style="color: var(--global-theme-color); font-weight:700;">2012 – 2013</div>
         <div class="timeline-body">
           <h3>Customer Relations Officer</h3>
           <p>Cinemaximum Cinemas — Çanakkale</p>
@@ -49,15 +49,15 @@ description: Research, administrative roles, skills, and languages.
       <h2 class="section-title">Administrative Roles</h2>
 
       <div class="timeline-entry compact">
-        <div class="timeline-year">2025 – Present</div>
+        <div class="timeline-year" style="color: var(--global-theme-color); font-weight:700;">2025 – Present</div>
         <div class="timeline-body">
-          <h3>Chair</h3>
+          <h3>Chairman</h3>
           <p>Local Fisheries Ethics Committee</p>
         </div>
       </div>
 
       <div class="timeline-entry compact">
-        <div class="timeline-year">2013 – 2021</div>
+        <div class="timeline-year" style="color: var(--global-theme-color); font-weight:700;">2013 – 2021</div>
         <div class="timeline-body">
           <h3>Unit Head</h3>
           <p>Recirculating Aquaculture System Unit, Central Fisheries Research Institute</p>
