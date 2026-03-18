@@ -9,7 +9,7 @@ description: Working groups, committees, and conference roles.
 
 ## Working Groups
 
-- **2023–2024** Technical Working Group: Assessing the Threats of Invasive Alien Species in Important Marine Biodiversity Areas (MARIAS)
+- **2023–2024** Technica Working Group: Assessing the Threats of Invasive Alien Species in Important Marine Biodiversity Areas (MARIAS)
 - **2022–2024** European Union EU4Algae Working Group Member
 
 ## Conference Roles
