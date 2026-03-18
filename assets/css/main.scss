@@ -642,3 +642,16 @@ html[data-theme="dark"] {
     grid-template-columns: 1fr;
   }
 }
+
+/* =========================
+   BACKGROUND (SADECE BU EKLENDİ)
+   ========================= */
+
+body {
+  background-color: #f7f8fa;
+}
+
+body.home,
+body.layout-home {
+  background-color: #ffffff;
+}
