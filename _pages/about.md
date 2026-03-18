@@ -10,23 +10,23 @@ profile:
   image_circular: false
   more_info: >
     <div class="profile-icons">
-      <a href="https://scholar.google.com/citations?user=XkeIjmMAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" title="Google Scholar">
-        <img src="/assets/img/icons/google-scholar.svg" alt="Google Scholar">
+      <a href="https://scholar.google.com/citations?user=XkeIjmMAAAAJ&hl=en" target="_blank">
+        <img src="/assets/img/google-scholar.svg" alt="Google Scholar">
       </a>
-      <a href="https://www.researchgate.net/profile/Ekrem-Cankiriligil" target="_blank" rel="noopener noreferrer" title="ResearchGate">
-        <img src="/assets/img/icons/researchgate.svg" alt="ResearchGate">
+      <a href="https://www.researchgate.net/profile/Ekrem-Cankiriligil" target="_blank">
+        <img src="/assets/img/researchgate.svg" alt="ResearchGate">
       </a>
-      <a href="https://tr.linkedin.com/in/ekrem-cem-%C3%A7ank%C4%B1r%C4%B1l%C4%B1gil" target="_blank" rel="noopener noreferrer" title="LinkedIn">
-        <img src="/assets/img/icons/linkedin.png" alt="LinkedIn">
+      <a href="https://tr.linkedin.com/in/ekrem-cem-%C3%A7ank%C4%B1r%C4%B1l%C4%B1gil" target="_blank">
+        <img src="/assets/img/linkedin.png" alt="LinkedIn">
       </a>
-      <a href="https://www.webofscience.com/wos/author/record/W-5068-2017" target="_blank" rel="noopener noreferrer" title="Web of Science Researcher ID">
-        <img src="/assets/img/icons/clarivate.svg" alt="Web of Science">
+      <a href="https://www.webofscience.com/wos/author/record/W-5068-2017" target="_blank">
+        <img src="/assets/img/clarivate.svg" alt="Web of Science">
       </a>
-      <a href="https://orcid.org/0000-0001-5898-4469" target="_blank" rel="noopener noreferrer" title="ORCID">
-        <img src="/assets/img/icons/orcid.svg" alt="ORCID">
+      <a href="https://orcid.org/0000-0001-5898-4469" target="_blank">
+        <img src="/assets/img/orcid.svg" alt="ORCID">
       </a>
-      <a href="https://loop.frontiersin.org/people/3102233/overview" target="_blank" rel="noopener noreferrer" title="Loop">
-        <img src="/assets/img/icons/loop.png" alt="Loop">
+      <a href="https://loop.frontiersin.org/people/3102233/overview" target="_blank">
+        <img src="/assets/img/loop.png" alt="Loop">
       </a>
     </div>
 
@@ -49,7 +49,7 @@ His areas of expertise include aquaculture, seafood chemistry, marine natural pr
 </p>
 
 <div class="about-contact">
-  <h3>Contact Information</h3>
-  <p><strong>E-mail:</strong> ekremcem19@gmail.com, cem.cankiriligil@tarimorman.gov.tr</p>
-  <p><strong>Mobile:</strong> +90 537 652 6494</p>
+<h3>Contact Information</h3>
+<p><strong>E-mail:</strong> ekremcem19@gmail.com, cem.cankiriligil@tarimorman.gov.tr</p>
+<p><strong>Mobile:</strong> +90 537 652 6494</p>
 </div>
