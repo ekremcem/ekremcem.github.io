@@ -1,5 +1,5 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Only the main Sass file needs front matter
 ---
 @charset "utf-8";
 
@@ -31,29 +31,21 @@
 @use "font-awesome/solid";
 @use "font-awesome/regular";
 
-/* =========================
-   ABOUT
-   ========================= */
+/* ===== ABOUT PAGE ===== */
 
 .about .post-description {
-  margin-bottom: 2.1rem !important;
-  line-height: 1.6;
-  font-size: 1.05rem;
+  margin-bottom: 28px !important;
+  line-height: 1.45;
 }
 
 .about .profile {
-  width: 36rem;
-  margin-left: 2.2rem;
-  margin-top: 0;
-  margin-bottom: 0;
+  width: 34rem;
+  margin-left: 2rem;
   float: right;
 }
 
 .about .profile img {
   width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 14px;
 }
 
 .about .profile .more-info {
@@ -61,42 +53,33 @@
 }
 
 .profile-icons {
-  width: 100%;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  align-items: center;
   justify-items: center;
-  gap: 0.45rem;
 }
 
 .profile-icons img {
   width: 40px;
   height: 40px;
-  object-fit: contain;
 }
 
 .about-paragraph {
   text-align: justify !important;
-  margin-top: 0;
-  margin-bottom: 1.15rem;
-  line-height: 1.82;
-  font-size: 1.04rem;
 }
 
 .about-contact h3 {
   color: var(--global-theme-color);
-  font-size: 1rem;
-  margin-bottom: 0.4rem;
 }
 
 .about-contact {
   clear: both;
-  padding-top: 1.4rem;
 }
 
-/* =========================
-   NAVBAR
-   ========================= */
+/* ===== NAVBAR ===== */
+
+.navbar .navbar-brand {
+  display: block !important;
+}
 
 .navbar .container {
   max-width: 1280px;
@@ -104,535 +87,87 @@
 
 .navbar-nav {
   align-items: center;
-  gap: 0.1rem;
 }
 
 .navbar .nav-link {
-  font-size: 0.92rem;
-  padding-left: 0.45rem !important;
-  padding-right: 0.45rem !important;
+  font-size: 0.9rem;
   white-space: nowrap;
 }
 
-#search-toggle {
-  border: 0;
-  background: transparent;
-  padding: 0;
-}
-
-#search-toggle .nav-link {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
-.navbar .navbar-nav .nav-link {
-  font-size: 0.92rem;
-  padding-left: 0.55rem;
-  padding-right: 0.55rem;
-  white-space: nowrap;
-}
-
-.navbar .navbar-brand {
-  white-space: nowrap;
-  margin-right: 1rem;
-}
-
-@media (max-width: 1199px) {
-  .navbar .nav-link {
-    font-size: 0.86rem;
-    padding-left: 0.3rem !important;
-    padding-right: 0.3rem !important;
-  }
-}
-
-@media (max-width: 1100px) {
-  .navbar .navbar-nav .nav-link {
-    font-size: 0.88rem;
-    padding-left: 0.42rem;
-    padding-right: 0.42rem;
-  }
-}
-
-/* =========================
-   SHARED ACADEMIC PAGE
-   ========================= */
-
-.academic-page {
-  margin-top: 0.5rem;
-}
-
-.academic-page .lead-note {
-  font-size: 1.06rem;
-  color: var(--global-text-color-light, var(--global-text-color));
-  margin-bottom: 1.75rem;
-}
+/* ===== GLOBAL CARDS (NO PINK!) ===== */
 
 .section-card,
-.data-card {
-  border: 1px solid var(--global-divider-color);
-  border-radius: 16px;
-  padding: 1.35rem 1.4rem;
-  margin: 0 0 1.5rem;
-  background: color-mix(in srgb, var(--global-bg-color) 92%, var(--global-theme-color) 8%);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
-}
-
-.section-card h2,
-.data-card h2 {
-  margin-top: 0;
-  margin-bottom: 0.85rem;
-  font-size: 1.45rem;
-  color: var(--global-theme-color);
-}
-
-.section-card h3,
-.data-card h3 {
-  margin-top: 1rem;
-  margin-bottom: 0.5rem;
-  font-size: 1.08rem;
-}
-
-.section-title {
-  margin-top: 0;
-  margin-bottom: 1rem;
-  color: var(--global-theme-color);
-  font-size: 1.4rem;
-}
-
-.entry-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.entry-list li {
-  padding: 0.9rem 0;
-  border-top: 1px solid var(--global-divider-color);
-}
-
-.entry-list li:first-child {
-  border-top: 0;
-  padding-top: 0.1rem;
-}
-
-.entry-title {
-  font-weight: 600;
-}
-
-.entry-meta {
-  display: block;
-  color: var(--global-text-color-light, var(--global-text-color));
-  margin-top: 0.22rem;
-}
-
-.entry-note {
-  margin-top: 0.32rem;
-  font-size: 0.96rem;
-}
-
-.tag-cloud,
-.inline-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.45rem;
-}
-
-.inline-tags .tag,
-.tag-cloud .tag {
-  display: inline-flex;
-  align-items: center;
-  border-radius: 999px;
-  border: 1px solid var(--global-divider-color);
-  padding: 0.34rem 0.7rem;
-  font-size: 0.92rem;
-  background: var(--global-bg-color);
-}
-
-.two-column-grid {
-  display: grid;
-  grid-template-columns: 1.55fr 1fr;
-  gap: 1.5rem;
-}
-
-.split-grid {
-  display: grid;
-  grid-template-columns: 1.35fr 0.9fr;
-  gap: 1.5rem;
-  align-items: start;
-}
-
-.muted {
-  color: var(--global-text-color-light, var(--global-text-color));
-}
-
-.page-header-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
-/* =========================
-   TIMELINE / EXPERIENCE
-   ========================= */
-
-.timeline-entry {
-  display: grid;
-  grid-template-columns: 140px 1fr;
-  gap: 1rem;
-  padding: 0.95rem 0;
-  border-top: 1px solid var(--global-divider-color);
-}
-
-.timeline-entry:first-of-type {
-  border-top: 0;
-  padding-top: 0.2rem;
-}
-
-.timeline-entry.compact {
-  grid-template-columns: 140px 1fr;
-}
-
-.timeline-year {
-  font-weight: 700;
-  color: var(--global-text-color-light);
-}
-
-.timeline-body h3,
-.metric-row h3,
-.featured-card h3 {
-  margin: 0 0 0.35rem;
-  font-size: 1.03rem;
-}
-
-.timeline-body p,
-.metric-row p,
-.list-item,
-.pub-body {
-  margin: 0;
-  line-height: 1.55;
-}
-
-.metric-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1rem;
-  padding: 0.95rem 0;
-  border-top: 1px solid var(--global-divider-color);
-}
-
-.metric-row:first-of-type {
-  border-top: 0;
-  padding-top: 0.2rem;
-}
-
-.metric-meta {
-  color: var(--global-text-color-light);
-  text-align: right;
-  font-size: 0.95rem;
-}
-
-.tag-pill {
-  display: inline-block;
-  padding: 0.45rem 0.8rem;
-  border-radius: 999px;
-  background: rgba(var(--global-theme-color-rgb), 0.12);
-  border: 1px solid rgba(var(--global-theme-color-rgb), 0.18);
-  color: var(--global-text-color);
-  font-size: 0.94rem;
-}
-
-/* =========================
-   PROJECTS
-   ========================= */
-
-.lead-project-grid,
-.featured-projects {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
-}
-
+.data-card,
 .project-card,
-.featured-card {
-  border: 1px solid var(--global-divider-color);
-  border-radius: 16px;
-  padding: 1.05rem;
-  background: var(--global-card-bg-color, var(--global-bg-color));
-  height: 100%;
-}
-
-.featured-card {
-  background: linear-gradient(
-    180deg,
-    rgba(var(--global-theme-color-rgb), 0.07),
-    rgba(var(--global-theme-color-rgb), 0.02)
-  );
-}
-
-.project-role {
-  display: inline-block;
-  margin-bottom: 0.65rem;
-  padding: 0.2rem 0.55rem;
-  border-radius: 999px;
-  background: rgba(var(--global-theme-color-rgb), 0.12);
-  color: var(--global-theme-color);
-  font-size: 0.82rem;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-}
-
-.project-card h3 {
-  font-size: 1.08rem;
-  margin: 0 0 0.55rem;
-}
-
-.project-card p {
-  font-size: 0.97rem;
-  margin-bottom: 0.65rem;
-}
-
-.project-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.project-list li {
-  padding: 1rem 0;
-  border-top: 1px solid var(--global-divider-color);
-}
-
-.project-list li:first-child {
-  border-top: 0;
-  padding-top: 0.2rem;
-}
-
-.project-meta {
-  color: var(--global-text-color-light);
-}
-
-/* =========================
-   PUBLICATIONS
-   ========================= */
-
-.pub-controls,
-.filter-bar {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.45rem;
-  margin-bottom: 1.2rem;
-}
-
-.pub-filter-btn,
-.filter-btn {
-  border: 1px solid var(--global-divider-color);
-  background: var(--global-bg-color);
-  color: var(--global-text-color);
-  border-radius: 999px;
-  padding: 0.35rem 0.75rem;
-  font-size: 0.92rem;
-  cursor: pointer;
-}
-
-.pub-filter-btn.active,
-.filter-btn.active,
-.filter-btn:hover {
-  background: var(--global-theme-color);
-  color: #fff;
-  border-color: var(--global-theme-color);
-}
-
-.pub-item {
-  display: grid;
-  grid-template-columns: 72px 1fr;
-  gap: 1rem;
-  padding: 0.95rem 0;
-  border-top: 1px solid var(--global-divider-color);
-}
-
-.pub-item:first-child {
-  border-top: 0;
-  padding-top: 0.2rem;
-}
-
-.pub-year {
-  font-weight: 700;
-  color: var(--global-theme-color);
-  min-width: 4rem;
-}
-
-.pub-layout {
-  display: grid;
-  grid-template-columns: 4.5rem 1fr;
-  gap: 0.75rem;
-}
-
-.pub-title {
-  font-weight: 600;
-}
-
-.pub-journal {
-  font-style: italic;
-}
-
-.pub-badge {
-  display: inline-block;
-  margin-top: 0.35rem;
-  margin-right: 0.35rem;
-  border-radius: 999px;
-  background: color-mix(in srgb, var(--global-theme-color) 14%, var(--global-bg-color) 86%);
-  padding: 0.18rem 0.55rem;
-  font-size: 0.8rem;
-}
-
-/* =========================
-   REVIEW
-   ========================= */
-
-.review-table {
-  display: grid;
-  gap: 0.6rem;
-}
-
+.featured-card,
+.link-card,
+.list-item,
 .review-row {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 60px 100px;
-  gap: 1rem;
-  padding: 0.8rem 1rem;
-  border: 1px solid var(--global-divider-color);
-  border-radius: 12px;
-  background: rgba(var(--global-card-bg-color-rgb), 0.55);
-}
-
-/* =========================
-   IMPACT / LINKS
-   ========================= */
-
-.link-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
-}
-
-.link-card {
+  background: var(--global-card-bg-color);
   border: 1px solid var(--global-divider-color);
   border-radius: 14px;
-  padding: 1rem 1.05rem;
-  background: var(--global-card-bg-color, var(--global-bg-color));
+  padding: 1.2rem;
+  margin-bottom: 1rem;
 }
 
-.link-card h3 {
-  margin-top: 0;
-  margin-bottom: 0.4rem;
+/* ===== TITLES ===== */
+
+.section-title {
+  color: var(--global-theme-color);
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
 }
 
-.link-card a {
-  word-break: break-word;
-}
-
-/* =========================
-   LIST / EXTRA
-   ========================= */
+/* ===== GRID ===== */
 
 .list-grid {
   display: grid;
   gap: 0.8rem;
 }
 
-.list-item {
-  padding: 1rem 1.1rem;
-  border-radius: 14px;
-  background: linear-gradient(
-    180deg,
-    color-mix(in srgb, var(--global-bg-color) 90%, var(--global-theme-color) 10%),
-    color-mix(in srgb, var(--global-bg-color) 96%, var(--global-theme-color) 4%)
-  );
-  border: 1px solid color-mix(in srgb, var(--global-divider-color) 82%, var(--global-theme-color) 18%);
-  border-left: 4px solid var(--global-theme-color);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
-  line-height: 1.65;
+/* ===== TIMELINE ===== */
+
+.timeline-entry {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 1rem;
+  padding: 0.8rem 0;
+  border-top: 1px solid var(--global-divider-color);
 }
 
-.section-card .list-item strong {
+.timeline-entry:first-child {
+  border-top: none;
+}
+
+.timeline-year {
+  font-weight: bold;
+}
+
+/* ===== PUBLICATIONS ===== */
+
+.pub-item {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  gap: 1rem;
+  padding: 0.8rem 0;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.pub-year {
+  font-weight: bold;
   color: var(--global-theme-color);
-  font-weight: 700;
-  display: inline-block;
-  min-width: 5.5rem;
 }
 
-.simple-list {
-  margin-bottom: 0;
-  padding-left: 1.1rem;
-}
-
-.simple-list li + li {
-  margin-top: 0.45rem;
-}
-
-.two-columns {
-  columns: 2;
-  column-gap: 2rem;
-}
-
-/* simple page spacing */
-.page-title {
-  margin-bottom: 1rem;
-}
-
-.post-description {
-  margin-bottom: 1.2rem;
-}
-
-/* =========================
-   RESPONSIVE
-   ========================= */
-
-@media (max-width: 1100px) {
-  .lead-project-grid,
-  .featured-projects {
-    grid-template-columns: 1fr;
-  }
-
-  .two-columns {
-    columns: 1;
-  }
-}
+/* ===== RESPONSIVE ===== */
 
 @media (max-width: 900px) {
+  .timeline-entry,
+  .pub-item {
+    grid-template-columns: 1fr;
+  }
+
   .about .profile {
     width: 100%;
-    margin-left: 0;
     float: none;
-  }
-
-  .profile-icons img {
-    width: 36px;
-    height: 36px;
-  }
-
-  .about-paragraph {
-    font-size: 1rem;
-    line-height: 1.72;
-  }
-
-  .two-column-grid,
-  .split-grid,
-  .timeline-entry,
-  .pub-item,
-  .review-row,
-  .metric-row {
-    grid-template-columns: 1fr;
-  }
-
-  .metric-meta {
-    text-align: left;
-  }
-
-  .link-grid {
-    grid-template-columns: 1fr;
   }
 }
