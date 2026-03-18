@@ -53,7 +53,7 @@ ninja.data = [{
           },
         },{id: "nav-committees",
           title: "Committees",
-          description: "Working groups, committees, and conference roles.",
+          description: "Working groups and conference roles",
           section: "Navigation",
           handler: () => {
             window.location.href = "/committees/";
