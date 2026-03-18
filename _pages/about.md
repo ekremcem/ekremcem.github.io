@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <strong><a href="#">General Directorate of Agricultural Research and Policies,<br>Sheep Breeding Research Institute,<br>Department of Fisheries</a></strong>
+subtitle: <a href="#">General Directorate of Agricultural Research and Policies,<br>Sheep Breeding Research Institute,<br>Department of Fisheries</a>
 
 profile:
   align: right
@@ -41,7 +41,7 @@ latest_posts:
 ---
 
 <p class="about-paragraph">
-Ekrem Cem Çankırılıgil was born on January 3, 1987, in Istanbul, Türkiye. He graduated from the Faculty of Fisheries at Çanakkale Onsekiz Mart University in 2009 and completed his PhD in 2019. His academic background has been shaped by a strong interest in marine sciences, aquaculture, and fisheries research. He started his professional career in 2013 at the Central Fisheries Research Institute in Trabzon. Since 2021, he has been working at the Sheep Breeding Research Institute in Bandırma, within the Department of Fisheries. He has been involved in research activities focusing on fisheries, marine resources, and applied aquaculture for more than a decade.
+Dr. Ekrem Cem Çankırılıgil was born on January 3, 1987, in Istanbul, Türkiye. He graduated from the Faculty of Fisheries at Çanakkale Onsekiz Mart University in 2009 and completed his PhD in 2019. His academic background has been shaped by a strong interest in marine sciences, aquaculture, and fisheries research. He started his professional career in 2013 at the Central Fisheries Research Institute in Trabzon. Since 2021, he has been working at the Sheep Breeding Research Institute in Bandırma, within the Department of Fisheries. He has been involved in research activities focusing on fisheries, marine resources, and applied aquaculture for more than a decade.
 </p>
 
 <p class="about-paragraph">
@@ -49,7 +49,7 @@ His areas of expertise include aquaculture, seafood chemistry, marine natural pr
 </p>
 
 <div class="about-contact">
-<h3>Contact Information</h3>
+<strong><h3>Contact Information</h3></strong>
 
 <p><strong>E-mail:</strong><br>
 ekremcem19@gmail.com<br>
