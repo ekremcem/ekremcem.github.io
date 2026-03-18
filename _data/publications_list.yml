@@ -1,0 +1,126 @@
+items:
+  - year: 2026
+    type: SCI
+    title: "Biodiversity and Distribution Patterns of Benthic Macroalgae on Horseshoe Island, Antarctica, with New Records"
+    authors: "Ak İ., Çankırılıgil E. C."
+    venue: "Polar Biology, 49(13)"
+  - year: 2025
+    type: SCI
+    title: "Unlocking the Nutritional Potential of Endemic Salmonid Species (Black Sea Salmon, Salmo labrax): Carotenoids and Their Impact on Fillet Characteristics"
+    authors: "Çankırılıgil E. C., Berik N."
+    venue: "Turkish Journal of Fisheries and Aquatic Sciences, 25(12), 27539"
+  - year: 2023
+    type: SCI
+    title: "Influence of Laurel (Laurus nobilis) Essential Oil on Gut Function of Black Sea Salmon (Salmo labrax) Juveniles"
+    authors: "Özel O. T., Çankırılıgil E. C., Ertürk-Gürkan S., Coşkun İ., Türe M."
+    venue: "Tropical Animal Health and Production, 54(6):390"
+  - year: 2022
+    type: SCI
+    title: "Enhancement of Antioxidant Properties of Gongolaria barbata (Phaeophyceae) by Optimization of Combined Light Intensity and Salinity Stress"
+    authors: "Ak İ., Çankırılıgil E. C., Türker G., Sever O., Abomohra A."
+    venue: "Phycologia, 61(6):584-594"
+  - year: 2022
+    type: SCI
+    title: "Dietary Carotenoids Influence Growth, Fillet Pigmentation, and Quality Characteristics of Black Sea Trout (Salmo labrax Pallas, 1814)"
+    authors: "Çankırılıgil E. C., Berik N., Çakmak E., Özel O. T., Alp-Erbay E."
+    venue: "Thalassas: An International Journal of Marine Sciences, 38:793-809"
+  - year: 2021
+    type: SCI
+    title: "Assessment of Light Intensity and Salinity Regimes on the Element Levels of Brown Macroalgae, Treptacantha barbata: Application of Response Surface Methodology (RSM)"
+    authors: "Ak İ., Çankırılıgil E. C., Türker G., Sever O."
+    venue: "Food Science and Technology, 41(4):1-9"
+  - year: 2017
+    type: SCI
+    title: "Mineral Content of Smooth Scallop (Flexopecten glaber) Caught Canakkale, Turkey and Evaluation in Terms of Food Safety"
+    authors: "Berik N., Çankırılıgil E. C., Gül G."
+    venue: "Journal of Trace Elements in Medicine and Biology, 42:97-102"
+  - year: 2011
+    type: SCI
+    title: "Determination of Quality Attributes and Production of Fingers from Rainbow Trout (Oncorhynchus mykiss) Fillet"
+    authors: "Berik N., Çankırılıgil E. C., Kahraman D."
+    venue: "Kafkas University Veterinary Faculty Journal, 17:735-740"
+  - year: 2023
+    type: ESCI
+    title: "Comparison of Reproductive Performance of Black Sea Salmon Broodstock Reaching First Sexual Maturity at Different Ages"
+    authors: "Özel O. T., Çakmak E., Çankırılıgil E. C., Düzgüneş Z. D., Çimagil R., Batır E."
+    venue: "Ege Journal of Fisheries and Aquatic Sciences, 40(3):166-173"
+  - year: 2022
+    type: ESCI
+    title: "Improving Reproductive Yield of the Black Sea Salmon (Salmo labrax Pallas, 1814) with a Selective Breeding Program"
+    authors: "Çakmak E., Firidin Ş., Aksungur N., Çavdar Y., Kurtoğlu İ. Z., Aksungur M., Özel O. T., Çankırılıgil E. C., Düzgüneş Z. D., Esin B."
+    venue: "Aquatic Sciences and Engineering, 37(3):161-168"
+  - year: 2020
+    type: ESCI
+    title: "Meristic and Morphometric Characteristics of the Black Sea Salmon, Salmo labrax Pallas, 1814 Culture Line: An Endemic Species for Eastern Black Sea"
+    authors: "Kasapoğlu N., Çankırılıgil E. C., Çakmak E., Özel O. T."
+    venue: "Journal of Fisheries, 8(3):935-939"
+  - year: 2020
+    type: ESCI
+    title: "Optimization of Hydrolization Procedure for Amino Acid Analysis in Fish Meat with HPLC-DAD by Response Surface Methodology (RSM)"
+    authors: "Çankırılıgil E. C., Berik N., Alp Erbay E."
+    venue: "Ege Journal of Fisheries and Aquatic Sciences, 37(2):113-123"
+  - year: 2019
+    type: ESCI
+    title: "The Elemental Composition of Green Seaweed (Ulva rigida) Collected from Çanakkale, Turkey"
+    authors: "Berik N., Çankırılıgil E. C."
+    venue: "Aquatic Sciences and Engineering, 34(3):74-79"
+  - year: 2018
+    type: ESCI
+    title: "Sensorial Evaluation of Fish Croquettes Produced from Different Seafood"
+    authors: "Çankırılıgil E. C., Berik N."
+    venue: "Aquatic Sciences and Engineering, 3(3):96-101"
+  - year: 2018
+    type: ESCI
+    title: "The Fifth Culture Generation of Black Sea Trout (Salmo trutta labrax): Culture Characteristics, Meat Yield and Proximate Composition"
+    authors: "Çakmak E., Çankırılıgil E. C., Özel O. T."
+    venue: "Ege Journal of Fisheries and Aquatic Sciences, 35(1):103-110"
+  - year: 2018
+    type: ESCI
+    title: "Evaluation of Growth Performance and Intestine Villi Morphology of Black Sea Trout Fed with Different Protein Levels Containing Diets"
+    authors: "Özel O. T., Çakmak E., Çoşkun İ., Çankırılıgil E. C."
+    venue: "Ege Journal of Fisheries and Aquatic Sciences, 35(2):125-130"
+  - year: 2017
+    type: ESCI
+    title: "Effects of Deep-Frying to Sardine Croquettes’ Chemical Composition"
+    authors: "Çankırılıgil E. C., Berik N."
+    venue: "Ege Journal of Fisheries and Aquatic Sciences, 34(3):293-302"
+  - year: 2017
+    type: ESCI
+    title: "Gökkuşağı Alabalığı (Oncorhynchus mykiss) Kroketlerinin Soğuk Muhafazada (+4°C) Raf Ömrünün Belirlenmesi"
+    authors: "Çankırılıgil E. C., Berik N."
+    venue: "Turkish Journal of Aquatic Sciences, 32:35-48"
+  - year: 2024
+    type: Other
+    title: "İki Kefal Türünün (Chelon auratus, Mugil cephalus) Kimyasal Kompozisyonu: Doğal ve Akuakültüre Adapte Edilmiş Türlerin Karşılaştırılması"
+    authors: "Çankırılıgil E. C., Altuntaş A."
+    venue: "ÇOMÜ Journal of Marine Sciences and Fisheries, 7(1):52-66"
+  - year: 2023
+    type: Other
+    title: "Reproductive Performance of Hatchery-Originated Black Sea Salmon Broodstocks' F5 and F6 Filial Generations"
+    authors: "Özel O. T., Çakmak E., Çankırılıgil E. C., Çimagil R., Düzgüneş Z. D."
+    venue: "Acta Aquatica Turcica, 40(3):166-173"
+  - year: 2023
+    type: Other
+    title: "Insect Larval Meal as a Possible Alternative to Fish Meal in Rainbow Trout Diets"
+    authors: "Uslu A. A., Özel O. T., Örnekçi G. N., Çelik B., Çankırılıgil E. C., Çoşkun İ., Uslu Şenel G."
+    venue: "Journal of Limnology and Freshwater Fisheries Research, 9(1):43-52"
+  - year: 2022
+    type: Other
+    title: "Seasonal Proximate Composition, Amino Acid and Trace Metal Contents of the Great Mediterranean Scallop (Pecten jacobaeus) Collected from the Gulf of Antalya"
+    authors: "Veske E., Çankırılıgil E. C., Yavuzcan Yıldız H."
+    venue: "Journal of Anatolian Environmental and Animal Sciences, 7(3):358-366"
+  - year: 2022
+    type: Other
+    title: "Çanakkale Boğazı’ndan Toplanan Deniz Marulu (Ulva rigida)’nun Mevsimsel Besin İçeriğinin Belirlenerek Salata ve Çorba Olarak Değerlendirilmesi"
+    authors: "Berik N., Çankırılıgil E. C., Ormancı H. B., Akyıldız A."
+    venue: "Food and Health, 8(2):127-140"
+  - year: 2020
+    type: Other
+    title: "The Bio-ecological and Genetic Characteristics of Sand Steenbras (Lithognathus mormyrus) in the Black Sea"
+    authors: "Kasapoğlu N., Çankırılıgil E. C., Düzgüneş Z. D., Çakmak E., Eroğlu O."
+    venue: "Journal of the Black Sea / Mediterranean Environment, 26(3):249-262"
+  - year: 2020
+    type: Other
+    title: "Chemical Composition of the Black Sea Trout (Salmo labrax Pallas, 1814): A Comparative Study"
+    authors: "Çankırılıgil E. C., Berik N."
+    venue: "Aquatic Research, 3(4):208-219"

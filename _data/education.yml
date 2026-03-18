@@ -1,0 +1,29 @@
+degrees:
+  - degree: PhD
+    institution: Çanakkale Onsekiz Mart University
+    dates: 2012–2019
+    unit: Graduate School of Natural and Applied Sciences, Department of Fishing and Processing Technology
+    thesis: "Thesis title will be added in the next round."
+  - degree: MSc
+    institution: Çanakkale Onsekiz Mart University
+    dates: 2009–2012
+    unit: Graduate School of Natural and Applied Sciences, Department of Fisheries
+    thesis: "Thesis title will be added in the next round."
+  - degree: BSc
+    institution: Istanbul University
+    dates: 2023–Present
+    unit: Radio, Television and Cinema (distance education)
+  - degree: BSc
+    institution: Çanakkale Onsekiz Mart University
+    dates: 2005–2009
+    unit: Fisheries Engineering
+courses:
+  - Research Project Cycle Management
+  - Scientific Writing and Publication Ethics
+  - Advanced Instrumental Analysis
+  - Food Chemistry and Quality Control
+  - Aquaculture Research Methods
+  - Fisheries Statistics
+  - Marine Biodiversity and Ecology
+  - Laboratory Safety and Good Practices
+  - Polar Research Orientation

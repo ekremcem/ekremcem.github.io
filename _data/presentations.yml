@@ -1,0 +1,30 @@
+conference:
+  - year: 2025
+    title: "A Preliminary Study on the Zooplankton Fauna of Gölbaşı Lake (Bursa/Kestel – Türkiye)"
+    venue: "The XVII International Rotifer Symposium, Rio de Janeiro, Brazil"
+    type: Poster presentation
+  - year: 2022
+    title: "Nutritional Composition and Texture Profile of Wild and Culture Adapted Blue Crab (Callinectes sapidus) Meat"
+    venue: "The 8th Aquatic Biodiversity International Conference (ABIC 8), Sibiu, Romania"
+    type: Oral presentation
+  - year: 2022
+    title: "Determination of Amino Acid Composition, Color and Texture Profile of Fresh and Processed Sea Cucumber (Holothuria tubulosa)"
+    venue: "Tokyo Summit-V, Virtual-Tokyo, Japan"
+    type: Oral presentation
+  - year: 2021
+    title: "Amino Acid Composition of Seaweeds from Çanakkale, Turkey"
+    venue: "HydroMediT 2021, Virtual – Greece"
+    type: Full text
+  - year: 2021
+    title: "Amino Acid Composition of Ceramium rubrum (Rhodophyceae) from North Aegean Sea, Turkey"
+    venue: "HydroMediT 2021, Virtual – Greece"
+    type: Full text
+  - year: 2019
+    title: "Effects of Astaxanthine, Canthaxanthin and Lycopene Containing Diets on the Chemical Quality and Textural Properties of the Black Sea Trout Fillets"
+    venue: "BioEco2019 International Biodiversity & Ecology Sciences Symposium, İstanbul, Türkiye"
+    type: Oral presentation
+other:
+  - year: 2024
+    title: "Selected invited seminars and institute-level presentations"
+    venue: "Detailed titles will be expanded in the next round."
+    type: Seminar / invited talk
