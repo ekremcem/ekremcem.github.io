@@ -48,6 +48,10 @@ Dr. Ekrem Cem Çankırılıgil was born on January 3, 1987, in Istanbul, Türkiy
 His areas of expertise include aquaculture, seafood chemistry, marine natural products, and secondary metabolites derived from fish, bivalves, macroalgae, and sponges. His broader research interests also cover polar sciences, seaweed culture, shellfish physiology and the biochemical responses of marine organisms to environmental change. He is currently working on two main research topics: (i) the biochemical composition and biological activities of Antarctic seaweed species, and (ii) the effects of climate change-driven environmental factors on the chemical composition, reproductive physiology, and energy metabolism of scallop and oyster species in the Sea of Marmara.
 </p>
 
+<p class="about-paragraph">
+Looking for partnerships on seafood chemistry, marine bioactive compounds, macroalgae biochemistry, bivalvia culture and polar sciences.
+</p>
+
 <div class="about-contact">
 <h3><strong>Contact Information</strong></h3>
 
