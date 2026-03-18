@@ -33,12 +33,17 @@
 
 .about .post-description {
   margin-bottom: 1.6rem !important;
+  line-height: 1.45;
+}
+
+.about .post-description a {
+  color: var(--global-theme-color);
 }
 
 .about .profile {
   width: 34rem;
   margin-left: 2rem;
-  margin-top: 0;
+  margin-top: 0 !important;
 }
 
 .about .profile img {
@@ -47,36 +52,43 @@
   display: block;
 }
 
+.about .profile .more-info {
+  margin-top: 0.9rem;
+}
+
+.about .clearfix > p:first-of-type,
+.about-paragraph:first-of-type {
+  margin-top: 0 !important;
+}
+
 .about-paragraph {
   text-align: justify !important;
   margin-top: 0;
   margin-bottom: 1.15rem;
 }
 
-.about .profile .more-info {
-  margin-top: 0.9rem;
-}
-
 .profile-icons {
   width: 100%;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   align-items: center;
-  gap: 0;
+  justify-items: center;
+  column-gap: 0;
+  row-gap: 0;
 }
 
 .profile-icons a {
-  flex: 0 0 auto;
-  display: inline-flex;
+  width: 100%;
+  display: flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
 }
 
 .profile-icons img {
-  width: 38px;
-  height: 38px;
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
   display: block;
 }
 
@@ -88,6 +100,7 @@
 .about-contact h3 {
   font-size: 1rem;
   margin-bottom: 0.45rem;
+  color: var(--global-theme-color);
 }
 
 @media (max-width: 900px) {
@@ -97,11 +110,11 @@
   }
 
   .profile-icons {
-    justify-content: space-between;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 
   .profile-icons img {
-    width: 34px;
-    height: 34px;
+    width: 36px;
+    height: 36px;
   }
 }
