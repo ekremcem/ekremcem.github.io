@@ -31,8 +31,7 @@
 @use "font-awesome/solid";
 @use "font-awesome/regular";
 
-/* ================= ABOUT ================= */
-
+/* ABOUT */
 .about .post-description {
   margin-bottom: 28px !important;
   line-height: 1.45;
@@ -41,11 +40,14 @@
 .about .profile {
   width: 34rem;
   margin-left: 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
   float: right;
 }
 
 .about .profile img {
   width: 100%;
+  height: auto;
   display: block;
 }
 
@@ -54,19 +56,29 @@
 }
 
 .profile-icons {
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
+  align-items: center;
   justify-items: center;
 }
 
 .profile-icons img {
   width: 40px;
   height: 40px;
+  object-fit: contain;
 }
 
 .about-paragraph {
   text-align: justify !important;
+  margin-top: 0;
   margin-bottom: 1.1rem;
+}
+
+.about-contact h3 {
+  color: var(--global-theme-color);
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
 }
 
 .about-contact {
@@ -74,107 +86,64 @@
   padding-top: 1.4rem;
 }
 
-.about-contact h3 {
-  color: var(--global-theme-color);
-  font-size: 1rem;
-}
+@media (max-width: 900px) {
+  .about .profile {
+    width: 100%;
+    margin-left: 0;
+    float: none;
+  }
 
-/* ================= NAVBAR FIX ================= */
-
-/* EKREM CEM yazısını kaldır */
-.navbar .navbar-brand {
-  display: none !important;
-}
-
-/* genişlet */
-.navbar .container {
-  max-width: 1400px;
-}
-
-/* tek satır zorla */
-.navbar .navbar-nav {
-  flex-wrap: nowrap;
-}
-
-/* yazıları küçült */
-.navbar .navbar-nav .nav-link {
-  font-size: 0.85rem;
-  padding-left: 0.35rem !important;
-  padding-right: 0.35rem !important;
-  white-space: nowrap;
-}
-
-/* mobil */
-@media (max-width: 1200px) {
-  .navbar .navbar-nav .nav-link {
-    font-size: 0.78rem;
-    padding-left: 0.25rem !important;
-    padding-right: 0.25rem !important;
+  .profile-icons img {
+    width: 36px;
+    height: 36px;
   }
 }
 
-/* ================= CARD & SECTIONS ================= */
+/* NAVBAR */
+.navbar .container {
+  max-width: 1380px;
+}
+
+.navbar .navbar-nav {
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 0.05rem;
+}
+
+.navbar .navbar-nav .nav-link {
+  white-space: nowrap;
+  font-size: 0.9rem;
+  padding-left: 0.45rem;
+  padding-right: 0.45rem;
+}
+
+@media (max-width: 1200px) {
+  .navbar .navbar-nav .nav-link {
+    font-size: 0.84rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+  }
+}
+
+/* PAGE LOOK */
+.post-title {
+  margin-bottom: 0.35rem;
+}
+
+.post-description {
+  margin-bottom: 1.2rem;
+  color: var(--global-text-color-light);
+}
 
 .section-card {
   border: 1px solid var(--global-divider-color);
   border-radius: 14px;
-  padding: 1.2rem;
-  margin-bottom: 1.2rem;
-  background: var(--global-bg-color);
+  padding: 1.2rem 1.2rem 1rem;
+  margin-bottom: 1.25rem;
+  background: color-mix(in srgb, var(--global-bg-color) 94%, var(--global-theme-color) 6%);
 }
 
-.section-title {
+.section-card h2,
+.section-card h3 {
   color: var(--global-theme-color);
-  font-size: 1.4rem;
-  margin-bottom: 0.8rem;
-}
-
-/* ================= GRID ================= */
-
-.split-grid {
-  display: grid;
-  grid-template-columns: 1.4fr 1fr;
-  gap: 1.5rem;
-}
-
-@media (max-width: 900px) {
-  .split-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* ================= PROJECT ================= */
-
-.project-card {
-  border: 1px solid var(--global-divider-color);
-  border-radius: 12px;
-  padding: 1rem;
-}
-
-.project-role {
-  font-size: 0.8rem;
-  color: var(--global-theme-color);
-  font-weight: 700;
-}
-
-/* ================= PUBLICATIONS ================= */
-
-.pub-item {
-  border-top: 1px solid var(--global-divider-color);
-  padding: 1rem 0;
-}
-
-.pub-year {
-  font-weight: 700;
-  color: var(--global-theme-color);
-}
-
-/* ================= SIMPLE ================= */
-
-.page-title {
-  margin-bottom: 1rem;
-}
-
-.post-description {
-  margin-bottom: 1rem;
 }
