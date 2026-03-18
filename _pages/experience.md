@@ -2,89 +2,105 @@
 layout: page
 title: Experience
 permalink: /experience/
-description: Research and professional experience.
 nav: true
 nav_order: 2
+description: Research, administrative roles, skills, and languages.
 ---
 
-<div class="section-intro">
-  This page uses the CV-style timeline for core experience on the left and a lighter supporting column for skills and languages on the right.
-</div>
+<div class="split-grid">
+  <div>
+    <div class="section-card">
+      <h2 class="section-title">Work Experience</h2>
 
-<div class="experience-layout">
-  <div class="experience-main">
-    <h2>Work Experience</h2>
-    <div class="cv-list">
-      <div class="cv-item">
-        <div class="cv-period">2021–Present</div>
-        <div class="cv-body">
-          <h3>Department of Fisheries</h3>
-          <p>Sheep Breeding Research Institute, Bandırma, Türkiye.</p>
-          <ul>
-            <li>Research activities in aquaculture, marine resources, and applied fisheries sciences.</li>
-            <li>Current focus includes Antarctic macroalgae and climate-driven changes in shellfish biology.</li>
-          </ul>
+      <div class="timeline-entry">
+        <div class="timeline-year">2023</div>
+        <div class="timeline-body">
+          <h3>Researcher / Expedition Participant</h3>
+          <p>7th National Antarctic Science Expedition</p>
         </div>
       </div>
 
-      <div class="cv-item">
-        <div class="cv-period">2013–2021</div>
-        <div class="cv-body">
-          <h3>Central Fisheries Research Institute</h3>
-          <p>Trabzon, Türkiye.</p>
-          <ul>
-            <li>Worked on aquaculture systems, fish nutrition, seafood chemistry, and applied fisheries projects.</li>
-            <li>Contributed to national research and extension projects on trout, scallops, mullet, and invasive species.</li>
-          </ul>
+      <div class="timeline-entry">
+        <div class="timeline-year">2021 – Present</div>
+        <div class="timeline-body">
+          <h3>Researcher</h3>
+          <p>Sheep Breeding Research Institute, Department of Fisheries — Balıkesir</p>
+        </div>
+      </div>
+
+      <div class="timeline-entry">
+        <div class="timeline-year">2013 – 2021</div>
+        <div class="timeline-body">
+          <h3>Researcher</h3>
+          <p>Central Fisheries Research Institute, Aquaculture Department — Trabzon</p>
+        </div>
+      </div>
+
+      <div class="timeline-entry">
+        <div class="timeline-year">2012 – 2013</div>
+        <div class="timeline-body">
+          <h3>Customer Relations Officer</h3>
+          <p>Cinemaximum Cinemas — Çanakkale</p>
         </div>
       </div>
     </div>
 
-    <h2>Administrative Roles</h2>
-    <div class="cv-list">
-      <div class="cv-item">
-        <div class="cv-period">2025–Present</div>
-        <div class="cv-body">
-          <h3>Chair, Local Ethics Committee for Fisheries</h3>
-          <p>Su Ürünleri Yerel Etik Kurulu Başkanı.</p>
+    <div class="section-card">
+      <h2 class="section-title">Administrative Roles</h2>
+
+      <div class="timeline-entry compact">
+        <div class="timeline-year">2025 – Present</div>
+        <div class="timeline-body">
+          <h3>Chair</h3>
+          <p>Local Fisheries Ethics Committee</p>
         </div>
       </div>
 
-      <div class="cv-item">
-        <div class="cv-period">2013–2021</div>
-        <div class="cv-body">
-          <h3>Head, Recirculating Aquaculture Unit</h3>
-          <p>Kapalı Devre Yetiştiricilik Ünitesi, Central Fisheries Research Institute.</p>
+      <div class="timeline-entry compact">
+        <div class="timeline-year">2013 – 2021</div>
+        <div class="timeline-body">
+          <h3>Unit Head</h3>
+          <p>Recirculating Aquaculture System Unit, Central Fisheries Research Institute</p>
         </div>
       </div>
     </div>
   </div>
 
-  <aside class="experience-side">
-    <div class="side-panel">
-      <h2>Skills</h2>
+  <div>
+    <div class="section-card">
+      <h2 class="section-title">Skills</h2>
       <div class="tag-cloud">
-        <span>Aquaculture</span>
-        <span>Seafood chemistry</span>
-        <span>Marine natural products</span>
-        <span>Macroalgae</span>
-        <span>Shellfish biology</span>
-        <span>Polar science</span>
-        <span>Food chemistry</span>
-        <span>HPLC</span>
-        <span>Statistics</span>
-        <span>R</span>
-        <span>Project development</span>
-        <span>Scientific publishing</span>
+        <span class="tag-pill">Aquaculture</span>
+        <span class="tag-pill">Marine biochemistry</span>
+        <span class="tag-pill">Seafood chemistry</span>
+        <span class="tag-pill">Macroalgae</span>
+        <span class="tag-pill">Marine natural products</span>
+        <span class="tag-pill">Secondary metabolites</span>
+        <span class="tag-pill">Bivalves</span>
+        <span class="tag-pill">Polar science</span>
+        <span class="tag-pill">HPLC</span>
+        <span class="tag-pill">RAS systems</span>
+        <span class="tag-pill">Project development</span>
+        <span class="tag-pill">Academic editing</span>
+        <span class="tag-pill">R statistics</span>
       </div>
     </div>
 
-    <div class="side-panel">
-      <h2>Languages</h2>
-      <ul class="clean-list compact">
-        <li>Turkish — Native</li>
-        <li>English — Professional working proficiency</li>
-      </ul>
+    <div class="section-card">
+      <h2 class="section-title">Languages</h2>
+      <div class="metric-row">
+        <div>
+          <h3>Turkish</h3>
+          <p>Native</p>
+        </div>
+      </div>
+      <div class="metric-row">
+        <div>
+          <h3>English</h3>
+          <p>Advanced</p>
+        </div>
+        <div class="metric-meta">YDS: 85 (2022) · YÖKDİL: 88.75 (2022)</div>
+      </div>
     </div>
-  </aside>
+  </div>
 </div>
