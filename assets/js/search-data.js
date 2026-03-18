@@ -9,19 +9,19 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-education",
-          title: "Education",
-          description: "Degrees, theses, and selected courses.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/education/";
-          },
-        },{id: "nav-experience",
+  },{id: "nav-experience",
           title: "Experience",
           description: "Research, administrative roles, skills, and languages.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/experience/";
+          },
+        },{id: "nav-education",
+          title: "Education",
+          description: "Academic background.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/education/";
           },
         },{id: "nav-projects",
           title: "Projects",
