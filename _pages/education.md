@@ -18,7 +18,7 @@ description: Academic background.
         <h3 style="color:#000; font-weight:700;">PhD</h3>
         <p>Çanakkale Onsekiz Mart University</p>
         <p>Natural and Applied Sciences Institute, Fishing and Processing Technology</p>
-        
+        <p></p>
         <p><strong>Thesis:</strong> Determination of Flesh Quality of Black Sea Trout (Salmo labrax PALLAS, 1814) Fed with Carotenoid-Supplemented Diets</p>
       </div>
     </div>
@@ -29,7 +29,7 @@ description: Academic background.
         <h3 style="color:#000; font-weight:700;">MSc</h3>
         <p>Çanakkale Onsekiz Mart University</p>
         <p>Natural and Applied Sciences Institute, Fisheries</p>
-        
+        <p></p>
         <p><strong>Thesis:</strong> Determination of Quality Parameters of Coated Products (Croquettes) Obtained from Different Seafood Species</p>
       </div>
     </div>
