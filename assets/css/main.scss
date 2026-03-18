@@ -10,15 +10,14 @@
 /* Configure your design tokens BEFORE loading any of your partials.
    Make sure `_sass/_variables.scss` declares `$max-content-width: 72rem !default;` */
 @use "variables" with (
-  $max-content-width: {{ site.max_width | default:  "930px" }}
+  $max-content-width: {{ site.max_width | default: "930px" }}
 );
 
-/* Your project partials — convert these files to `@use "variables";`
-   (or `@use "variables" as *;`) inside each file and qualify variables if needed. */
+/* Your project partials */
 @use "themes";
 @use "layout";
 
-// Core styles organized by usage
+// Core styles
 @use "typography";
 @use "navbar";
 @use "footer";
@@ -38,8 +37,31 @@
 @use "font-awesome/solid";
 @use "font-awesome/regular";
 
-.profile img {
-  width: 360px;
-  max-width: 100%;
+/* About page fixes */
+.about .profile {
+  width: 24rem;
+  margin-left: 2rem;
+}
+
+.about .profile img {
+  width: 100%;
   height: auto;
+  display: block;
+}
+
+.about-paragraph {
+  text-align: justify;
+  margin-bottom: 1.25rem;
+}
+
+.about-contact {
+  clear: both;
+  padding-top: 1.5rem;
+}
+
+@media (max-width: 900px) {
+  .about .profile {
+    width: 100%;
+    margin-left: 0;
+  }
 }
