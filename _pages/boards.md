@@ -3,8 +3,8 @@ layout: page
 title: Committees
 permalink: /committees/
 nav: true
-nav_order: 8
-description: Working groups and conference roles
+nav_order: 7
+description: Working groups, committees, and conference roles.
 ---
 
 <div class="academic-page">
