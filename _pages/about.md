@@ -49,7 +49,7 @@ His areas of expertise include aquaculture, seafood chemistry, marine natural pr
 </p>
 
 <div class="about-contact">
-<strong><h3>Contact Information</h3></strong>
+<h3><strong>Contact Information</strong></h3>
 
 <p><strong>E-mail:</strong><br>
 ekremcem19@gmail.com<br>
