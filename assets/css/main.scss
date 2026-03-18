@@ -32,7 +32,7 @@
 @use "font-awesome/regular";
 
 .about .post-description {
-  margin-bottom: 1.1rem;
+  margin-bottom: 1.6rem !important;
 }
 
 .about .profile {
@@ -59,24 +59,24 @@
 
 .profile-icons {
   width: 100%;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
   align-items: center;
-  justify-items: center;
+  gap: 0;
 }
 
 .profile-icons a {
-  display: flex;
+  flex: 0 0 auto;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
   text-decoration: none;
 }
 
 .profile-icons img {
-  width: 34px;
-  height: 34px;
+  width: 38px;
+  height: 38px;
   display: block;
 }
 
@@ -86,8 +86,8 @@
 }
 
 .about-contact h3 {
-  font-size: 1.1rem;
-  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 0.45rem;
 }
 
 @media (max-width: 900px) {
@@ -97,11 +97,11 @@
   }
 
   .profile-icons {
-    grid-template-columns: repeat(6, 1fr);
+    justify-content: space-between;
   }
 
   .profile-icons img {
-    width: 30px;
-    height: 30px;
+    width: 34px;
+    height: 34px;
   }
 }
