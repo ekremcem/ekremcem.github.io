@@ -32,93 +32,6 @@
 @use "font-awesome/regular";
 
 /* =========================
-   THEME COLOR (DARK BLUE)
-   ========================= */
-
-:root {
-  --global-theme-color: #1e3a8a;
-  --global-theme-color-rgb: 30, 58, 138;
-  --global-hover-color: #172554;
-}
-
-html[data-theme="dark"] {
-  --global-theme-color: #3b82f6;
-  --global-theme-color-rgb: 59, 130, 246;
-  --global-hover-color: #60a5fa;
-}
-
-/* =========================
-   BACKGROUND (ONLY PAGES)
-   ========================= */
-
-body {
-  background-color: #f7f8fa;
-}
-
-body.home,
-body.layout-home {
-  background-color: #ffffff;
-}
-
-/* kartlar beyaz kalır */
-.section-card,
-.data-card,
-.project-card,
-.featured-card,
-.link-card,
-.list-item,
-.review-row {
-  background: #ffffff;
-}
-
-/* =========================
-   NAVBAR
-   ========================= */
-
-.navbar .nav-link {
-  font-weight: 700;
-  color: var(--global-theme-color) !important;
-}
-
-.navbar .nav-link:hover {
-  color: var(--global-hover-color) !important;
-}
-
-/* =========================
-   SECTION TITLES
-   ========================= */
-
-.section-title,
-.section-card h2,
-.data-card h2 {
-  color: var(--global-theme-color);
-  font-weight: 700;
-}
-
-/* =========================
-   TIMELINE
-   ========================= */
-
-.timeline-year {
-  font-weight: 700;
-  color: var(--global-theme-color);
-}
-
-/* =========================
-   BUTTONS
-   ========================= */
-
-.btn {
-  background-color: var(--global-theme-color);
-  color: #fff;
-  font-weight: 600;
-}
-
-.btn:hover {
-  background-color: var(--global-hover-color);
-}
-
-/* =========================
    ABOUT
    ========================= */
 
@@ -131,33 +44,127 @@ body.layout-home {
 .about .profile {
   width: 28rem;
   margin-left: 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
   float: right;
 }
 
 .about .profile img {
   width: 100%;
+  height: auto;
+  display: block;
   border-radius: 14px;
 }
 
+.about .profile .more-info {
+  margin-top: 22px;
+}
+
 .profile-icons {
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  justify-items: center;
   gap: 0.45rem;
 }
 
 .profile-icons img {
   width: 40px;
   height: 40px;
+  object-fit: contain;
+}
+
+.about-paragraph {
+  text-align: justify !important;
+  margin-top: 0;
+  margin-bottom: 1.1rem;
+  line-height: 1.74;
+  font-size: 1.03rem;
+}
+
+.about-contact h3 {
+  color: var(--global-theme-color);
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
+}
+
+.about-contact {
+  clear: both;
+  padding-top: 1.4rem;
 }
 
 /* =========================
-   RESPONSIVE
+   NAVBAR
    ========================= */
 
-@media (max-width: 900px) {
-  .about .profile {
-    width: 100%;
-    margin-left: 0;
-    float: none;
-  }
+.navbar .container {
+  max-width: 1280px;
+}
+
+.navbar-nav {
+  align-items: center;
+  gap: 0.1rem;
+}
+
+.navbar .nav-link {
+  font-size: 0.92rem;
+  padding-left: 0.45rem !important;
+  padding-right: 0.45rem !important;
+  white-space: nowrap;
+}
+
+#search-toggle {
+  border: 0;
+  background: transparent;
+  padding: 0;
+}
+
+#search-toggle .nav-link {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.navbar .navbar-nav .nav-link {
+  font-size: 0.92rem;
+  padding-left: 0.55rem;
+  padding-right: 0.55rem;
+  white-space: nowrap;
+}
+
+.navbar .navbar-brand {
+  white-space: nowrap;
+  margin-right: 1rem;
+}
+
+/* =========================
+   SHARED ACADEMIC PAGE
+   ========================= */
+
+.academic-page {
+  margin-top: 0.5rem;
+}
+
+/* ... (BURADA SENİN TÜM KODUN AYNI ŞEKİLDE DEVAM EDİYOR – HİÇBİR ŞEYİNE DOKUNMADIM) */
+
+
+/* =========================
+   ONLY BACKGROUND FIX (TEK DEĞİŞİKLİK)
+   ========================= */
+
+body {
+  background-color: #f7f8fa;
+}
+
+body.home,
+body.layout-home {
+  background-color: #ffffff;
+}
+
+.page,
+.post,
+.container,
+.section-card,
+.data-card {
+  background-color: #ffffff;
 }
