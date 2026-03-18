@@ -45,7 +45,7 @@ Ekrem Cem Çankırılıgil was born on January 3, 1987, in Istanbul, Türkiye. H
 </p>
 
 <p class="about-paragraph">
-His areas of expertise include aquaculture, seafood chemistry, marine natural products, and secondary metabolites derived from fish, bivalves, macroalgae, and sponges. His broader research interests also cover polar sciences, seaweed culture, shellfish physiology and the biochemical responses of marine organisms to environmental change. He is currently leading two main research topics. The first investigates the biochemical composition and biological activities of Antarctic seaweed species. The second focuses on the effects of climate change-driven environmental factors on the chemical composition, reproductive physiology, and energy metabolism of scallop and oyster species distributed in the Sea of Marmara, with implications for future aquaculture strategies.
+His areas of expertise include aquaculture, seafood chemistry, marine natural products, and secondary metabolites derived from fish, bivalves, macroalgae, and sponges. His broader research interests also cover polar sciences, seaweed culture, shellfish physiology and the biochemical responses of marine organisms to environmental change. He is currently working on two main research topics: (i) the biochemical composition and biological activities of Antarctic seaweed species, and (ii) the effects of climate change-driven environmental factors on the chemical composition, reproductive physiology, and energy metabolism of scallop and oyster species in the Sea of Marmara.
 </p>
 
 <div class="about-contact">
