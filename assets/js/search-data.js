@@ -18,14 +18,14 @@ ninja.data = [{
           },
         },{id: "nav-experience",
           title: "Experience",
-          description: "Research and professional experience.",
+          description: "Research, administrative roles, skills, and languages.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/experience/";
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "Selected projects and research activities.",
+          description: "Selected lead projects and broader research participation.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -39,42 +39,42 @@ ninja.data = [{
           },
         },{id: "nav-presentations",
           title: "Presentations",
-          description: "Conference presentations and other talks.",
+          description: "Conference and other presentations in reverse chronological order.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/presentations/";
           },
         },{id: "nav-editorial-amp-review",
           title: "Editorial &amp; Review",
-          description: "Editorial appointments and peer-review activity.",
+          description: "Editorial roles and peer-review contributions.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/editorial-review/";
           },
-        },{id: "nav-boards-amp-committees",
-          title: "Boards &amp; Committees",
-          description: "Working groups, scientific boards, and committee roles.",
+        },{id: "nav-committees",
+          title: "Committees",
+          description: "Working groups, committees, and conference roles.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/boards-committees/";
+            window.location.href = "/committees/";
           },
         },{id: "nav-teaching",
           title: "Teaching",
-          description: "Technical trainings, invited sessions, and teaching activities.",
+          description: "Training activities and selected seminars.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
           },
         },{id: "nav-awards",
           title: "Awards",
-          description: "Awards and recognitions.",
+          description: "Awards and distinctions.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/awards/";
           },
         },{id: "nav-impact",
           title: "Impact",
-          description: "Media, outreach, and wider visibility.",
+          description: "Media visibility, outreach, and wider impact.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/impact/";
@@ -458,49 +458,49 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-horseshoe-island-antarctic-macroalgae",
-          title: 'Horseshoe Island Antarctic Macroalgae',
-          description: "TÜBİTAK 1001 lead project on Antarctic macroalgae.",
+          section: "News",},{id: "projects-project-1",
+          title: 'project 1',
+          description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-scallop-biochemistry-and-reproduction",
-          title: 'Scallop Biochemistry and Reproduction',
-          description: "TAGEM lead project on scallop species.",
+            },},{id: "projects-project-2",
+          title: 'project 2',
+          description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-marmara-oyster-ecology",
-          title: 'Marmara Oyster Ecology',
-          description: "TAGEM lead project proposal on oyster ecology and marine heat waves.",
+            },},{id: "projects-project-3-with-very-long-name",
+          title: 'project 3 with very long name',
+          description: "a project that redirects to another website",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-marias-invasive-species-assessment",
-          title: 'MARIAS Invasive Species Assessment',
-          description: "Researcher role in a technical biodiversity project.",
+            },},{id: "projects-project-4",
+          title: 'project 4',
+          description: "another without an image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-edremit-bay-ichthyoplankton-and-macrozoobenthos",
-          title: 'Edremit Bay Ichthyoplankton and Macrozoobenthos',
-          description: "Research project on biodiversity and artificial reefs.",
+            },},{id: "projects-project-5",
+          title: 'project 5',
+          description: "a project with a background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-marmara-fisheries-management-plan",
-          title: 'Marmara Fisheries Management Plan',
-          description: "Ecosystem-based fisheries management transition project.",
+            },},{id: "projects-project-6",
+          title: 'project 6',
+          description: "a project with no image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-insect-meals-in-trout-diets",
-          title: 'Insect Meals in Trout Diets',
-          description: "TAGEM project on black soldier fly and mealworm meals.",
+            },},{id: "projects-project-7",
+          title: 'project 7',
+          description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
-            },},{id: "projects-black-sea-trout-selective-feeding-and-energy-models",
-          title: 'Black Sea Trout Selective Feeding and Energy Models',
-          description: "Researcher role in Black Sea salmon nutrition studies.",
+            },},{id: "projects-project-8",
+          title: 'project 8',
+          description: "an other project with a background image and giscus comments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
-            },},{id: "projects-zebra-mussel-biotechnological-materials",
-          title: 'Zebra Mussel Biotechnological Materials',
-          description: "Preliminary TAGEM research project.",
+            },},{id: "projects-project-9",
+          title: 'project 9',
+          description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{id: "teachings-data-science-fundamentals",
