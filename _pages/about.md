@@ -8,7 +8,45 @@ profile:
   align: right
   image: ekremcem.jpg
   image_circular: false
-  more_info: ""
+  more_info: >
+    <div class="profile-links">
+      <a href="https://scholar.google.com/citations?user=XkeIjmMAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" title="Google Scholar">
+        <i class="ai ai-google-scholar ai-2x"></i>
+      </a>
+      <a href="https://www.researchgate.net/profile/Ekrem-Cankiriligil" target="_blank" rel="noopener noreferrer" title="ResearchGate">
+        <i class="ai ai-researchgate ai-2x"></i>
+      </a>
+      <a href="https://tr.linkedin.com/in/ekrem-cem-%C3%A7ank%C4%B1r%C4%B1l%C4%B1gil" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+        <i class="fab fa-linkedin fa-2x"></i>
+      </a>
+      <a href="https://www.webofscience.com/wos/author/record/W-5068-2017" target="_blank" rel="noopener noreferrer" title="Web of Science Researcher ID">
+        <i class="fas fa-globe fa-2x"></i>
+      </a>
+      <a href="https://orcid.org/0000-0001-5898-4469" target="_blank" rel="noopener noreferrer" title="ORCID">
+        <i class="ai ai-orcid ai-2x"></i>
+      </a>
+      <a href="https://loop.frontiersin.org/people/3102233/overview" target="_blank" rel="noopener noreferrer" title="Loop">
+        <i class="fas fa-link fa-2x"></i>
+      </a>
+      <a href="https://www.scopus.com/authid/detail.uri?authorId=57194106902" target="_blank" rel="noopener noreferrer" title="Scopus Author ID">
+        <i class="ai ai-scopus ai-2x"></i>
+      </a>
+    </div>
+    <div class="profile-links-text">
+      <a href="https://scholar.google.com/citations?user=XkeIjmMAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Scholar</a>
+      <span>·</span>
+      <a href="https://www.researchgate.net/profile/Ekrem-Cankiriligil" target="_blank" rel="noopener noreferrer">ResearchGate</a>
+      <span>·</span>
+      <a href="https://tr.linkedin.com/in/ekrem-cem-%C3%A7ank%C4%B1r%C4%B1l%C4%B1gil" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <span>·</span>
+      <a href="https://www.webofscience.com/wos/author/record/W-5068-2017" target="_blank" rel="noopener noreferrer">WoS</a>
+      <span>·</span>
+      <a href="https://orcid.org/0000-0001-5898-4469" target="_blank" rel="noopener noreferrer">ORCID</a>
+      <span>·</span>
+      <a href="https://loop.frontiersin.org/people/3102233/overview" target="_blank" rel="noopener noreferrer">Loop</a>
+      <span>·</span>
+      <a href="https://www.scopus.com/authid/detail.uri?authorId=57194106902" target="_blank" rel="noopener noreferrer">Scopus</a>
+    </div>
 
 selected_papers: false
 social: false
