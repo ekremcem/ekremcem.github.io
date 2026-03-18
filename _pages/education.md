@@ -10,7 +10,7 @@ description: Academic background.
 <div class="academic-page">
 
   <div class="section-card">
-    <h2 class="section-title">Education</h2>
+  
 
     <div class="timeline-entry">
       <div class="timeline-year" style="color: var(--global-theme-color); font-weight:700;">2012–2019</div>
