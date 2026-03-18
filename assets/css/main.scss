@@ -32,7 +32,7 @@
 @use "font-awesome/regular";
 
 .about .profile {
-  width: 28rem;
+  width: 30rem;
   margin-left: 2rem;
 }
 
@@ -40,12 +40,6 @@
   width: 100%;
   height: auto;
   display: block;
-}
-
-.about .post-description {
-  a {
-    color: var(--global-theme-color);
-  }
 }
 
 .about p {
@@ -60,8 +54,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  gap: 0.75rem;
+  gap: 0.9rem;
   margin-top: 1rem;
 }
 
@@ -69,19 +62,13 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  line-height: 1;
   text-decoration: none;
 }
 
 .profile-icons img {
-  width: 32px;
-  height: 32px;
+  width: 42px;
+  height: 42px;
   display: block;
-}
-
-.about-contact {
-  clear: both;
-  padding-top: 1.75rem;
 }
 
 @media (max-width: 900px) {
@@ -92,5 +79,10 @@
 
   .profile-icons {
     justify-content: flex-start;
+  }
+
+  .profile-icons img {
+    width: 38px;
+    height: 38px;
   }
 }
