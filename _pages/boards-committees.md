@@ -2,7 +2,7 @@
 layout: page
 title: Boards & Committees
 permalink: /boards-committees/
-nav: true
+nav: false
 nav_order: 7
 description: Working groups, committees, and conference roles.
 ---
