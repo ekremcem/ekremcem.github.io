@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href="#">General Directorate of Agricultural Research and Policies, Sheep Breeding Research Institute, Department of Fisheries</a>
+subtitle: <a href="#">General Directorate of Agricultural Research and Policies,<br>Sheep Breeding Research Institute,<br>Department of Fisheries</a>
 
 profile:
   align: right
@@ -11,22 +11,22 @@ profile:
   more_info: >
     <div class="profile-icons">
       <a href="https://scholar.google.com/citations?user=XkeIjmMAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" title="Google Scholar">
-        <img src="https://cdn.simpleicons.org/googlescholar" alt="Google Scholar">
+        <img src="/assets/img/icons/google-scholar.svg" alt="Google Scholar">
       </a>
       <a href="https://www.researchgate.net/profile/Ekrem-Cankiriligil" target="_blank" rel="noopener noreferrer" title="ResearchGate">
-        <img src="https://cdn.simpleicons.org/researchgate" alt="ResearchGate">
+        <img src="/assets/img/icons/researchgate.svg" alt="ResearchGate">
       </a>
       <a href="https://tr.linkedin.com/in/ekrem-cem-%C3%A7ank%C4%B1r%C4%B1l%C4%B1gil" target="_blank" rel="noopener noreferrer" title="LinkedIn">
-        <img src="https://cdn.simpleicons.org/linkedin" alt="LinkedIn">
+        <img src="/assets/img/icons/linkedin.png" alt="LinkedIn">
       </a>
       <a href="https://www.webofscience.com/wos/author/record/W-5068-2017" target="_blank" rel="noopener noreferrer" title="Web of Science Researcher ID">
-        <img src="https://cdn.simpleicons.org/webofscience" alt="Web of Science">
+        <img src="/assets/img/icons/clarivate.svg" alt="Web of Science">
       </a>
       <a href="https://orcid.org/0000-0001-5898-4469" target="_blank" rel="noopener noreferrer" title="ORCID">
-        <img src="https://cdn.simpleicons.org/orcid" alt="ORCID">
+        <img src="/assets/img/icons/orcid.svg" alt="ORCID">
       </a>
       <a href="https://loop.frontiersin.org/people/3102233/overview" target="_blank" rel="noopener noreferrer" title="Loop">
-        <img src="https://cdn.simpleicons.org/frontiers" alt="Loop">
+        <img src="/assets/img/icons/loop.png" alt="Loop">
       </a>
     </div>
 
