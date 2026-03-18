@@ -32,7 +32,7 @@
 @use "font-awesome/regular";
 
 .about .profile {
-  width: 27rem;
+  width: 28rem;
   margin-left: 2rem;
 }
 
@@ -42,38 +42,41 @@
   display: block;
 }
 
-.about-paragraph {
+.about .post-description {
+  a {
+    color: var(--global-theme-color);
+  }
+}
+
+.about p {
   text-align: justify;
-  margin-bottom: 1.25rem;
 }
 
-.profile-links {
+.about .profile .more-info {
   margin-top: 1rem;
-  text-align: center;
-  line-height: 1.8;
 }
 
-.profile-links a {
-  margin: 0 0.35rem;
-  display: inline-block;
-  vertical-align: middle;
+.profile-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 1rem;
 }
 
-.profile-links-text {
-  margin-top: 0.65rem;
-  text-align: center;
-  font-size: 0.95rem;
-  line-height: 1.6;
+.profile-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  text-decoration: none;
 }
 
-.profile-links-text a {
-  margin: 0 0.15rem;
-  white-space: nowrap;
-}
-
-.profile-links-text span {
-  margin: 0 0.15rem;
-  opacity: 0.7;
+.profile-icons img {
+  width: 32px;
+  height: 32px;
+  display: block;
 }
 
 .about-contact {
@@ -87,8 +90,7 @@
     margin-left: 0;
   }
 
-  .profile-links,
-  .profile-links-text {
-    text-align: left;
+  .profile-icons {
+    justify-content: flex-start;
   }
 }
