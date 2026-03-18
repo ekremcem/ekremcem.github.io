@@ -16,7 +16,7 @@ description: Editorial roles and peer-review contributions.
 
   .editorial-entry {
     display: grid;
-    grid-template-columns: 96px 1fr;
+    grid-template-columns: 110px 1fr;
     gap: 1rem;
     align-items: center;
     padding: 1rem;
@@ -26,15 +26,16 @@ description: Editorial roles and peer-review contributions.
   }
 
   .editorial-logo {
-    width: 96px;
-    height: 96px;
+    width: 110px;
+    height: 140px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 12px;
+    border-radius: 10px;
     background: var(--global-bg-color);
     border: 1px solid var(--global-divider-color);
     overflow: hidden;
+    padding: 0.25rem;
   }
 
   .editorial-logo img {
@@ -61,28 +62,43 @@ description: Editorial roles and peer-review contributions.
   .editorial-journal {
     margin: 0;
     line-height: 1.5;
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    flex-wrap: wrap;
   }
 
-  .editorial-journal a {
-    color: var(--global-theme-color);
-    font-weight: 600;
+  .editorial-journal-title {
+    font-style: italic;
+    color: var(--global-text-color);
+  }
+
+  .editorial-journal-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
+    font-size: 0.95rem;
+    line-height: 1;
+    color: var(--global-theme-color);
+    transform: translateY(-1px);
   }
 
-  .editorial-journal a:hover {
-    text-decoration: underline;
+  .editorial-journal-link:hover {
+    text-decoration: none;
+    opacity: 0.8;
   }
 
   @media (max-width: 768px) {
     .editorial-entry {
-      grid-template-columns: 72px 1fr;
+      grid-template-columns: 80px 1fr;
       gap: 0.85rem;
       align-items: start;
     }
 
     .editorial-logo {
-      width: 72px;
-      height: 72px;
+      width: 80px;
+      height: 105px;
     }
   }
 </style>
@@ -95,45 +111,42 @@ description: Editorial roles and peer-review contributions.
     <div class="editorial-list">
       <div class="editorial-entry">
         <div class="editorial-logo">
-          <img src="{{ '/assets/img/TRJFAS.png' | relative_url }}" alt="TRJFAS">
+          <img src="{{ '/assets/img/TRJFAS.jpg' | relative_url }}" alt="TRJFAS">
         </div>
         <div class="editorial-content">
           <div class="editorial-date">2024 - Present</div>
           <div class="editorial-role">Topic Editor</div>
           <p class="editorial-journal">
-            <a href="https://www.trjfas.org/" target="_blank" rel="noopener">
-              Turkish Journal of Fisheries and Aquatic Sciences (TRJFAS)
-            </a>
+            <span class="editorial-journal-title">Turkish Journal of Fisheries and Aquatic Sciences (TRJFAS)</span>
+            <a class="editorial-journal-link" href="https://www.trjfas.org/" target="_blank" rel="noopener" aria-label="Visit Turkish Journal of Fisheries and Aquatic Sciences website" title="Journal website">🔗</a>
           </p>
         </div>
       </div>
 
       <div class="editorial-entry">
         <div class="editorial-logo">
-          <img src="{{ '/assets/img/aquast.png' | relative_url }}" alt="Aquaculture Studies">
+          <img src="{{ '/assets/img/aquast.jpg' | relative_url }}" alt="Aquaculture Studies">
         </div>
         <div class="editorial-content">
           <div class="editorial-date">2025 - Present</div>
           <div class="editorial-role">Topic Editor</div>
           <p class="editorial-journal">
-            <a href="https://www.aquast.org/" target="_blank" rel="noopener">
-              Aquaculture Studies
-            </a>
+            <span class="editorial-journal-title">Aquaculture Studies</span>
+            <a class="editorial-journal-link" href="https://www.aquast.org/" target="_blank" rel="noopener" aria-label="Visit Aquaculture Studies website" title="Journal website">🔗</a>
           </p>
         </div>
       </div>
 
       <div class="editorial-entry">
         <div class="editorial-logo">
-          <img src="{{ '/assets/img/frontiers.png' | relative_url }}" alt="Frontiers in Aquaculture">
+          <img src="{{ '/assets/img/frontiers.jpg' | relative_url }}" alt="Frontiers in Aquaculture">
         </div>
         <div class="editorial-content">
           <div class="editorial-date">2025 - 2026</div>
-          <div class="editorial-role">Special Issue Editor: Aquatic Natural Products and Aquaculture, Production, Chemical Characterization, and Functional Applications</div>
+          <div class="editorial-role">Special Issue Editor: Aquatic Natural Products and Aquaculture: Production, Chemical Characterization, and Functional Applications</div>
           <p class="editorial-journal">
-            <a href="https://www.frontiersin.org/research-topics/74526/aquatic-natural-products-and-aquaculture-production-chemical-characterization-and-functional-applications" target="_blank" rel="noopener">
-              Frontiers in Aquaculture
-            </a>
+            <span class="editorial-journal-title">Frontiers in Aquaculture</span>
+            <a class="editorial-journal-link" href="https://www.frontiersin.org/research-topics/74526/aquatic-natural-products-and-aquaculture-production-chemical-characterization-and-functional-applications" target="_blank" rel="noopener" aria-label="Visit Frontiers in Aquaculture page" title="Journal website">🔗</a>
           </p>
         </div>
       </div>
