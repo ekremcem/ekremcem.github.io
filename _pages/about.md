@@ -53,7 +53,7 @@ Looking for partnerships on seafood chemistry, marine bioactive compounds, macro
 </p>
 
 <div class="about-contact">
-<h3><strong>Contact Information</strong></h3>
+<h3>Contact Information</h3>
 
 <p><strong>E-mail:</strong><br>
 ekremcem19@gmail.com<br>
