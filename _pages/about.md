@@ -9,43 +9,36 @@ profile:
   image: ekremcem.jpg
   image_circular: false
   more_info: >
-    <div class="profile-links">
-      <a href="https://scholar.google.com/citations?user=XkeIjmMAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" title="Google Scholar">
-        <i class="ai ai-google-scholar ai-2x"></i>
+    <div class="profile-icons">
+
+      <a href="https://scholar.google.com/citations?user=XkeIjmMAAAAJ&hl=en" target="_blank">
+        <i class="ai ai-google-scholar"></i>
       </a>
-      <a href="https://www.researchgate.net/profile/Ekrem-Cankiriligil" target="_blank" rel="noopener noreferrer" title="ResearchGate">
-        <i class="ai ai-researchgate ai-2x"></i>
+
+      <a href="https://www.researchgate.net/profile/Ekrem-Cankiriligil" target="_blank">
+        <i class="ai ai-researchgate"></i>
       </a>
-      <a href="https://tr.linkedin.com/in/ekrem-cem-%C3%A7ank%C4%B1r%C4%B1l%C4%B1gil" target="_blank" rel="noopener noreferrer" title="LinkedIn">
-        <i class="fab fa-linkedin fa-2x"></i>
+
+      <a href="https://tr.linkedin.com/in/ekrem-cem-%C3%A7ank%C4%B1r%C4%B1l%C4%B1gil" target="_blank">
+        <i class="fab fa-linkedin"></i>
       </a>
-      <a href="https://www.webofscience.com/wos/author/record/W-5068-2017" target="_blank" rel="noopener noreferrer" title="Web of Science Researcher ID">
-        <i class="fas fa-globe fa-2x"></i>
+
+      <a href="https://orcid.org/0000-0001-5898-4469" target="_blank">
+        <i class="ai ai-orcid"></i>
       </a>
-      <a href="https://orcid.org/0000-0001-5898-4469" target="_blank" rel="noopener noreferrer" title="ORCID">
-        <i class="ai ai-orcid ai-2x"></i>
+
+      <a href="https://www.scopus.com/authid/detail.uri?authorId=57194106902" target="_blank">
+        <i class="ai ai-scopus"></i>
       </a>
-      <a href="https://loop.frontiersin.org/people/3102233/overview" target="_blank" rel="noopener noreferrer" title="Loop">
-        <i class="fas fa-link fa-2x"></i>
+
+      <a href="https://www.webofscience.com/wos/author/record/W-5068-2017" target="_blank">
+        <i class="fas fa-flask"></i>
       </a>
-      <a href="https://www.scopus.com/authid/detail.uri?authorId=57194106902" target="_blank" rel="noopener noreferrer" title="Scopus Author ID">
-        <i class="ai ai-scopus ai-2x"></i>
+
+      <a href="https://loop.frontiersin.org/people/3102233/overview" target="_blank">
+        <i class="fas fa-infinity"></i>
       </a>
-    </div>
-    <div class="profile-links-text">
-      <a href="https://scholar.google.com/citations?user=XkeIjmMAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Scholar</a>
-      <span>·</span>
-      <a href="https://www.researchgate.net/profile/Ekrem-Cankiriligil" target="_blank" rel="noopener noreferrer">ResearchGate</a>
-      <span>·</span>
-      <a href="https://tr.linkedin.com/in/ekrem-cem-%C3%A7ank%C4%B1r%C4%B1l%C4%B1gil" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-      <span>·</span>
-      <a href="https://www.webofscience.com/wos/author/record/W-5068-2017" target="_blank" rel="noopener noreferrer">WoS</a>
-      <span>·</span>
-      <a href="https://orcid.org/0000-0001-5898-4469" target="_blank" rel="noopener noreferrer">ORCID</a>
-      <span>·</span>
-      <a href="https://loop.frontiersin.org/people/3102233/overview" target="_blank" rel="noopener noreferrer">Loop</a>
-      <span>·</span>
-      <a href="https://www.scopus.com/authid/detail.uri?authorId=57194106902" target="_blank" rel="noopener noreferrer">Scopus</a>
+
     </div>
 
 selected_papers: false
@@ -58,20 +51,14 @@ latest_posts:
   enabled: false
 ---
 
-<p class="about-paragraph">
+<p class="about-text">
 Ekrem Cem Çankırılıgil was born on January 3, 1987, in Istanbul, Türkiye. He graduated from the Faculty of Fisheries at Çanakkale Onsekiz Mart University in 2009 and completed his PhD in 2019. His academic background has been shaped by a strong interest in marine sciences, aquaculture, and fisheries research.
 </p>
 
-<p class="about-paragraph">
+<p class="about-text">
 He has been working as a researcher at the Department of Fisheries, Sheep Breeding Research Institute, under the General Directorate of Agricultural Research and Policies (TAGEM), since 2013. Based in Bandırma, Balıkesir, Türkiye, he has been involved in research activities focusing on fisheries, marine resources, and applied aquaculture for more than a decade.
 </p>
 
-<p class="about-paragraph">
-His areas of expertise include aquaculture, seafood chemistry, marine natural products, and secondary metabolites derived from fish, bivalves, macroalgae, and sponges. His broader research interests also cover marine biodiversity, Antarctic marine resources, shellfish physiology, reproductive biology, and the biochemical responses of marine organisms to environmental change. He is currently leading two main research topics. The first investigates the biochemical composition and biological activities of Antarctic seaweed species. The second focuses on the effects of climate change-driven environmental factors on the chemical composition, reproductive physiology, and energy metabolism of scallop and oyster species distributed in the Sea of Marmara, with implications for future aquaculture strategies.
+<p class="about-text">
+His areas of expertise include aquaculture, seafood chemistry, marine natural products, and secondary metabolites derived from fish, bivalves, macroalgae, and sponges. His broader research interests also cover marine biodiversity, Antarctic marine resources, shellfish physiology, reproductive biology, and the biochemical responses of marine organisms to environmental change.
 </p>
-
-<div class="about-contact">
-  <h2>Contact</h2>
-  <p><strong>E-mail:</strong> ekremcem19@gmail.com, cem.cankiriligil@tarimorman.gov.tr</p>
-  <p><strong>Mobile:</strong> +90 537 652 6494</p>
-</div>
