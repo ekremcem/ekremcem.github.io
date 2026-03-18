@@ -31,19 +31,19 @@
 @use "font-awesome/solid";
 @use "font-awesome/regular";
 
+/* affiliation altına boşluk */
 .about .post-description {
-  margin-bottom: 1.6rem !important;
+  margin-bottom: 28px !important;
   line-height: 1.45;
 }
 
-.about .post-description a {
-  color: var(--global-theme-color);
-}
-
+/* foto ve metin hizası */
 .about .profile {
   width: 34rem;
   margin-left: 2rem;
-  margin-top: 0 !important;
+  margin-top: 0;
+  margin-bottom: 0;
+  float: right;
 }
 
 .about .profile img {
@@ -52,69 +52,58 @@
   display: block;
 }
 
+/* ikonları foto altından aşağı indir */
 .about .profile .more-info {
-  margin-top: 0.9rem;
+  margin-top: 22px;
 }
 
-.about .clearfix > p:first-of-type,
-.about-paragraph:first-of-type {
-  margin-top: 0 !important;
-}
-
-.about-paragraph {
-  text-align: justify !important;
-  margin-top: 0;
-  margin-bottom: 1.15rem;
-}
-
+/* ikonlar tek satır */
 .profile-icons {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(6, 1fr);
   align-items: center;
   justify-items: center;
-  column-gap: 0;
-  row-gap: 0;
-}
-
-.profile-icons a {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
 }
 
 .profile-icons img {
-  width: 42px;
-  height: 42px;
+  width: 40px;
+  height: 40px;
   object-fit: contain;
-  display: block;
 }
 
+/* metin */
+.about-paragraph {
+  text-align: justify !important;
+  margin-top: 0;
+  margin-bottom: 1.1rem;
+}
+
+/* contact başlık rengi */
+.about-contact h3 {
+  color: var(--global-theme-color);
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
+}
+
+/* contact blok */
 .about-contact {
   clear: both;
   padding-top: 1.4rem;
 }
 
-.about-contact h3 {
-  font-size: 1rem;
-  margin-bottom: 0.45rem;
-  color: var(--global-theme-color);
-}
-
+/* mobil */
 @media (max-width: 900px) {
+
   .about .profile {
     width: 100%;
     margin-left: 0;
-  }
-
-  .profile-icons {
-    grid-template-columns: repeat(6, minmax(0, 1fr));
+    float: none;
   }
 
   .profile-icons img {
     width: 36px;
     height: 36px;
   }
+
 }
