@@ -41,7 +41,7 @@ latest_posts:
 ---
 
 <p class="about-paragraph">
-Ekrem Cem Çankırılıgil was born on January 3, 1987, in Istanbul, Türkiye. He graduated from the Faculty of Fisheries at Çanakkale Onsekiz Mart University in 2009 and completed his PhD in 2019. His academic background has been shaped by a strong interest in marine sciences, aquaculture, and fisheries research. He has been working as a researcher at the Department of Fisheries, Sheep Breeding Research Institute, under the General Directorate of Agricultural Research and Policies (TAGEM), since 2013. Based in Bandırma, Balıkesir, Türkiye, he has been involved in research activities focusing on fisheries, marine resources, and applied aquaculture for more than a decade.
+Ekrem Cem Çankırılıgil was born on January 3, 1987, in Istanbul, Türkiye. He graduated from the Faculty of Fisheries at Çanakkale Onsekiz Mart University in 2009 and completed his PhD in 2019. His academic background has been shaped by a strong interest in marine sciences, aquaculture, and fisheries research. He started his professional career in 2013 at the Central Fisheries Research Institute in Trabzon, Türkiye. Since 2021, he has been working at the Sheep Breeding Research Institute in Bandırma, Balıkesir, Türkiye, within the Department of Fisheries. He has been involved in research activities focusing on fisheries, marine resources, and applied aquaculture for more than a decade.
 </p>
 
 <p class="about-paragraph">
@@ -50,6 +50,16 @@ His areas of expertise include aquaculture, seafood chemistry, marine natural pr
 
 <div class="about-contact">
 <h3>Contact Information</h3>
-<p><strong>E-mail:</strong> ekremcem19@gmail.com, cem.cankiriligil@tarimorman.gov.tr</p>
-<p><strong>Mobile:</strong> +90 537 652 6494</p>
+
+<p><strong>E-mail:</strong><br>
+ekremcem19@gmail.com<br>
+cem.cankiriligil@tarimorman.gov.tr</p>
+
+<p><strong>Mobile:</strong><br>
++90 537 652 6494</p>
+
+<p><strong>Current address:</strong><br>
+Sheep Breeding Research Institute, Biotechnology Building, Department of Fisheries,<br>
+Gönen road 5th km., Bandırma, Balıkesir/Türkiye</p>
+
 </div>
