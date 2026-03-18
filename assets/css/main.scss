@@ -107,3 +107,141 @@
   }
 
 }
+
+
+/* ---- custom section pages ---- */
+.section-intro {
+  margin-bottom: 1.5rem;
+  color: var(--global-text-color-light);
+}
+
+.cv-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.cv-item {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.cv-item:last-child {
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.cv-period {
+  font-weight: 700;
+  color: var(--global-theme-color);
+  font-size: 0.95rem;
+}
+
+.cv-body h3 {
+  font-size: 1.08rem;
+  margin-bottom: 0.35rem;
+}
+
+.cv-body p,
+.cv-body ul {
+  margin-bottom: 0.4rem;
+}
+
+.experience-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.7fr) minmax(260px, 0.9fr);
+  gap: 2rem;
+  align-items: start;
+}
+
+.side-panel {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.8rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: color-mix(in srgb, var(--global-bg-color) 92%, var(--global-theme-color) 8%);
+}
+
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.tag-cloud span {
+  border: 1px solid var(--global-divider-color);
+  padding: 0.35rem 0.65rem;
+  border-radius: 999px;
+  font-size: 0.92rem;
+  line-height: 1.2;
+}
+
+.clean-list {
+  padding-left: 1.15rem;
+}
+
+.clean-list.compact li {
+  margin-bottom: 0.35rem;
+}
+
+.simple-card-grid,
+.metric-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.simple-card,
+.metric-card {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.9rem;
+  padding: 1rem;
+  background-color: var(--global-card-bg-color);
+}
+
+.metric-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.metric-card span {
+  font-weight: 600;
+}
+
+.metric-card small,
+.inline-note {
+  color: var(--global-text-color-light);
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  font-size: 0.92rem;
+  padding-right: 0.55rem;
+  padding-left: 0.55rem;
+  white-space: nowrap;
+}
+
+.search-icon-only {
+  font-size: 1rem;
+}
+
+@media (max-width: 991px) {
+  .experience-layout,
+  .simple-card-grid,
+  .metric-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 767px) {
+  .cv-item {
+    grid-template-columns: 1fr;
+    gap: 0.35rem;
+  }
+
+  .cv-period {
+    font-size: 0.9rem;
+  }
+}
