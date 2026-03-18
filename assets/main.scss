@@ -615,3 +615,32 @@
     text-align: left;
   }
 }
+
+
+
+/* navbar fit fixes */
+.navbar .navbar-brand {
+  display: none !important;
+}
+
+.navbar .container {
+  max-width: 1380px;
+}
+
+.navbar .navbar-nav {
+  flex-wrap: nowrap;
+}
+
+.navbar .navbar-nav .nav-link {
+  font-size: 0.88rem;
+  padding-left: 0.42rem;
+  padding-right: 0.42rem;
+}
+
+@media (max-width: 1180px) {
+  .navbar .navbar-nav .nav-link {
+    font-size: 0.84rem;
+    padding-left: 0.32rem;
+    padding-right: 0.32rem;
+  }
+}
