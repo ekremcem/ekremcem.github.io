@@ -31,9 +31,14 @@
 @use "font-awesome/solid";
 @use "font-awesome/regular";
 
+.about .post-description {
+  margin-bottom: 1.1rem;
+}
+
 .about .profile {
-  width: 30rem;
+  width: 34rem;
   margin-left: 2rem;
+  margin-top: 0.2rem;
 }
 
 .about .profile img {
@@ -42,8 +47,13 @@
   display: block;
 }
 
-.about p {
-  text-align: justify;
+.about-paragraph {
+  text-align: justify !important;
+  margin-bottom: 1.15rem;
+}
+
+.about .clearfix p:not(.about-paragraph) {
+  text-align: justify !important;
 }
 
 .about .profile .more-info {
@@ -54,6 +64,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   gap: 0.9rem;
   margin-top: 1rem;
 }
@@ -63,18 +74,30 @@
   align-items: center;
   justify-content: center;
   text-decoration: none;
+  line-height: 1;
 }
 
 .profile-icons img {
-  width: 42px;
-  height: 42px;
+  width: 48px;
+  height: 48px;
   display: block;
+}
+
+.about-contact {
+  clear: both;
+  padding-top: 1.4rem;
+}
+
+.contact-title {
+  font-size: 1.15rem;
+  margin-bottom: 0.6rem;
 }
 
 @media (max-width: 900px) {
   .about .profile {
     width: 100%;
     margin-left: 0;
+    margin-top: 0;
   }
 
   .profile-icons {
@@ -82,7 +105,7 @@
   }
 
   .profile-icons img {
-    width: 38px;
-    height: 38px;
+    width: 42px;
+    height: 42px;
   }
 }
