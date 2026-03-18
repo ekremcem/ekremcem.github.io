@@ -1,30 +1,141 @@
 ---
 layout: page
-title: Editorial & Review
+title: <strong>Editorial & Review</strong>
 permalink: /editorial-review/
 nav: true
 nav_order: 6
 description: Editorial roles and peer-review contributions.
 ---
 
+<style>
+  .editorial-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .editorial-entry {
+    display: grid;
+    grid-template-columns: 96px 1fr;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 14px;
+    background: color-mix(in srgb, var(--global-bg-color) 92%, var(--global-theme-color) 8%);
+  }
+
+  .editorial-logo {
+    width: 96px;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background: var(--global-bg-color);
+    border: 1px solid var(--global-divider-color);
+    overflow: hidden;
+  }
+
+  .editorial-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+  }
+
+  .editorial-date {
+    color: var(--global-theme-color);
+    font-weight: 700;
+    margin-bottom: 0.2rem;
+    font-size: 0.98rem;
+  }
+
+  .editorial-role {
+    font-weight: 700;
+    color: var(--global-text-color);
+    margin-bottom: 0.2rem;
+    line-height: 1.5;
+  }
+
+  .editorial-journal {
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  .editorial-journal a {
+    color: var(--global-theme-color);
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .editorial-journal a:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 768px) {
+    .editorial-entry {
+      grid-template-columns: 72px 1fr;
+      gap: 0.85rem;
+      align-items: start;
+    }
+
+    .editorial-logo {
+      width: 72px;
+      height: 72px;
+    }
+  }
+</style>
+
 <div class="academic-page">
 
   <div class="section-card">
     <h2 class="section-title">Editorial</h2>
-    <div class="list-grid">
-      <div class="list-item">
-        <strong>2025 – 2026</strong><br>
-        Special Issue Editor, <em>Frontiers in Aquaculture</em>
+
+    <div class="editorial-list">
+      <div class="editorial-entry">
+        <div class="editorial-logo">
+          <img src="{{ '/assets/img/TRJFAS.png' | relative_url }}" alt="TRJFAS">
+        </div>
+        <div class="editorial-content">
+          <div class="editorial-date">2024 - Present</div>
+          <div class="editorial-role">Topic Editor</div>
+          <p class="editorial-journal">
+            <a href="https://www.trjfas.org/" target="_blank" rel="noopener">
+              Turkish Journal of Fisheries and Aquatic Sciences (TRJFAS)
+            </a>
+          </p>
+        </div>
       </div>
 
-      <div class="list-item">
-        <strong>2025 – Present</strong><br>
-        Subject Editor, <em>Aquaculture Studies</em>
+      <div class="editorial-entry">
+        <div class="editorial-logo">
+          <img src="{{ '/assets/img/aquast.png' | relative_url }}" alt="Aquaculture Studies">
+        </div>
+        <div class="editorial-content">
+          <div class="editorial-date">2025 - Present</div>
+          <div class="editorial-role">Topic Editor</div>
+          <p class="editorial-journal">
+            <a href="https://www.aquast.org/" target="_blank" rel="noopener">
+              Aquaculture Studies
+            </a>
+          </p>
+        </div>
       </div>
 
-      <div class="list-item">
-        <strong>2024 – Present</strong><br>
-        Subject Editor, <em>Turkish Journal of Fisheries and Aquatic Sciences</em>
+      <div class="editorial-entry">
+        <div class="editorial-logo">
+          <img src="{{ '/assets/img/frontiers.png' | relative_url }}" alt="Frontiers in Aquaculture">
+        </div>
+        <div class="editorial-content">
+          <div class="editorial-date">2025 - 2026</div>
+          <div class="editorial-role">Special Issue Editor: Aquatic Natural Products and Aquaculture, Production, Chemical Characterization, and Functional Applications</div>
+          <p class="editorial-journal">
+            <a href="https://www.frontiersin.org/research-topics/74526/aquatic-natural-products-and-aquaculture-production-chemical-characterization-and-functional-applications" target="_blank" rel="noopener">
+              Frontiers in Aquaculture
+            </a>
+          </p>
+        </div>
       </div>
     </div>
   </div>
