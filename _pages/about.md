@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href="#">General Directorate of Agricultural Research and Policies,<br>Sheep Breeding Research Institute,<br>Department of Fisheries</a>
+subtitle: <strong><a href="#">General Directorate of Agricultural Research and Policies,<br>Sheep Breeding Research Institute,<br>Department of Fisheries</a></strong>
 
 profile:
   align: right
