@@ -32,6 +32,46 @@
 @use "font-awesome/regular";
 
 /* =========================
+   THEME COLOR (DARK BLUE)
+   ========================= */
+
+:root {
+  --global-theme-color: #1e3a8a;        /* koyu mavi */
+  --global-theme-color-rgb: 30, 58, 138;
+  --global-hover-color: #172554;
+}
+
+html[data-theme="dark"] {
+  --global-theme-color: #3b82f6;
+  --global-theme-color-rgb: 59, 130, 246;
+  --global-hover-color: #60a5fa;
+}
+
+/* =========================
+   NAVBAR HEADINGS (TOP MENU)
+   ========================= */
+
+.navbar .nav-link {
+  font-weight: 700;
+  color: var(--global-theme-color) !important;
+}
+
+.navbar .nav-link:hover {
+  color: var(--global-hover-color) !important;
+}
+
+/* =========================
+   SECTION TITLES (Awards vs)
+   ========================= */
+
+.section-title,
+.section-card h2,
+.data-card h2 {
+  color: var(--global-theme-color);
+  font-weight: 700;
+}
+
+/* =========================
    ABOUT
    ========================= */
 
@@ -60,111 +100,25 @@
   margin-top: 22px;
 }
 
-.profile-icons {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  align-items: center;
-  justify-items: center;
-  gap: 0.45rem;
-}
+/* =========================
+   TIMELINE FIX (education vs)
+   ========================= */
 
-.profile-icons img {
-  width: 40px;
-  height: 40px;
-  object-fit: contain;
-}
-
-.about-paragraph {
-  text-align: justify !important;
-  margin-top: 0;
-  margin-bottom: 1.1rem;
-  line-height: 1.74;
-  font-size: 1.03rem;
-}
-
-.about-contact h3 {
+.timeline-year {
+  font-weight: 700;
   color: var(--global-theme-color);
-  font-size: 1rem;
-  margin-bottom: 0.4rem;
-}
-
-.about-contact {
-  clear: both;
-  padding-top: 1.4rem;
 }
 
 /* =========================
-   NAVBAR
+   BUTTONS
    ========================= */
 
-.navbar .container {
-  max-width: 1280px;
+.btn {
+  background-color: var(--global-theme-color);
+  color: #fff;
+  font-weight: 600;
 }
 
-.navbar-nav {
-  align-items: center;
-  gap: 0.1rem;
-}
-
-.navbar .nav-link {
-  font-size: 0.92rem;
-  padding-left: 0.45rem !important;
-  padding-right: 0.45rem !important;
-  white-space: nowrap;
-}
-
-#search-toggle {
-  border: 0;
-  background: transparent;
-  padding: 0;
-}
-
-#search-toggle .nav-link {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
-.navbar .navbar-nav .nav-link {
-  font-size: 0.92rem;
-  padding-left: 0.55rem;
-  padding-right: 0.55rem;
-  white-space: nowrap;
-}
-
-.navbar .navbar-brand {
-  white-space: nowrap;
-  margin-right: 1rem;
-}
-
-/* =========================
-   SHARED ACADEMIC PAGE
-   ========================= */
-
-.academic-page {
-  margin-top: 0.5rem;
-}
-
-/* ... (BURADA SENİN TÜM KODUN AYNI ŞEKİLDE DEVAM EDİYOR – HİÇBİR ŞEYİNE DOKUNMADIM) */
-
-
-/* =========================
-   ONLY BACKGROUND FIX (TEK DEĞİŞİKLİK)
-   ========================= */
-
-body {
-  background-color: #f7f8fa;
-}
-
-body.home,
-body.layout-home {
-  background-color: #ffffff;
-}
-
-.page,
-.post,
-.container,
-.section-card,
-.data-card {
-  background-color: #ffffff;
+.btn:hover {
+  background-color: var(--global-hover-color);
 }
