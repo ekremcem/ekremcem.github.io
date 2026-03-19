@@ -3,7 +3,7 @@ layout: page
 title: </strong>Teaching</strong>
 permalink: /teaching/
 nav: true
-nav_order: 5
+nav_order: 8
 description: Teaching & Training Activities (as Instructor).
 ---
 
