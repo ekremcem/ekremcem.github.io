@@ -44,13 +44,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/presentations/";
           },
-        },{id: "nav-lt-strong-gt-teaching-lt-strong-gt",
-          title: "&lt;/strong&gt;Teaching&lt;/strong&gt;",
-          description: "Teaching &amp; Training Activities (as Instructor).",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
         },{id: "nav-lt-strong-gt-editorial-amp-review-lt-strong-gt",
           title: "&lt;strong&gt;Editorial &amp; Review&lt;/strong&gt;",
           description: "Editorial roles and peer-review contributions.",
@@ -64,6 +57,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/committees/";
+          },
+        },{id: "nav-lt-strong-gt-teaching-lt-strong-gt",
+          title: "&lt;/strong&gt;Teaching&lt;/strong&gt;",
+          description: "Teaching &amp; Training Activities (as Instructor).",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
           },
         },{id: "nav-awards",
           title: "Awards",
