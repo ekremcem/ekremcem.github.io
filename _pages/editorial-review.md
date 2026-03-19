@@ -239,7 +239,7 @@ description: Editorial roles and peer-review contributions.
         <div class="record-content">
           <div class="record-date">2013 - 2026</div>
           <div class="record-role">Evaluator</div>
-          <p class="project-call">TAGEM Research Project Calls, Republic of Türkiye, General Directorate of Agricultural Research and Policies (TAGEM)</p>
+          <p class="project-call">TAGEM Research Project Calls, Republic of Türkiye, Ministry of Agriculture and Forestry, General Directorate of Agricultural Research and Policies (TAGEM)</p>
         </div>
       </div>
 
