@@ -7,66 +7,111 @@ nav_order: 2
 description: Research, administrative roles, skills, and languages.
 ---
 
+<style>
+  .exp-entry {
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 14px;
+    background: color-mix(in srgb, var(--global-bg-color) 92%, var(--global-theme-color) 8%);
+    margin-bottom: 1rem;
+  }
+
+  .exp-logo {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .exp-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .exp-date {
+    color: var(--global-theme-color);
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+  }
+
+  .exp-role {
+    font-weight: 700;
+  }
+</style>
+
 <div class="split-grid">
   <div>
+
     <div class="section-card">
       <h2 class="section-title">Work Experience</h2>
 
-      <div class="timeline-entry">
-        <div class="timeline-year" style="color: var(--global-theme-color); font-weight:700;">2021 – Present</div>
-        <div class="timeline-body">
-          <h3>Researcher</h3>
+      <div class="exp-entry">
+        <div class="exp-logo">
+          <img src="{{ '/assets/img/koyun.png' | relative_url }}">
+        </div>
+        <div>
+          <div class="exp-date">2021 – Present</div>
+          <div class="exp-role">Researcher</div>
           <p>Sheep Breeding Research Institute, Department of Fisheries — Balıkesir</p>
         </div>
       </div>
 
-      <div class="timeline-entry">
-        <div class="timeline-year" style="color: var(--global-theme-color); font-weight:700;">2023</div>
-        <div class="timeline-body">
-          <h3>Researcher / Expedition Participant</h3>
+      <div class="exp-entry">
+        <div class="exp-logo">
+          <img src="{{ '/assets/img/tae.png' | relative_url }}">
+        </div>
+        <div>
+          <div class="exp-date">2023</div>
+          <div class="exp-role">Researcher / Expedition Participant</div>
           <p>7th National Antarctic Science Expedition</p>
         </div>
       </div>
-      
-      <div class="timeline-entry">
-        <div class="timeline-year" style="color: var(--global-theme-color); font-weight:700;">2013 – 2021</div>
-        <div class="timeline-body">
-          <h3>Researcher</h3>
+
+      <div class="exp-entry">
+        <div class="exp-logo">
+          <img src="{{ '/assets/img/sumae.jpeg' | relative_url }}">
+        </div>
+        <div>
+          <div class="exp-date">2013 – 2021</div>
+          <div class="exp-role">Researcher</div>
           <p>Central Fisheries Research Institute, Aquaculture Department — Trabzon</p>
         </div>
       </div>
 
-      <div class="timeline-entry">
-        <div class="timeline-year" style="color: var(--global-theme-color); font-weight:700;">2012 – 2013</div>
-        <div class="timeline-body">
-          <h3>Customer Relations Officer</h3>
-          <p>Cinemaximum Cinemas — Çanakkale</p>
-        </div>
-      </div>
     </div>
 
     <div class="section-card">
       <h2 class="section-title">Administrative Roles</h2>
 
-      <div class="timeline-entry compact">
-        <div class="timeline-year" style="color: var(--global-theme-color); font-weight:700;">2025 – Present</div>
-        <div class="timeline-body">
-          <h3>Chairman</h3>
+      <div class="exp-entry">
+        <div>
+          <div class="exp-date">2025 – Present</div>
+          <div class="exp-role">Chairman</div>
           <p>Local Fisheries Ethics Committee</p>
         </div>
       </div>
 
-      <div class="timeline-entry compact">
-        <div class="timeline-year" style="color: var(--global-theme-color); font-weight:700;">2013 – 2021</div>
-        <div class="timeline-body">
-          <h3>Unit Head</h3>
+      <div class="exp-entry">
+        <div>
+          <div class="exp-date">2013 – 2021</div>
+          <div class="exp-role">Unit Head</div>
           <p>Recirculating Aquaculture System Unit, Central Fisheries Research Institute</p>
         </div>
       </div>
+
     </div>
+
   </div>
 
   <div>
+
     <div class="section-card">
       <h2 class="section-title">Skills</h2>
       <div class="tag-cloud">
@@ -83,6 +128,9 @@ description: Research, administrative roles, skills, and languages.
         <span class="tag-pill">Project development</span>
         <span class="tag-pill">Academic editing</span>
         <span class="tag-pill">R statistics</span>
+        <span class="tag-pill">Scallop biology</span>
+        <span class="tag-pill">Oyster biology</span>
+        <span class="tag-pill">Marine toxins</span>
       </div>
     </div>
 
@@ -102,5 +150,6 @@ description: Research, administrative roles, skills, and languages.
         <div class="metric-meta">YDS: 85 (2022) · YÖKDİL: 88.75 (2022)</div>
       </div>
     </div>
+
   </div>
 </div>
