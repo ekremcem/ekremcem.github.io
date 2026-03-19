@@ -121,7 +121,7 @@ description: Awards, recognitions, and distinctions.
 
       <div class="award-entry">
         <div class="award-logo award-logo--contain">
-          <img src="{{ '/assets/img/claricate.svg' | relative_url }}" alt="Clarivate">
+          <img src="{{ '/assets/img/clarivate.svg' | relative_url }}" alt="Clarivate">
         </div>
         <div class="award-content">
           <div class="award-date">2019</div>
@@ -132,7 +132,7 @@ description: Awards, recognitions, and distinctions.
 
       <div class="award-entry">
         <div class="award-logo award-logo--contain">
-          <img src="{{ '/assets/img/claricate.svg' | relative_url }}" alt="Clarivate">
+          <img src="{{ '/assets/img/clarivate.svg' | relative_url }}" alt="Clarivate">
         </div>
         <div class="award-content">
           <div class="award-date">2018</div>
