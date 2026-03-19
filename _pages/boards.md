@@ -47,15 +47,18 @@ description: Working groups, committees, and conference roles.
 
   <div class="section-card">
     <h2 class="section-title">Working Groups</h2>
-    <div class="list-grid">
-      <div class="list-item">
-        <strong>2022–Present</strong><br>
-        European Union <em>EU4Algae</em> Working Group Member
+
+    <div class="committee-list">
+      <div class="committee-entry">
+        <div class="committee-date">2022–Present</div>
+        <div class="committee-role">Working Group Member</div>
+        <p class="committee-name">European Union EU4Algae</p>
       </div>
 
-      <div class="list-item">
-        <strong>2023–Present</strong><br>
-        Technical Working Group — Assessing the Threats of Invasive Alien Species in Important Marine Biodiversity Areas (MARIAS)
+      <div class="committee-entry">
+        <div class="committee-date">2023–Present</div>
+        <div class="committee-role">Technical Working Group Member</div>
+        <p class="committee-name">Assessing the Threats of Invasive Alien Species in Important Marine Biodiversity Areas (MARIAS)</p>
       </div>
     </div>
   </div>
