@@ -107,7 +107,7 @@ description: Research, administrative roles, skills, and languages.
       <div class="timeline-entry compact" style="background: color-mix(in srgb, var(--global-bg-color) 92%, var(--global-theme-color) 8%); padding: 1rem; border-radius: 14px; margin-bottom: 1rem;">
         <div class="timeline-year" style="color: var(--global-theme-color); font-weight:700;">2025 – Present</div>
         <div class="timeline-body">
-          <h3>Chairman</h3>
+          <strong><h3>Chairman</h3></strong>
           <p>Local Fisheries Ethics Committee</p>
         </div>
       </div>
@@ -115,7 +115,7 @@ description: Research, administrative roles, skills, and languages.
       <div class="timeline-entry compact" style="background: color-mix(in srgb, var(--global-bg-color) 92%, var(--global-theme-color) 8%); padding: 1rem; border-radius: 14px;">
         <div class="timeline-year" style="color: var(--global-theme-color); font-weight:700;">2013 – 2021</div>
         <div class="timeline-body">
-          <h3>Unit Head</h3>
+         <strong><h3>Unit Head</h3></strong>
           <p>Recirculating Aquaculture System Unit, Central Fisheries Research Institute</p>
         </div>
       </div>
