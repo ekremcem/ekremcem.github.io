@@ -3,7 +3,7 @@ layout: page
 title: <strong>Experience</strong>
 permalink: /experience/
 nav: true
-nav_order: 2
+nav_order: 3
 description: Research, administrative roles, skills, and languages.
 ---
 
@@ -33,6 +33,8 @@ description: Research, administrative roles, skills, and languages.
     width: 100%;
     height: 100%;
     object-fit: contain;
+    object-position: center;
+    display: block;
   }
 
   .exp-date {
@@ -44,6 +46,19 @@ description: Research, administrative roles, skills, and languages.
   .exp-role {
     font-weight: 700;
   }
+
+  @media (max-width: 768px) {
+    .exp-entry {
+      grid-template-columns: 70px 1fr;
+      gap: 0.85rem;
+      align-items: start;
+    }
+
+    .exp-logo {
+      width: 70px;
+      height: 70px;
+    }
+  }
 </style>
 
 <div class="split-grid">
@@ -54,7 +69,7 @@ description: Research, administrative roles, skills, and languages.
 
       <div class="exp-entry">
         <div class="exp-logo">
-          <img src="{{ '/assets/img/koyun.png' | relative_url }}">
+          <img src="{{ '/assets/img/koyun.png' | relative_url }}" alt="Sheep Breeding Research Institute">
         </div>
         <div>
           <div class="exp-date">2021 – Present</div>
@@ -65,7 +80,7 @@ description: Research, administrative roles, skills, and languages.
 
       <div class="exp-entry">
         <div class="exp-logo">
-          <img src="{{ '/assets/img/tae.png' | relative_url }}">
+          <img src="{{ '/assets/img/tae.png' | relative_url }}" alt="National Antarctic Science Expedition">
         </div>
         <div>
           <div class="exp-date">2023</div>
@@ -74,9 +89,9 @@ description: Research, administrative roles, skills, and languages.
         </div>
       </div>
 
-      <div class="exp-entry">
+      <div class="exp-entry" style="margin-bottom: 0;">
         <div class="exp-logo">
-          <img src="{{ '/assets/img/sumae.jpeg' | relative_url }}">
+          <img src="{{ '/assets/img/sumae.jpeg' | relative_url }}" alt="Central Fisheries Research Institute">
         </div>
         <div>
           <div class="exp-date">2013 – 2021</div>
@@ -84,28 +99,26 @@ description: Research, administrative roles, skills, and languages.
           <p>Central Fisheries Research Institute, Aquaculture Department — Trabzon</p>
         </div>
       </div>
-
     </div>
 
     <div class="section-card">
       <h2 class="section-title">Administrative Roles</h2>
 
-      <div class="exp-entry">
-        <div>
-          <div class="exp-date">2025 – Present</div>
-          <div class="exp-role">Chairman</div>
+      <div class="timeline-entry compact" style="background: color-mix(in srgb, var(--global-bg-color) 92%, var(--global-theme-color) 8%); padding: 1rem; border-radius: 14px; margin-bottom: 1rem;">
+        <div class="timeline-year" style="color: var(--global-theme-color); font-weight:700;">2025 – Present</div>
+        <div class="timeline-body">
+          <h3>Chairman</h3>
           <p>Local Fisheries Ethics Committee</p>
         </div>
       </div>
 
-      <div class="exp-entry">
-        <div>
-          <div class="exp-date">2013 – 2021</div>
-          <div class="exp-role">Unit Head</div>
+      <div class="timeline-entry compact" style="background: color-mix(in srgb, var(--global-bg-color) 92%, var(--global-theme-color) 8%); padding: 1rem; border-radius: 14px;">
+        <div class="timeline-year" style="color: var(--global-theme-color); font-weight:700;">2013 – 2021</div>
+        <div class="timeline-body">
+          <h3>Unit Head</h3>
           <p>Recirculating Aquaculture System Unit, Central Fisheries Research Institute</p>
         </div>
       </div>
-
     </div>
 
   </div>
