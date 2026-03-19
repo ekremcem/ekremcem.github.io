@@ -59,15 +59,15 @@ ninja.data = [{
             window.location.href = "/committees/";
           },
         },{id: "nav-lt-strong-gt-teaching-lt-strong-gt",
-          title: "&lt;/strong&gt;Teaching&lt;/strong&gt;",
+          title: "&lt;strong&gt;Teaching&lt;/strong&gt;",
           description: "Teaching &amp; Training Activities (as Instructor).",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "nav-awards",
-          title: "Awards",
-          description: "Awards and distinctions.",
+        },{id: "nav-lt-strong-gt-awards-lt-strong-gt",
+          title: "&lt;strong&gt;Awards&lt;/strong&gt;",
+          description: "Awards, recognitions, and distinctions.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/awards/";
