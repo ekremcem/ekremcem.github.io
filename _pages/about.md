@@ -49,7 +49,7 @@ His areas of expertise include aquaculture, seafood chemistry, marine natural pr
 </p>
 
 <p class="about-paragraph">
-Looking for partnerships on seafood chemistry, marine bioactive compounds, macroalgae biochemistry, bivalvia culture and polar sciences.
+<em>Looking for partnerships on seafood chemistry, marine bioactive compounds, macroalgae biochemistry, bivalvia culture and polar sciences.</em>
 </p>
 
 <div class="about-contact">
