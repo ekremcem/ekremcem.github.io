@@ -101,17 +101,22 @@ description: Editorial roles and peer-review contributions.
   }
 
   .peer-review-grid {
-    column-count: 2;
-    column-gap: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 2rem;
+  }
+
+  .peer-review-column {
+    display: flex;
+    flex-direction: column;
   }
 
   .peer-review-row {
-    break-inside: avoid;
     display: grid;
-    grid-template-columns: minmax(0, 1fr) auto auto;
+    grid-template-columns: minmax(0, 1fr) 2.2rem 5.8rem;
     gap: 0.8rem;
     align-items: baseline;
-    padding: 0.28rem 0;
+    padding: 0.32rem 0;
     border-bottom: 1px solid color-mix(in srgb, var(--global-divider-color) 70%, transparent 30%);
   }
 
@@ -123,17 +128,19 @@ description: Editorial roles and peer-review contributions.
   .peer-review-count {
     font-weight: 700;
     color: var(--global-text-color);
+    text-align: right;
     white-space: nowrap;
   }
 
   .peer-review-years {
     color: var(--global-theme-color);
     white-space: nowrap;
+    text-align: right;
   }
 
   .peer-review-note {
     margin-top: 1rem;
-    color: var(--global-text-color);
+    color: var(--global-theme-color);
     line-height: 1.6;
   }
 
@@ -160,11 +167,12 @@ description: Editorial roles and peer-review contributions.
     }
 
     .peer-review-grid {
-      column-count: 1;
+      grid-template-columns: 1fr;
+      gap: 0;
     }
 
     .peer-review-row {
-      grid-template-columns: minmax(0, 1fr) auto auto;
+      grid-template-columns: minmax(0, 1fr) 2.2rem 5.8rem;
       gap: 0.6rem;
     }
   }
@@ -226,6 +234,17 @@ description: Editorial roles and peer-review contributions.
     <div class="record-list">
       <div class="record-entry">
         <div class="record-logo record-logo--contain">
+          <img src="{{ '/assets/img/tagem.png' | relative_url }}" alt="TAGEM">
+        </div>
+        <div class="record-content">
+          <div class="record-date">2013 - 2026</div>
+          <div class="record-role">Evaluator</div>
+          <p class="project-call">TAGEM Research Project Calls, Republic of Türkiye, General Directorate of Agricultural Research and Policies (TAGEM)</p>
+        </div>
+      </div>
+
+      <div class="record-entry">
+        <div class="record-logo record-logo--contain">
           <img src="{{ '/assets/img/tubitak.png' | relative_url }}" alt="TÜBİTAK">
         </div>
         <div class="record-content">
@@ -285,36 +304,40 @@ description: Editorial roles and peer-review contributions.
     <h2 class="section-title">Peer Review</h2>
 
     <div class="peer-review-grid">
-      <div class="peer-review-row"><span class="peer-review-journal">Food Chemistry</span><span class="peer-review-count">86</span><span class="peer-review-years">2016–2025</span></div>
-      <div class="peer-review-row"><span class="peer-review-journal">Algal Research</span><span class="peer-review-count">21</span><span class="peer-review-years">2023–2025</span></div>
-      <div class="peer-review-row"><span class="peer-review-journal">Current Research in Nutrition and Food Science Journal</span><span class="peer-review-count">13</span><span class="peer-review-years">2019–2020</span></div>
-      <div class="peer-review-row"><span class="peer-review-journal">Aquatic Food Studies</span><span class="peer-review-count">5</span><span class="peer-review-years">2025</span></div>
-      <div class="peer-review-row"><span class="peer-review-journal">Çanakkale Onsekiz Mart University Journal of Marine Sciences and Fisheries</span><span class="peer-review-count">5</span><span class="peer-review-years">2019–2023</span></div>
-      <div class="peer-review-row"><span class="peer-review-journal">Aquaculture Studies</span><span class="peer-review-count">3</span><span class="peer-review-years">2024–2025</span></div>
-      <div class="peer-review-row"><span class="peer-review-journal">Journal of Applied Phycology</span><span class="peer-review-count">3</span><span class="peer-review-years">2020–2021</span></div>
-      <div class="peer-review-row"><span class="peer-review-journal">Environmental Monitoring and Assessment</span><span class="peer-review-count">2</span><span class="peer-review-years">2021</span></div>
-      <div class="peer-review-row"><span class="peer-review-journal">Journal of the Black Sea Mediterranean Environment</span><span class="peer-review-count">2</span><span class="peer-review-years">2023</span></div>
-      <div class="peer-review-row"><span class="peer-review-journal">The European Zoological Journal</span><span class="peer-review-count">2</span><span class="peer-review-years">2024</span></div>
-      <div class="peer-review-row"><span class="peer-review-journal">Aquaculture Nutrition</span><span class="peer-review-count">1</span><span class="peer-review-years">2025</span></div>
-      <div class="peer-review-row"><span class="peer-review-journal">Cahiers de Biologie Marine</span><span class="peer-review-count">1</span><span class="peer-review-years">2023</span></div>
-      <div class="peer-review-row"><span class="peer-review-journal">Food &amp; Function</span><span class="peer-review-count">1</span><span class="peer-review-years">2016</span></div>
-      <div class="peer-review-row"><span class="peer-review-journal">Journal of Animal Science and Veterinary Medicine</span><span class="peer-review-count">1</span><span class="peer-review-years">2020</span></div>
-      <div class="peer-review-row"><span class="peer-review-journal">Oriental Journal of Chemistry</span><span class="peer-review-count">1</span><span class="peer-review-years">2019</span></div>
+      <div class="peer-review-column">
+        <div class="peer-review-row"><span class="peer-review-journal">Food Chemistry</span><span class="peer-review-count">86</span><span class="peer-review-years">2016–2025</span></div>
+        <div class="peer-review-row"><span class="peer-review-journal">Algal Research</span><span class="peer-review-count">21</span><span class="peer-review-years">2023–2025</span></div>
+        <div class="peer-review-row"><span class="peer-review-journal">Current Research in Nutrition and Food Science Journal</span><span class="peer-review-count">13</span><span class="peer-review-years">2019–2020</span></div>
+        <div class="peer-review-row"><span class="peer-review-journal">Aquatic Food Studies</span><span class="peer-review-count">5</span><span class="peer-review-years">2025</span></div>
+        <div class="peer-review-row"><span class="peer-review-journal">Çanakkale Onsekiz Mart University Journal of Marine Sciences and Fisheries</span><span class="peer-review-count">5</span><span class="peer-review-years">2019–2023</span></div>
+        <div class="peer-review-row"><span class="peer-review-journal">Aquaculture Studies</span><span class="peer-review-count">3</span><span class="peer-review-years">2024–2025</span></div>
+        <div class="peer-review-row"><span class="peer-review-journal">Journal of Applied Phycology</span><span class="peer-review-count">3</span><span class="peer-review-years">2020–2021</span></div>
+        <div class="peer-review-row"><span class="peer-review-journal">Environmental Monitoring and Assessment</span><span class="peer-review-count">2</span><span class="peer-review-years">2021</span></div>
+        <div class="peer-review-row"><span class="peer-review-journal">Journal of the Black Sea Mediterranean Environment</span><span class="peer-review-count">2</span><span class="peer-review-years">2023</span></div>
+        <div class="peer-review-row"><span class="peer-review-journal">The European Zoological Journal</span><span class="peer-review-count">2</span><span class="peer-review-years">2024</span></div>
+        <div class="peer-review-row"><span class="peer-review-journal">Aquaculture Nutrition</span><span class="peer-review-count">1</span><span class="peer-review-years">2025</span></div>
+        <div class="peer-review-row"><span class="peer-review-journal">Cahiers de Biologie Marine</span><span class="peer-review-count">1</span><span class="peer-review-years">2023</span></div>
+        <div class="peer-review-row"><span class="peer-review-journal">Food &amp; Function</span><span class="peer-review-count">1</span><span class="peer-review-years">2016</span></div>
+        <div class="peer-review-row"><span class="peer-review-journal">Journal of Animal Science and Veterinary Medicine</span><span class="peer-review-count">1</span><span class="peer-review-years">2020</span></div>
+        <div class="peer-review-row"><span class="peer-review-journal">Oriental Journal of Chemistry</span><span class="peer-review-count">1</span><span class="peer-review-years">2019</span></div>
+      </div>
 
-      <div class="peer-review-row"><span class="peer-review-journal">LWT - Food Science and Technology</span><span class="peer-review-count">39</span><span class="peer-review-years">2017–2021</span></div>
-      <div class="peer-review-row"><span class="peer-review-journal">Food Research International</span><span class="peer-review-count">19</span><span class="peer-review-years">2017–2020</span></div>
-      <div class="peer-review-row"><span class="peer-review-journal">Biological Trace Element Research</span><span class="peer-review-count">8</span><span class="peer-review-years">2021</span></div>
-      <div class="peer-review-row"><span class="peer-review-journal">Turkish Journal of Fisheries and Aquatic Sciences</span><span class="peer-review-count">5</span><span class="peer-review-years">2017–2018</span></div>
-      <div class="peer-review-row"><span class="peer-review-journal">Food Chemistry Advances</span><span class="peer-review-count">4</span><span class="peer-review-years">2022–2024</span></div>
-      <div class="peer-review-row"><span class="peer-review-journal">European Food Research and Technology</span><span class="peer-review-count">3</span><span class="peer-review-years">2022–2024</span></div>
-      <div class="peer-review-row"><span class="peer-review-journal">Asian Fisheries Science</span><span class="peer-review-count">2</span><span class="peer-review-years">2019</span></div>
-      <div class="peer-review-row"><span class="peer-review-journal">International Journal of Fisheries Science and Research</span><span class="peer-review-count">2</span><span class="peer-review-years">2017–2019</span></div>
-      <div class="peer-review-row"><span class="peer-review-journal">Thalassas: An International Journal of Marine Sciences</span><span class="peer-review-count">2</span><span class="peer-review-years">2021</span></div>
-      <div class="peer-review-row"><span class="peer-review-journal">Aquaculture International</span><span class="peer-review-count">1</span><span class="peer-review-years">2025</span></div>
-      <div class="peer-review-row"><span class="peer-review-journal">Aquatic Sciences and Engineering</span><span class="peer-review-count">1</span><span class="peer-review-years">2021</span></div>
-      <div class="peer-review-row"><span class="peer-review-journal">Fisheries &amp; Aquatic Life</span><span class="peer-review-count">1</span><span class="peer-review-years">2025</span></div>
-      <div class="peer-review-row"><span class="peer-review-journal">International Journal of Analytical Techniques</span><span class="peer-review-count">1</span><span class="peer-review-years">2017</span></div>
-      <div class="peer-review-row"><span class="peer-review-journal">Marine Life Science &amp; Technology</span><span class="peer-review-count">1</span><span class="peer-review-years">2020</span></div>
+      <div class="peer-review-column">
+        <div class="peer-review-row"><span class="peer-review-journal">LWT - Food Science and Technology</span><span class="peer-review-count">39</span><span class="peer-review-years">2017–2021</span></div>
+        <div class="peer-review-row"><span class="peer-review-journal">Food Research International</span><span class="peer-review-count">19</span><span class="peer-review-years">2017–2020</span></div>
+        <div class="peer-review-row"><span class="peer-review-journal">Biological Trace Element Research</span><span class="peer-review-count">8</span><span class="peer-review-years">2021</span></div>
+        <div class="peer-review-row"><span class="peer-review-journal">Turkish Journal of Fisheries and Aquatic Sciences</span><span class="peer-review-count">5</span><span class="peer-review-years">2017–2018</span></div>
+        <div class="peer-review-row"><span class="peer-review-journal">Food Chemistry Advances</span><span class="peer-review-count">4</span><span class="peer-review-years">2022–2024</span></div>
+        <div class="peer-review-row"><span class="peer-review-journal">European Food Research and Technology</span><span class="peer-review-count">3</span><span class="peer-review-years">2022–2024</span></div>
+        <div class="peer-review-row"><span class="peer-review-journal">Asian Fisheries Science</span><span class="peer-review-count">2</span><span class="peer-review-years">2019</span></div>
+        <div class="peer-review-row"><span class="peer-review-journal">International Journal of Fisheries Science and Research</span><span class="peer-review-count">2</span><span class="peer-review-years">2017–2019</span></div>
+        <div class="peer-review-row"><span class="peer-review-journal">Thalassas: An International Journal of Marine Sciences</span><span class="peer-review-count">2</span><span class="peer-review-years">2021</span></div>
+        <div class="peer-review-row"><span class="peer-review-journal">Aquaculture International</span><span class="peer-review-count">1</span><span class="peer-review-years">2025</span></div>
+        <div class="peer-review-row"><span class="peer-review-journal">Aquatic Sciences and Engineering</span><span class="peer-review-count">1</span><span class="peer-review-years">2021</span></div>
+        <div class="peer-review-row"><span class="peer-review-journal">Fisheries &amp; Aquatic Life</span><span class="peer-review-count">1</span><span class="peer-review-years">2025</span></div>
+        <div class="peer-review-row"><span class="peer-review-journal">International Journal of Analytical Techniques</span><span class="peer-review-count">1</span><span class="peer-review-years">2017</span></div>
+        <div class="peer-review-row"><span class="peer-review-journal">Marine Life Science &amp; Technology</span><span class="peer-review-count">1</span><span class="peer-review-years">2020</span></div>
+      </div>
     </div>
 
     <p class="peer-review-note">
