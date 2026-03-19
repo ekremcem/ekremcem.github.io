@@ -115,7 +115,7 @@ description: Research, administrative roles, skills, and languages.
       <div class="timeline-entry compact" style="background: color-mix(in srgb, var(--global-bg-color) 92%, var(--global-theme-color) 8%); padding: 1rem; border-radius: 14px;">
         <div class="timeline-year" style="color: var(--global-theme-color); font-weight:700;">2013 – 2021</div>
         <div class="timeline-body">
-         <strong><h3>Unit Head</h3></strong>
+         <strong>Unit Head</strong>
           <p>Recirculating Aquaculture System Unit, Central Fisheries Research Institute</p>
         </div>
       </div>
