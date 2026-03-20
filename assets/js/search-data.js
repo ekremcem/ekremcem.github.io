@@ -72,8 +72,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/awards/";
           },
-        },{id: "nav-impact",
-          title: "Impact",
+        },{id: "nav-lt-strong-gt-impact-lt-strong-gt",
+          title: "&lt;strong&gt;Impact&lt;/strong&gt;",
           description: "Media visibility, outreach, and wider impact.",
           section: "Navigation",
           handler: () => {
