@@ -144,11 +144,6 @@ description: Conference and other presentations in reverse chronological order.
   }
 
   .presentation-meta {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 0.75rem;
-    flex-wrap: wrap;
     margin-top: 0.55rem;
   }
 
@@ -157,6 +152,8 @@ description: Conference and other presentations in reverse chronological order.
     align-items: center;
     gap: 0.45rem;
     flex-wrap: wrap;
+    margin-left: 0.35rem;
+    vertical-align: middle;
   }
 
   .presentation-link {
@@ -179,6 +176,12 @@ description: Conference and other presentations in reverse chronological order.
   }
 
   .presentation-link.rg img {
+    width: 16px;
+    height: 16px;
+    display: block;
+  }
+
+  .sdg-trigger img {
     width: 16px;
     height: 16px;
     display: block;
@@ -398,7 +401,7 @@ description: Conference and other presentations in reverse chronological order.
     }
 
     function createLinkControls(entry) {
-      const wrapper = document.createElement('div');
+      const wrapper = document.createElement('span');
       wrapper.className = 'presentation-links';
 
       if (entry.rg) {
@@ -408,7 +411,7 @@ description: Conference and other presentations in reverse chronological order.
         rg.target = '_blank';
         rg.rel = 'noopener';
         rg.setAttribute('aria-label', 'ResearchGate link');
-        rg.innerHTML = '<img src="{ "/assets/img/researchgate.svg" | relative_url }" alt="ResearchGate">';
+        rg.innerHTML = `<img src="{{ '/assets/img/researchgate.svg' | relative_url }}" alt="ResearchGate">`;
         wrapper.appendChild(rg);
       }
 
@@ -424,20 +427,22 @@ description: Conference and other presentations in reverse chronological order.
       });
 
       if (entry.sdgs && entry.sdgs.length) {
-        const sdgWrap = document.createElement('div');
+        const sdgWrap = document.createElement('span');
         sdgWrap.className = 'sdg-wrap';
         sdgWrap.innerHTML = `
-          <button class="sdg-trigger" type="button" aria-label="Show SDGs">🎯</button>
+          <button class="sdg-trigger" type="button" aria-label="Show SDGs">
+            <img src="{{ '/assets/img/sdgicon.png' | relative_url }}" alt="SDGs">
+          </button>
           <div class="sdg-popover">
             <div class="sdg-icons">
-              ${entry.sdgs.map(sdg => `<img src="{ "/assets/img/" | relative_url }${sdg}.png" alt="${sdg.toUpperCase().replace('SDG', 'SDG ')}">`).join('')}
+              ${entry.sdgs.map(sdg => `<img src="{{ '/assets/img/' | relative_url }}${sdg}.png" alt="${sdg.toUpperCase().replace('SDG', 'SDG ')}">`).join('')}
             </div>
           </div>
         `;
         wrapper.appendChild(sdgWrap);
       }
 
-      const citeWrap = document.createElement('div');
+      const citeWrap = document.createElement('span');
       citeWrap.className = 'cite-wrap';
       const citation = buildApaCitation(entry);
       citeWrap.innerHTML = `
@@ -472,17 +477,17 @@ description: Conference and other presentations in reverse chronological order.
         chips.appendChild(chip);
       });
 
-      meta.appendChild(chips);
-      meta.appendChild(createLinkControls(entry));
+      const linksHtml = createLinkControls(entry).outerHTML;
 
       item.innerHTML = `
         <div class="presentation-year">${entry.year}</div>
         <div class="presentation-text">
           ${highlightSelf(entry.authors)},
           <span class="presentation-title">${entry.title_html}</span>.
-          <span class="presentation-event">${entry.event}</span>, ${entry.date_place}.
+          <span class="presentation-event">${entry.event}</span>, ${entry.date_place}.${linksHtml}
         </div>
       `;
+      meta.appendChild(chips);
       item.appendChild(meta);
       return item;
     }
