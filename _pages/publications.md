@@ -229,8 +229,6 @@ description: Publications.
       }
     });
 
-    const titles = document.querySelectorAll('.section-title');
-    if (titles[0]) titles[0].style.display = shownArticles ? '' : 'none';
     const bookTitle = document.querySelector('.pub-section-title');
     if (bookTitle) bookTitle.style.display = shownBooks ? '' : 'none';
     articleList.style.display = shownArticles ? '' : 'none';
