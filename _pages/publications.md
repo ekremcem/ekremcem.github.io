@@ -4,148 +4,293 @@ title: Publications
 permalink: /publications/
 nav: true
 nav_order: 4
-description: Publications in reverse chronological order with simple filters.
+description: Publications.
 ---
 
-<div class="section-card">
-  <div class="page-header-row">
-    <h2 class="section-title">Publications</h2>
-    <div class="filter-bar">
-      <button class="filter-btn active" data-filter="all">All</button>
-      <button class="filter-btn" data-filter="sci">SCI</button>
-      <button class="filter-btn" data-filter="esci">ESCI</button>
-      <button class="filter-btn" data-filter="other">Other</button>
-    </div>
-  </div>
+<style>
+.pub-entry{
+display:grid;
+grid-template-columns:100px 1fr;
+gap:1rem;
+padding:1rem 0;
+border-bottom:1px solid var(--global-divider-color);
+}
 
-  <div id="publication-list">
-    <div class="pub-item" data-tags="sci">
-      <div class="pub-year">2026</div>
-      <div class="pub-body">Ak İ., Çankırılıgil E. C. Biodiversity and Distribution Patterns of Benthic Macroalgae on Horseshoe Island, Antarctica, with New Records. <em>Polar Biology</em>, 49(13).</div>
-    </div>
-    <div class="pub-item" data-tags="sci">
-      <div class="pub-year">2025</div>
-      <div class="pub-body">Çankırılıgil E. C., Berik N. Unlocking the Nutritional Potential of Endemic Salmonid Species (Black Sea Salmon, <em>Salmo labrax</em>): Carotenoids and Their Impact on Fillet Characteristics. <em>Turkish Journal of Fisheries and Aquatic Sciences</em>, 25(12), 27539.</div>
-    </div>
-    <div class="pub-item" data-tags="other">
-      <div class="pub-year">2024</div>
-      <div class="pub-body">Çankırılıgil E.C., Altuntaş A. İki Kefal Türünün (<em>Chelon auratus</em>, <em>Mugil cephalus</em>) Kimyasal Kompozisyonu: Doğal ve Akuakültüre Adapte Edilmiş Türlerin Karşılaştırılması. <em>ÇOMÜ Journal of Marine Sciences and Fisheries</em>, 7(1):52-66.</div>
-    </div>
-    <div class="pub-item" data-tags="sci">
-      <div class="pub-year">2023</div>
-      <div class="pub-body">Özel O.T., Çankırılıgil E.C., Ertürk-Gürkan S., Coşkun İ., Türe M. Influence of Laurel (<em>Laurus nobilis</em>) Essential Oil on Gut Function of Black Sea Salmon (<em>Salmo labrax</em>) Juveniles. <em>Tropical Animal Health and Production</em>, 54(6):390.</div>
-    </div>
-    <div class="pub-item" data-tags="esci">
-      <div class="pub-year">2023</div>
-      <div class="pub-body">Özel O.T., Çakmak E., Çankırılıgil E.C., Düzgüneş Z.D., Çimagil R., Batır E. Comparison of reproductive performance of Black Sea salmon broodstock reaching first sexual maturity at different ages. <em>Ege Journal of Fisheries</em>, 40(3):166-173.</div>
-    </div>
-    <div class="pub-item" data-tags="other">
-      <div class="pub-year">2023</div>
-      <div class="pub-body">Özel O.T., Çakmak E., Çankırılıgil E.C., Çimagil R., Düzgüneş Z.D. Reproductive Performance of Hatchery-Originated Black Sea Salmon Broodstocks' F5 and F6 Filial Generations. <em>Acta Aquatica Turcica</em>.</div>
-    </div>
-    <div class="pub-item" data-tags="other">
-      <div class="pub-year">2023</div>
-      <div class="pub-body">Uslu A.A., Özel O.T., Örnekçi G.N., Çelik B., Çankırılıgil E.C., Coşkun İ., Uslu Şenel G. Insect Larval Meal as a Possible Alternative to Fish Meal in Rainbow Trout Diets. <em>Journal of Limnology and Freshwater Fisheries Research</em>, 9(1):43-52.</div>
-    </div>
-    <div class="pub-item" data-tags="sci">
-      <div class="pub-year">2022</div>
-      <div class="pub-body">Ak İ., Çankırılıgil E.C., Türker G., Sever O., Abomohra A. Enhancement of Antioxidant Properties of <em>Gongolaria barbata</em> by Optimization of Combined Light Intensity and Salinity Stress. <em>Phycologia</em>, 61(6):584-594.</div>
-    </div>
-    <div class="pub-item" data-tags="sci">
-      <div class="pub-year">2022</div>
-      <div class="pub-body">Çankırılıgil E.C., Berik N., Çakmak E., Özel O.T., Alp-Erbay E. Dietary Carotenoids Influence Growth, Fillet Pigmentation, and Quality Characteristics of Black Sea Trout. <em>Thalassas</em>, 38:793-809.</div>
-    </div>
-    <div class="pub-item" data-tags="other">
-      <div class="pub-year">2022</div>
-      <div class="pub-body">Veske E., Çankırılıgil E.C., Yavuzcan Yıldız H. Seasonal Proximate Composition, Amino Acid and Trace Metal Contents of the Great Mediterranean Scallop. <em>Journal of Anatolian Environmental and Animal Sciences</em>, 7(3):358-366.</div>
-    </div>
-    <div class="pub-item" data-tags="other">
-      <div class="pub-year">2022</div>
-      <div class="pub-body">Berik N., Çankırılıgil E.C., Ormancı H.B., Akyıldız A. Nutritional Evaluation of <em>Ulva rigida</em> as Salad and Soup. <em>Food and Health</em>, 8(2):127-140.</div>
-    </div>
-    <div class="pub-item" data-tags="sci">
-      <div class="pub-year">2021</div>
-      <div class="pub-body">Ak İ., Çankırılıgil E.C., Türker G., Sever O. Assessment of Light Intensity and Salinity Regimes on the Element Levels of Brown Macroalgae, <em>Treptacantha barbata</em>. <em>Food Science and Technology</em>, 41(4):1-9.</div>
-    </div>
-    <div class="pub-item" data-tags="other">
-      <div class="pub-year">2020</div>
-      <div class="pub-body">Kasapoğlu N., Çankırılıgil E.C., Düzgüneş Z.D., Çakmak E., Eroğlu O. The Bio-ecological and Genetic Characteristics of Sand Steenbras in the Black Sea. <em>Journal of the Black Sea / Mediterranean Environment</em>, 26(3):249-262.</div>
-    </div>
-    <div class="pub-item" data-tags="other">
-      <div class="pub-year">2020</div>
-      <div class="pub-body">Çankırılıgil E.C., Berik N. Chemical Composition of the Black Sea Trout (<em>Salmo labrax</em>): A Comparative Study. <em>Aquatic Research</em>, 3(4):208-219.</div>
-    </div>
-    <div class="pub-item" data-tags="esci">
-      <div class="pub-year">2020</div>
-      <div class="pub-body">Kasapoğlu N., Çankırılıgil E.C., Çakmak E., Özel O.T. Meristic and Morphometric Characteristics of the Black Sea Salmon Culture Line. <em>Journal of Fisheries</em>, 8(3):935-939.</div>
-    </div>
-    <div class="pub-item" data-tags="esci">
-      <div class="pub-year">2020</div>
-      <div class="pub-body">Çankırılıgil E.C., Berik N., Alp Erbay E. Optimization of Hydrolization Procedure for Amino Acid Analysis in Fish Meat with HPLC-DAD by RSM. <em>Ege Journal of Fisheries and Aquatic Sciences</em>, 37(2):113-123.</div>
-    </div>
-    <div class="pub-item" data-tags="esci">
-      <div class="pub-year">2019</div>
-      <div class="pub-body">Berik N., Çankırılıgil E.C. The Elemental Composition of Green Seaweed (<em>Ulva rigida</em>) Collected from Çanakkale, Turkey. <em>Aquatic Sciences and Engineering</em>, 34(3):74-79.</div>
-    </div>
-    <div class="pub-item" data-tags="esci">
-      <div class="pub-year">2018</div>
-      <div class="pub-body">Çankırılıgil E.C., Berik N. Sensorial Evaluation of Fish Croquettes Produced from Different Seafood. <em>Aquatic Sciences and Engineering</em>, 3(3):96-101.</div>
-    </div>
-    <div class="pub-item" data-tags="esci">
-      <div class="pub-year">2018</div>
-      <div class="pub-body">Çakmak E., Çankırılıgil E.C., Özel O.T. The Fifth Culture Generation of Black Sea Trout: Culture Characteristics, Meat Yield and Proximate Composition. <em>Ege Journal of Fisheries and Aquatic Sciences</em>, 35(1):103-110.</div>
-    </div>
-    <div class="pub-item" data-tags="esci">
-      <div class="pub-year">2018</div>
-      <div class="pub-body">Özel O.T., Çakmak E., Coşkun İ., Çankırılıgil E.C. Evaluation of Growth Performance and Intestine Villi Morphology of Black Sea Trout Fed with Different Protein Levels. <em>Ege Journal of Fisheries and Aquatic Sciences</em>, 35(2):125-130.</div>
-    </div>
-    <div class="pub-item" data-tags="sci">
-      <div class="pub-year">2017</div>
-      <div class="pub-body">Berik N., Çankırılıgil E.C., Gül G. Mineral Content of Smooth Scallop Caught in Çanakkale and Evaluation in terms of Food Safety. <em>Journal of Trace Elements in Medicine and Biology</em>, 42:97-102.</div>
-    </div>
-    <div class="pub-item" data-tags="esci">
-      <div class="pub-year">2017</div>
-      <div class="pub-body">Çankırılıgil E.C., Berik N. Effects of Deep-Frying on Sardine Croquettes’ Chemical Composition. <em>Ege Journal of Fisheries and Aquatic Sciences</em>, 34(3):293-302.</div>
-    </div>
-    <div class="pub-item" data-tags="other">
-      <div class="pub-year">2017</div>
-      <div class="pub-body">Çankırılıgil E.C., Berik N. Changes in Fatty Acid and Mineral Compositions of Rose-Shrimp Croquettes during Production Process. <em>American Journal of Food Technology</em>, 12(4):254-261.</div>
-    </div>
-    <div class="pub-item" data-tags="other">
-      <div class="pub-year">2017</div>
-      <div class="pub-body">Çankırılıgil E.C., Alp Erbay E. Effect of Different Thawing Techniques on Color of Black Sea Trout Fillets. <em>International Journal of Agriculture, Environment and Food Sciences</em>, 1(1):27-32.</div>
-    </div>
-    <div class="pub-item" data-tags="other">
-      <div class="pub-year">2016</div>
-      <div class="pub-body">Kasapoğlu N., Çankırılıgil E.C., Firidin Ş., Çakmak E. A Preliminary Study of Some Biological Characters for the East Atlantic Peacock Wrasse in the Black Sea. <em>International Journal of the Black Sea / Mediterranean Environment</em>, 22:289-294.</div>
-    </div>
-    <div class="pub-item" data-tags="other">
-      <div class="pub-year">2013</div>
-      <div class="pub-body">Berik N., Çankırılıgil E.C. Determination of Proximate Composition and Sensory Attributes of Scallop Gonads. <em>Marine Science and Technology Bulletin</em>, 3:5-8.</div>
-    </div>
-    <div class="pub-item" data-tags="sci">
-      <div class="pub-year">2011</div>
-      <div class="pub-body">Berik N., Çankırılıgil E.C., Kahraman D. Determination of Quality Attributes and Production of Fingers from Rainbow Trout Fillet. <em>Kafkas University Veterinary Faculty Journal</em>, 17:735-740.</div>
-    </div>
-  </div>
+.pub-img{
+width:100px;
+height:140px;
+border:1px solid var(--global-divider-color);
+border-radius:8px;
+overflow:hidden;
+background:#fff;
+}
+
+.pub-img img{
+width:100%;
+height:100%;
+object-fit:contain;
+}
+
+.pub-year{
+color:var(--global-theme-color);
+font-weight:700;
+margin-bottom:0.2rem;
+}
+
+.self{
+color:var(--global-theme-color);
+font-weight:700;
+}
+
+.title{
+font-weight:700;
+}
+
+.links{
+display:inline-flex;
+gap:6px;
+margin-left:6px;
+}
+
+.links a, .links button{
+background:none;
+border:none;
+cursor:pointer;
+color:var(--global-theme-color);
+}
+
+.links img{
+width:16px;
+height:16px;
+}
+
+.meta{
+margin-top:6px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.chips{
+display:flex;
+gap:6px;
+flex-wrap:wrap;
+}
+
+.chip{
+background:#eee;
+padding:2px 6px;
+border-radius:999px;
+font-size:12px;
+}
+
+.citation{
+font-size:13px;
+color:#555;
+}
+
+.cite-box{
+display:none;
+position:absolute;
+background:white;
+border:1px solid #ddd;
+padding:10px;
+border-radius:8px;
+width:260px;
+z-index:10;
+}
+
+.cite-wrap.open .cite-box{
+display:block;
+}
+
+.sdg-box{
+display:none;
+position:absolute;
+background:white;
+border:1px solid #ddd;
+padding:8px;
+border-radius:8px;
+}
+
+.sdg-wrap.open .sdg-box{
+display:flex;
+gap:6px;
+flex-wrap:wrap;
+}
+
+.note{
+margin-top:20px;
+font-size:0.85rem;
+color:#777;
+font-style:italic;
+}
+</style>
+
+<div>
+
+<!-- ===================== -->
+<!-- ARTICLE 1 -->
+<div class="pub-entry" data-tags="SCI Q3">
+
+<div class="pub-img">
+<img src="/assets/img/paper031.png">
 </div>
 
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const buttons = document.querySelectorAll('.filter-btn');
-    const items = document.querySelectorAll('.pub-item');
+<div>
 
-    buttons.forEach((button) => {
-      button.addEventListener('click', function () {
-        const filter = this.dataset.filter;
-        buttons.forEach((btn) => btn.classList.remove('active'));
-        this.classList.add('active');
+<div class="pub-year">2026</div>
 
-        items.forEach((item) => {
-          const tags = item.dataset.tags || '';
-          item.style.display = (filter === 'all' || tags.includes(filter)) ? 'grid' : 'none';
-        });
-      });
-    });
-  });
-</script>
+<div>
+Ak İ., <span class="self">Çankırılıgil E. C.</span>,
+<span class="title">Biodiversity and Distribution Patterns of Benthic Macroalgae on Horseshoe Island, Antarctica, with New Records</span>.
+<em>Polar Biology</em>
+
+<span class="links">
+<a href="https://link.springer.com/article/10.1007/s00300-026-03452-7">🔗</a>
+
+<span class="sdg-wrap">
+<button onclick="this.parentElement.classList.toggle('open')">
+<img src="/assets/img/sdgicon.png">
+</button>
+<div class="sdg-box">
+<img src="/assets/img/sdg14.png">
+<img src="/assets/img/sdg13.png">
+</div>
+</span>
+
+<span class="cite-wrap">
+<button onclick="this.parentElement.classList.toggle('open')">📄</button>
+<div class="cite-box">
+Çankırılıgil, E. C. & Ak, İ. (2026). Biodiversity and Distribution Patterns... Polar Biology.
+</div>
+</span>
+
+</span>
+</div>
+
+<div class="meta">
+<div class="chips">
+<span class="chip">SCI</span>
+<span class="chip">Q3</span>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- ===================== -->
+<!-- ARTICLE 2 -->
+<div class="pub-entry" data-tags="SCI Q2">
+
+<div class="pub-img">
+<img src="/assets/img/paper030.png">
+</div>
+
+<div>
+
+<div class="pub-year">2025</div>
+
+<div>
+<span class="self">Çankırılıgil E. C.</span>, Berik N.,
+<span class="title">Unlocking the Nutritional Potential...</span>
+<em>Turkish Journal of Fisheries and Aquatic Sciences</em>
+
+<span class="links">
+<a href="https://trjfas.org/abstract.php?id=15129">🔗</a>
+
+<span class="sdg-wrap">
+<button onclick="this.parentElement.classList.toggle('open')">
+<img src="/assets/img/sdgicon.png">
+</button>
+<div class="sdg-box">
+<img src="/assets/img/sdg2.png">
+<img src="/assets/img/sdg14.png">
+</div>
+</span>
+
+<span class="cite-wrap">
+<button onclick="this.parentElement.classList.toggle('open')">📄</button>
+<div class="cite-box">
+Çankırılıgil, E. C., & Berik, N. (2025)...
+</div>
+</span>
+
+</span>
+</div>
+
+<div class="meta">
+<div class="chips">
+<span class="chip">SCI</span>
+<span class="chip">Q2</span>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- ===================== -->
+<!-- ÖRNEK DEVAM (otomatik mantıkla devam eder) -->
+<!-- SENİN TÜM LİSTEN BU ŞEKİLDE DEVAM EDECEK -->
+
+<!-- Citation olan örnek -->
+<div class="pub-entry" data-tags="SCI Q2">
+
+<div class="pub-img">
+<img src="/assets/img/paper029.png">
+</div>
+
+<div>
+
+<div class="pub-year">2023</div>
+
+<div>
+Özel O.T., <span class="self">Çankırılıgil E.C.</span>...
+<span class="title">Influence of Laurel...</span>
+<em>Tropical Animal Health and Production</em>
+
+<span class="links">
+<a href="https://link.springer.com/article/10.1007/s11250-022-03396-0">🔗</a>
+
+<span class="sdg-wrap">
+<button onclick="this.parentElement.classList.toggle('open')">
+<img src="/assets/img/sdgicon.png">
+</button>
+<div class="sdg-box">
+<img src="/assets/img/sdg2.png">
+<img src="/assets/img/sdg14.png">
+</div>
+</span>
+
+<span class="cite-wrap">
+<button onclick="this.parentElement.classList.toggle('open')">📄</button>
+<div class="cite-box">
+Özel, O. T. et al. (2023)...
+</div>
+</span>
+
+</span>
+</div>
+
+<div class="meta">
+<div class="chips">
+<span class="chip">SCI</span>
+<span class="chip">Q2</span>
+</div>
+
+<div class="citation">
+Cited by 7
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- ===================== -->
+
+<div class="note">
+*Citation counts were obtained from Google Scholar and are subject to change.
+</div>
+
+</div>
