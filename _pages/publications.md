@@ -153,7 +153,7 @@ function createEntry(entry){
   const imgPath=`{{ '/assets/img/' | relative_url }}${entry.image}`;
   const citationHtml=entry.citations>0?`<div class="citation-count">Cited by ${entry.citations}</div>`:'';
   node.innerHTML=`
-    <div class="pub-thumb"><img src="${imgPath}" alt="${entry.image}"></div>
+    <div class="pub-thumb"><a href="${entry.link}" target="_blank" rel="noopener" aria-label="Open publication page"><img src="${imgPath}" alt="${entry.image}"></a></div>
     <div class="pub-body">
       <div class="pub-year">${entry.year}</div>
       <div class="pub-text">
