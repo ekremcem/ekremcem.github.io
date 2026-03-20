@@ -11,49 +11,55 @@ description: Media visibility, outreach, and wider impact.
   .impact-list {
     display: flex;
     flex-direction: column;
-    gap: 1.4rem;
+    gap: 1.5rem;
   }
 
   .impact-card {
     display: grid;
-    grid-template-columns: 260px 1fr;
-    gap: 1.1rem;
+    grid-template-columns: 280px 1fr;
+    gap: 1.15rem;
     border: 1px solid var(--global-divider-color);
     border-radius: 16px;
     overflow: hidden;
     background: var(--global-bg-color);
-    text-decoration: none;
-    color: inherit;
-    transition: transform 0.18s ease, box-shadow 0.18s ease;
   }
 
-  .impact-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
-    text-decoration: none;
-    color: inherit;
-  }
-
-  .impact-media {
+  .impact-media-link {
+    display: block;
     width: 100%;
-    min-height: 190px;
+    height: 100%;
+    min-height: 210px;
     background: color-mix(in srgb, var(--global-bg-color) 92%, var(--global-theme-color) 8%);
     overflow: hidden;
   }
 
-  .impact-media img,
-  .impact-media iframe {
+  .impact-media-link:hover {
+    text-decoration: none;
+  }
+
+  .impact-media-link img {
     width: 100%;
     height: 100%;
     display: block;
-  }
-
-  .impact-media img {
     object-fit: cover;
   }
 
-  .impact-media.video {
-    min-height: 220px;
+  .impact-video-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 210px;
+    padding: 1rem;
+    background: color-mix(in srgb, var(--global-bg-color) 90%, var(--global-theme-color) 10%);
+    color: var(--global-theme-color);
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  .impact-video-link:hover {
+    text-decoration: none;
+    opacity: 0.9;
   }
 
   .impact-body {
@@ -78,9 +84,19 @@ description: Media visibility, outreach, and wider impact.
     font-size: 1.02rem;
   }
 
+  .impact-title a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .impact-title a:hover {
+    color: var(--global-theme-color);
+    text-decoration: none;
+  }
+
   .impact-source {
     font-size: 0.92rem;
-    line-height: 1.6;
+    line-height: 1.65;
     color: var(--global-text-color);
     opacity: 0.95;
   }
@@ -95,10 +111,18 @@ description: Media visibility, outreach, and wider impact.
   }
 
   .impact-link-line {
-    margin-top: 0.7rem;
+    margin-top: 0.75rem;
     font-size: 0.9rem;
-    color: var(--global-theme-color);
     font-weight: 600;
+  }
+
+  .impact-link-line a {
+    color: var(--global-theme-color);
+    text-decoration: none;
+  }
+
+  .impact-link-line a:hover {
+    text-decoration: underline;
   }
 
   @media (max-width: 860px) {
@@ -110,12 +134,9 @@ description: Media visibility, outreach, and wider impact.
       padding: 0 1rem 1rem 1rem;
     }
 
-    .impact-media {
-      min-height: 210px;
-    }
-
-    .impact-media.video {
-      min-height: 240px;
+    .impact-media-link,
+    .impact-video-link {
+      min-height: 220px;
     }
   }
 </style>
@@ -125,70 +146,81 @@ description: Media visibility, outreach, and wider impact.
 
   <div class="impact-list">
 
-    <a class="impact-card" href="https://doi.org/10.1038/d41586-023-02314-0" target="_blank" rel="noopener">
-      <div class="impact-media">
+    <div class="impact-card">
+      <a class="impact-media-link" href="https://doi.org/10.1038/d41586-023-02314-0" target="_blank" rel="noopener">
         <img src="{{ '/assets/img/nature.jpg' | relative_url }}" alt="Nature feature">
-      </div>
+      </a>
       <div class="impact-body">
         <div class="impact-year">2023</div>
-        <div class="impact-title">I sample Antarctica’s seaweed to improve human health</div>
+        <div class="impact-title">
+          <a href="https://doi.org/10.1038/d41586-023-02314-0" target="_blank" rel="noopener">I sample Antarctica’s seaweed to improve human health</a>
+        </div>
         <div class="impact-source">
           Where I Work, Nature. <a href="https://www.linkedin.com/in/nic-fleming-8a572844/" target="_blank" rel="noopener">Nic Fleming</a>. Photo:
           <a href="https://www.instagram.com/sebnemcoskun/" target="_blank" rel="noopener">Şebnem Coşkun</a>.
         </div>
-        <div class="impact-link-line">Open article ↗</div>
+        <div class="impact-link-line">
+          <a href="https://doi.org/10.1038/d41586-023-02314-0" target="_blank" rel="noopener">Open article ↗</a>
+        </div>
       </div>
-    </a>
+    </div>
 
-    <a class="impact-card" href="https://polarjournal.ch/en/2023/07/31/medical-use-for-antarctic-seaweed/" target="_blank" rel="noopener">
-      <div class="impact-media">
+    <div class="impact-card">
+      <a class="impact-media-link" href="https://polarjournal.ch/en/2023/07/31/medical-use-for-antarctic-seaweed/" target="_blank" rel="noopener">
         <img src="{{ '/assets/img/polarj.jpeg' | relative_url }}" alt="Polar Journal feature">
-      </div>
+      </a>
       <div class="impact-body">
         <div class="impact-year">2023</div>
-        <div class="impact-title">Medical Use for Antarctic Seaweed?</div>
+        <div class="impact-title">
+          <a href="https://polarjournal.ch/en/2023/07/31/medical-use-for-antarctic-seaweed/" target="_blank" rel="noopener">Medical Use for Antarctic Seaweed?</a>
+        </div>
         <div class="impact-source">
           Polar Journal. <a href="https://www.linkedin.com/in/julia-hager-77812142/" target="_blank" rel="noopener">Julia Hager</a>. Photo:
           <a href="https://linkedin.com/in/michael-wenger-phd?skipRedirect=true&miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAgujQEBeHEpC4ksR2gKjH7FKaZDl9LpPM4" target="_blank" rel="noopener">Michael Wenger</a>.
         </div>
-        <div class="impact-link-line">Open article ↗</div>
+        <div class="impact-link-line">
+          <a href="https://polarjournal.ch/en/2023/07/31/medical-use-for-antarctic-seaweed/" target="_blank" rel="noopener">Open article ↗</a>
+        </div>
       </div>
-    </a>
+    </div>
 
-    <a class="impact-card" href="https://www.aa.com.tr/tr/gundem/turk-bilim-insanlarinin-guney-kutbundaki-laboratuvari-antarktika/2860096" target="_blank" rel="noopener">
-      <div class="impact-media">
+    <div class="impact-card">
+      <a class="impact-media-link" href="https://www.aa.com.tr/tr/gundem/turk-bilim-insanlarinin-guney-kutbundaki-laboratuvari-antarktika/2860096" target="_blank" rel="noopener">
         <img src="{{ '/assets/img/anadolu.jpg' | relative_url }}" alt="Anadolu Ajansı feature">
-      </div>
+      </a>
       <div class="impact-body">
         <div class="impact-year">2023</div>
-        <div class="impact-title">Türk Bilim İnsanlarının Güney Kutbu’ndaki Laboratuvarı: Antarktika</div>
+        <div class="impact-title">
+          <a href="https://www.aa.com.tr/tr/gundem/turk-bilim-insanlarinin-guney-kutbundaki-laboratuvari-antarktika/2860096" target="_blank" rel="noopener">Türk Bilim İnsanlarının Güney Kutbu’ndaki Laboratuvarı: Antarktika</a>
+        </div>
         <div class="impact-source">
           Anadolu Ajansı. Photo:
           <a href="https://www.instagram.com/sebnemcoskun/" target="_blank" rel="noopener">Şebnem Coşkun</a>.
         </div>
-        <div class="impact-link-line">Open article ↗</div>
+        <div class="impact-link-line">
+          <a href="https://www.aa.com.tr/tr/gundem/turk-bilim-insanlarinin-guney-kutbundaki-laboratuvari-antarktika/2860096" target="_blank" rel="noopener">Open article ↗</a>
+        </div>
       </div>
-    </a>
+    </div>
 
-    <a class="impact-card" href="https://www.aa.com.tr/tr/gundem/turk-bilim-insanlarinin-guney-kutbundaki-laboratuvari-antarktika/2860096" target="_blank" rel="noopener">
-      <div class="impact-media video">
-        <iframe
-          src="https://platform.twitter.com/embed/Tweet.html?id=1641817643434008579"
-          title="Anadolu Ajansı video"
-          frameborder="0"
-          allowfullscreen>
-        </iframe>
-      </div>
+    <div class="impact-card">
+      <a class="impact-video-link" href="https://x.com/anadoluajansi/status/1641817643434008579" target="_blank" rel="noopener">
+        Watch interview/video on X ↗
+      </a>
       <div class="impact-body">
         <div class="impact-year">2023</div>
-        <div class="impact-title">Türk bilim insanları 7. Ulusal Antarktika Bilim Seferi kapsamında yer bilimleri, yaşam bilimleri, fiziki bilimler ve sosyal bilimler konularında 18 ayrı projeyi Antarktika'ya taşıdı.</div>
+        <div class="impact-title">
+          <a href="https://www.aa.com.tr/tr/gundem/turk-bilim-insanlarinin-guney-kutbundaki-laboratuvari-antarktika/2860096" target="_blank" rel="noopener">Türk bilim insanları 7. Ulusal Antarktika Bilim Seferi kapsamında yer bilimleri, yaşam bilimleri, fiziki bilimler ve sosyal bilimler konularında 18 ayrı projeyi Antarktika'ya taşıdı.</a>
+        </div>
         <div class="impact-source">
           Anadolu Ajansı. Interview:
           <a href="https://www.instagram.com/sebnemcoskun/" target="_blank" rel="noopener">Şebnem Coşkun</a>.
         </div>
-        <div class="impact-link-line">Open article ↗</div>
+        <div class="impact-link-line">
+          <a href="https://x.com/anadoluajansi/status/1641817643434008579" target="_blank" rel="noopener">Open video ↗</a>
+        </div>
       </div>
-    </a>
+    </div>
 
   </div>
 </div>
