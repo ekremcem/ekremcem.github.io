@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Impact
+title: <strong>Impact</strong>
 permalink: /impact/
 nav: true
 nav_order: 10
