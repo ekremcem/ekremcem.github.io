@@ -1,8 +1,19 @@
 <style>
+  .navbar .nav-link,
+  .navbar .dropdown-item {
+    font-weight: 700 !important;
+  }
+
   .navbar .nav-item.active > .nav-link,
   .navbar .nav-link.active,
   .navbar .dropdown-item.active {
     color: var(--global-theme-color) !important;
+    font-weight: 700 !important;
+  }
+
+  .navbar .navbar-brand {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
     font-weight: 700 !important;
   }
 </style>
@@ -84,8 +95,15 @@
                   </div>
                 </li>
               {% else %}
-                {% assign parent_link = p.permalink | remove: 'index.html' %}
-                <li class="nav-item {% if page.url contains parent_link %}active{% endif %}">
+                {% assign current_page = page.url | remove: 'index.html' %}
+                {% assign nav_page = p.url | remove: 'index.html' %}
+                {% assign is_active_page = false %}
+                {% if current_page == nav_page %}
+                  {% assign is_active_page = true %}
+                {% elsif nav_page != '/' and current_page contains nav_page %}
+                  {% assign is_active_page = true %}
+                {% endif %}
+                <li class="nav-item {% if is_active_page %}active{% endif %}">
                   {% if p.permalink contains '://' %}
                     {% assign url = p.permalink %}
                   {% elsif p.permalink contains '/blog/' %}
@@ -93,7 +111,7 @@
                   {% else %}
                     {% assign url = p.url %}
                   {% endif %}
-                  <a class="nav-link {% if page.url contains parent_link %}active{% endif %}" href="{{ url | relative_url }}">
+                  <a class="nav-link {% if is_active_page %}active{% endif %}" href="{{ url | relative_url }}">
                     {{ p.title }}
                     {% if page.url contains p.url %}
                       <span class="sr-only">(current)</span>
