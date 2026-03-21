@@ -331,6 +331,32 @@ description: Projects as project leader and researcher.
   opacity: 1;
 }
 
+
+/* Align researcher items with leader image column */
+.project-simple {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 1.2rem;
+}
+
+.project-simple > * {
+  grid-column: 2;
+}
+
+.project-simple::before {
+  content: "";
+  grid-column: 1;
+}
+
+@media (max-width: 900px) {
+  .project-simple {
+    grid-template-columns: 1fr;
+  }
+  .project-simple > * {
+    grid-column: 1;
+  }
+}
+
 </style>
 
 
