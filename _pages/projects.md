@@ -1,6 +1,6 @@
 ---
 layout: page
-title: <strong>Projects</strong>
+title: Projects
 permalink: /projects/
 nav: true
 nav_order: 3
@@ -303,6 +303,44 @@ description: Projects as project leader and researcher.
     }
   }
 .project-action.outputs { margin-left:auto; }
+
+/* hover zoom */
+.project-thumb-frame img {
+  transition: transform 0.4s ease;
+}
+.project-thumb-frame:hover img {
+  transform: scale(1.05);
+}
+
+/* panel animation */
+.project-panel {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+.project-panel.open {
+  max-height: 2000px;
+}
+
+/* SDG tooltip */
+.project-sdgs img {
+  position: relative;
+  cursor: pointer;
+}
+.project-sdgs img:hover::after {
+  content: attr(alt);
+  position: absolute;
+  bottom: 110%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #222;
+  color: #fff;
+  font-size: 11px;
+  padding: 3px 6px;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
 </style>
 
 <div class="section-card">
