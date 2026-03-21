@@ -1,11 +1,11 @@
 <style>
-/* Active page */
+/* Active page (mavi + bold) */
 .navbar .nav-link.active {
   color: var(--global-theme-color) !important;
   font-weight: 700 !important;
 }
 
-/* Site title hizalama + stil */
+/* Site title stil */
 .site-title {
   font-weight: 400 !important;
   margin-left: 0 !important;
@@ -14,6 +14,19 @@
 /* Ekrem Cem bold */
 .site-title strong {
   font-weight: 700;
+}
+
+/* Menü sabit üstte */
+header.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* İçerik üstte kalmasın */
+body {
+  padding-top: 70px;
 }
 </style>
 
@@ -25,7 +38,7 @@
       <strong>Ekrem Cem</strong> ÇANKIRILIGİL
     </a>
 
-    <!-- NAV BUTTON -->
+    <!-- MOBILE BUTTON -->
     <button
       class="navbar-toggler"
       type="button"
@@ -35,22 +48,19 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <!-- NAV LINKS -->
+    <!-- NAV -->
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
 
-        {% for p in site.pages %}
-          {% if p.nav == true %}
+        {% assign nav_pages = site.pages | where: "nav", true | sort: "nav_order" %}
+        {% for p in nav_pages %}
 
-            {% assign url = p.url | relative_url %}
+          <li class="nav-item">
+            <a class="nav-link {% if page.url == p.url %}active{% endif %}" href="{{ p.url | relative_url }}">
+              {{ p.title | strip_html }}
+            </a>
+          </li>
 
-            <li class="nav-item">
-              <a class="nav-link {% if page.url == p.url %}active{% endif %}" href="{{ url }}">
-                {{ p.title | strip_html }}
-              </a>
-            </li>
-
-          {% endif %}
         {% endfor %}
 
       </ul>
