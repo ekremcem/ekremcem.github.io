@@ -104,9 +104,7 @@ description: Projects as project leader and researcher.
     margin: 1.35rem 0 0.8rem 0;
   }
 
-  #researcherTitle {
-    margin-top: 3rem;
-  }
+  #researcherTitle { margin-top: 3rem; }
 
   .project-leader-list,
   .project-researcher-list {
@@ -131,16 +129,16 @@ description: Projects as project leader and researcher.
 
   .project-thumb {
     width: 100%;
-    min-height: 240px;
+    aspect-ratio: 1 / 1;
     display: flex;
     align-items: stretch;
   }
 
   .project-thumb-frame {
-    border: 1px solid #ddd;
+    
     width: 100%;
-    min-height: 240px;
-    border: 1px solid #d8d8d8;
+    aspect-ratio: 1 / 1;
+    border: none;
     border-radius: 14px;
     overflow: hidden;
     background: #f7f7f7;
@@ -213,9 +211,8 @@ description: Projects as project leader and researcher.
   }
 
   .project-sdgs img {
-    width: 50px;
-    height: 50px;
-    transition: transform 0.15s ease;
+    width: 34px;
+    height: 34px;
     object-fit: contain;
     display: block;
   }
@@ -303,12 +300,19 @@ description: Projects as project leader and researcher.
 
     .project-thumb,
     .project-thumb-frame {
-    border: 1px solid #ddd;
+    
       min-height: 220px;
     }
   }
 .project-action.outputs { margin-left:auto; }
+
+.project-action.outputs {
+  margin-left: auto !important;
+  font-weight: 700 !important;
+  color: var(--global-theme-color) !important;
+}
 </style>
+
 
 <div class="section-card">
   <div class="project-controls">
