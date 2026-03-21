@@ -311,6 +311,26 @@ description: Projects as project leader and researcher.
   font-weight: 700 !important;
   color: var(--global-theme-color) !important;
 }
+
+.sdg-hover-tooltip{
+  position: fixed;
+  z-index: 9999;
+  background: #111;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 6px;
+  font-size: 0.78rem;
+  line-height: 1.2;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transform: translate(-50%, -8px);
+  transition: opacity 0.08s ease;
+}
+.sdg-hover-tooltip.show{
+  opacity: 1;
+}
+
 </style>
 
 
@@ -875,5 +895,56 @@ description: Projects as project leader and researcher.
 
   updateCounts();
   clearAll();
+})();
+</script>
+
+
+<script>
+(function () {
+  const sdgNames = {
+    "SDG 1": "No Poverty",
+    "SDG 2": "Zero Hunger",
+    "SDG 3": "Good Health and Well-Being",
+    "SDG 4": "Quality Education",
+    "SDG 5": "Gender Equality",
+    "SDG 6": "Clean Water and Sanitation",
+    "SDG 7": "Affordable and Clean Energy",
+    "SDG 8": "Decent Work and Economic Growth",
+    "SDG 9": "Industry, Innovation and Infrastructure",
+    "SDG 10": "Reduced Inequalities",
+    "SDG 11": "Sustainable Cities and Communities",
+    "SDG 12": "Responsible Consumption and Production",
+    "SDG 13": "Climate Action",
+    "SDG 14": "Life Below Water",
+    "SDG 15": "Life on Land",
+    "SDG 16": "Peace, Justice and Strong Institutions",
+    "SDG 17": "Partnerships for the Goals"
+  };
+
+  let tooltip = document.querySelector('.sdg-hover-tooltip');
+  if (!tooltip) {
+    tooltip = document.createElement('div');
+    tooltip.className = 'sdg-hover-tooltip';
+    document.body.appendChild(tooltip);
+  }
+
+  function moveTooltip(e) {
+    tooltip.style.left = e.clientX + 'px';
+    tooltip.style.top = (e.clientY - 10) + 'px';
+  }
+
+  document.querySelectorAll('.project-sdgs img').forEach(img => {
+    img.removeAttribute('title');
+    img.addEventListener('mouseenter', e => {
+      const key = (img.getAttribute('alt') || '').trim();
+      tooltip.textContent = sdgNames[key] || key;
+      tooltip.classList.add('show');
+      moveTooltip(e);
+    });
+    img.addEventListener('mousemove', moveTooltip);
+    img.addEventListener('mouseleave', () => {
+      tooltip.classList.remove('show');
+    });
+  });
 })();
 </script>
