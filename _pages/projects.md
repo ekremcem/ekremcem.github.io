@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projects
+title: <strong>Projects</strong>
 permalink: /projects/
 nav: true
 nav_order: 3
@@ -136,7 +136,6 @@ description: Projects as project leader and researcher.
     border: 2px solid #2a7ae2;
     width: 100%;
     min-height: 240px;
-    border: 1px solid #d8d8d8;
     border-radius: 14px;
     overflow: hidden;
     background: #f7f7f7;
@@ -298,48 +297,23 @@ description: Projects as project leader and researcher.
 
     .project-thumb,
     .project-thumb-frame {
-    border: 2px solid #2a7ae2;
       min-height: 220px;
     }
   }
-.project-action.outputs { margin-left:auto; }
 
-/* hover zoom */
-.project-thumb-frame img {
-  transition: transform 0.4s ease;
-}
-.project-thumb-frame:hover img {
-  transform: scale(1.05);
-}
+  #researcherTitle {
+    margin-top: 3rem;
+  }
 
-/* panel animation */
-.project-panel {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.4s ease;
-}
-.project-panel.open {
-  max-height: 2000px;
-}
+  .project-action.outputs {
+    margin-left: auto;
+    font-weight: 700;
+    color: var(--global-theme-color);
+  }
 
-/* SDG tooltip */
-.project-sdgs img {
-  position: relative;
-  cursor: pointer;
-}
-.project-sdgs img:hover::after {
-  content: attr(alt);
-  position: absolute;
-  bottom: 110%;
-  left: 50%;
-  transform: translateX(-50%);
-  background: #222;
-  color: #fff;
-  font-size: 11px;
-  padding: 3px 6px;
-  border-radius: 6px;
-  white-space: nowrap;
-}
+  .project-action.outputs:hover {
+    color: var(--global-theme-color);
+  }
 
 </style>
 
@@ -425,11 +399,11 @@ description: Projects as project leader and researcher.
             <span class="project-chip">Biotechnology</span>
           </div>
           <div class="project-sdgs">
-            <img src="{{ '/assets/img/sdg2.png' | relative_url }}" alt="SDG 2">
-            <img src="{{ '/assets/img/sdg6.png' | relative_url }}" alt="SDG 6">
-            <img src="{{ '/assets/img/sdg12.png' | relative_url }}" alt="SDG 12">
-            <img src="{{ '/assets/img/sdg13.png' | relative_url }}" alt="SDG 13">
-            <img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14">
+            <img src="{{ '/assets/img/sdg2.png' | relative_url }}" alt="SDG 2" title="Zero Hunger">
+            <img src="{{ '/assets/img/sdg6.png' | relative_url }}" alt="SDG 6" title="Clean Water and Sanitation">
+            <img src="{{ '/assets/img/sdg12.png' | relative_url }}" alt="SDG 12" title="Responsible Consumption and Production">
+            <img src="{{ '/assets/img/sdg13.png' | relative_url }}" alt="SDG 13" title="Climate Action">
+            <img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14" title="Life Below Water">
           </div>
           <div class="project-actions">
             <button class="project-action" type="button" data-target="pl1a">Abstract</button>
@@ -465,18 +439,18 @@ description: Projects as project leader and researcher.
             <span class="project-chip">Biotechnology</span>
           </div>
           <div class="project-sdgs">
-            <img src="{{ '/assets/img/sdg2.png' | relative_url }}" alt="SDG 2">
-            <img src="{{ '/assets/img/sdg6.png' | relative_url }}" alt="SDG 6">
-            <img src="{{ '/assets/img/sdg12.png' | relative_url }}" alt="SDG 12">
-            <img src="{{ '/assets/img/sdg13.png' | relative_url }}" alt="SDG 13">
-            <img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14">
+            <img src="{{ '/assets/img/sdg2.png' | relative_url }}" alt="SDG 2" title="Zero Hunger">
+            <img src="{{ '/assets/img/sdg6.png' | relative_url }}" alt="SDG 6" title="Clean Water and Sanitation">
+            <img src="{{ '/assets/img/sdg12.png' | relative_url }}" alt="SDG 12" title="Responsible Consumption and Production">
+            <img src="{{ '/assets/img/sdg13.png' | relative_url }}" alt="SDG 13" title="Climate Action">
+            <img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14" title="Life Below Water">
           </div>
           <div class="project-actions">
             <button class="project-action" type="button" data-target="pl2a">Abstract</button>
             <button class="project-action" type="button" data-target="pl2b">Budget</button>
             <button class="project-action" type="button" data-target="pl2c">Team</button>
             <button class="project-action" type="button" data-target="pl2d">Collaborators</button>
-            <button class="project-action" type="button" data-target="pl2e" class="project-action outputs">View project outputs</button>
+            <button class="project-action outputs" type="button" data-target="pl2e">View project outputs</button>
           </div>
         </div>
       </div>
@@ -509,17 +483,17 @@ description: Projects as project leader and researcher.
             <span class="project-chip">Marine Natural Products Chemistry</span>
           </div>
           <div class="project-sdgs">
-            <img src="{{ '/assets/img/sdg2.png' | relative_url }}" alt="SDG 2">
-            <img src="{{ '/assets/img/sdg6.png' | relative_url }}" alt="SDG 6">
-            <img src="{{ '/assets/img/sdg13.png' | relative_url }}" alt="SDG 13">
-            <img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14">
+            <img src="{{ '/assets/img/sdg2.png' | relative_url }}" alt="SDG 2" title="Zero Hunger">
+            <img src="{{ '/assets/img/sdg6.png' | relative_url }}" alt="SDG 6" title="Clean Water and Sanitation">
+            <img src="{{ '/assets/img/sdg13.png' | relative_url }}" alt="SDG 13" title="Climate Action">
+            <img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14" title="Life Below Water">
           </div>
           <div class="project-actions">
             <button class="project-action" type="button" data-target="pl3a">Abstract</button>
             <button class="project-action" type="button" data-target="pl3b">Budget</button>
             <button class="project-action" type="button" data-target="pl3c">Team</button>
             <button class="project-action" type="button" data-target="pl3d">Collaborators</button>
-            <button class="project-action" type="button" data-target="pl3e" class="project-action outputs">View project outputs</button>
+            <button class="project-action outputs" type="button" data-target="pl3e">View project outputs</button>
           </div>
         </div>
       </div>
@@ -563,7 +537,7 @@ description: Projects as project leader and researcher.
       <div class="project-funder">Supported by Presidency of the Republic of Türkiye, the Ministry of Industry and Technology, and TÜBİTAK MAM Polar Research Institute</div>
       <div class="project-meta"><strong>Project Leader:</strong> Dr. Merve Karakuş<br><strong>Executive Organization:</strong> Mediterranean Fisheries Research, Production and Training Institute</div>
       <div class="project-chips"><span class="project-chip">TÜBİTAK</span><span class="project-chip">KUTUP-1001</span><span class="project-chip">AR-GE</span><span class="project-chip">Polar Science</span></div>
-      <div class="project-sdgs"><img src="{{ '/assets/img/sdg6.png' | relative_url }}" alt="SDG 6"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14"></div>
+      <div class="project-sdgs"><img src="{{ '/assets/img/sdg6.png' | relative_url }}" alt="SDG 6" title="Clean Water and Sanitation"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14" title="Life Below Water"></div>
     </div>
 
     <div class="project-simple project-entry" data-role="researcher" data-tags="researcher,TAGEM,AR-GE,Aquaculture">
@@ -572,7 +546,7 @@ description: Projects as project leader and researcher.
       <div class="project-funder">Supported by Republic of Türkiye, Ministry of Agriculture and Forestry, General Directorate of Agricultural Research and Policies (TAGEM)</div>
       <div class="project-meta"><strong>Project Leader:</strong> Ali Atilla Uslu<br><strong>Executive Organization:</strong> Elazığ Fisheries Research Institute</div>
       <div class="project-chips"><span class="project-chip">TAGEM</span><span class="project-chip">AR-GE</span><span class="project-chip">Aquaculture</span></div>
-      <div class="project-sdgs"><img src="{{ '/assets/img/sdg2.png' | relative_url }}" alt="SDG 2"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14"></div>
+      <div class="project-sdgs"><img src="{{ '/assets/img/sdg2.png' | relative_url }}" alt="SDG 2" title="Zero Hunger"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14" title="Life Below Water"></div>
     </div>
 
     <div class="project-simple project-entry" data-role="researcher" data-tags="researcher,TAGEM,AR-GE,Fisheries,Biodiversity">
@@ -581,7 +555,7 @@ description: Projects as project leader and researcher.
       <div class="project-funder">Supported by Republic of Türkiye, Ministry of Agriculture and Forestry, General Directorate of Agricultural Research and Policies (TAGEM)</div>
       <div class="project-meta"><strong>Project Leader:</strong> Dr. Alpaslan Kara<br><strong>Executive Organization:</strong> Sheep Breeding Research Institute</div>
       <div class="project-chips"><span class="project-chip">TAGEM</span><span class="project-chip">AR-GE</span><span class="project-chip">Fisheries</span><span class="project-chip">Biodiversity</span></div>
-      <div class="project-sdgs"><img src="{{ '/assets/img/sdg13.png' | relative_url }}" alt="SDG 13"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14"></div>
+      <div class="project-sdgs"><img src="{{ '/assets/img/sdg13.png' | relative_url }}" alt="SDG 13" title="Climate Action"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14" title="Life Below Water"></div>
     </div>
 
     <div class="project-simple project-entry" data-role="researcher" data-tags="researcher,TAGEM,AR-GE,Fisheries,Management">
@@ -590,7 +564,7 @@ description: Projects as project leader and researcher.
       <div class="project-funder">Supported by Republic of Türkiye, Ministry of Agriculture and Forestry, General Directorate of Agricultural Research and Policies (TAGEM)</div>
       <div class="project-meta"><strong>Project Leader:</strong> Dr. Alpaslan Kara<br><strong>Executive Organization:</strong> Sheep Breeding Research Institute</div>
       <div class="project-chips"><span class="project-chip">TAGEM</span><span class="project-chip">AR-GE</span><span class="project-chip">Fisheries</span><span class="project-chip">Management</span></div>
-      <div class="project-sdgs"><img src="{{ '/assets/img/sdg2.png' | relative_url }}" alt="SDG 2"><img src="{{ '/assets/img/sdg11.png' | relative_url }}" alt="SDG 11"><img src="{{ '/assets/img/sdg13.png' | relative_url }}" alt="SDG 13"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14"></div>
+      <div class="project-sdgs"><img src="{{ '/assets/img/sdg2.png' | relative_url }}" alt="SDG 2" title="Zero Hunger"><img src="{{ '/assets/img/sdg11.png' | relative_url }}" alt="SDG 11" title="Sustainable Cities and Communities"><img src="{{ '/assets/img/sdg13.png' | relative_url }}" alt="SDG 13" title="Climate Action"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14" title="Life Below Water"></div>
     </div>
 
     <div class="project-simple project-entry" data-role="researcher" data-tags="researcher,TAGEM,AR-GE,Fish Disease,Aquaculture">
@@ -599,7 +573,7 @@ description: Projects as project leader and researcher.
       <div class="project-funder">Supported by Republic of Türkiye, Ministry of Agriculture and Forestry, General Directorate of Agricultural Research and Policies (TAGEM)</div>
       <div class="project-meta"><strong>Project Leader:</strong> Dr. Ahmet Demir<br><strong>Executive Organization:</strong> ATAFEN</div>
       <div class="project-chips"><span class="project-chip">TAGEM</span><span class="project-chip">TAGEM AR-GE</span><span class="project-chip">AR-GE</span><span class="project-chip">Fish Disease</span><span class="project-chip">Aquaculture</span></div>
-      <div class="project-sdgs"><img src="{{ '/assets/img/sdg2.png' | relative_url }}" alt="SDG 2"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14"></div>
+      <div class="project-sdgs"><img src="{{ '/assets/img/sdg2.png' | relative_url }}" alt="SDG 2" title="Zero Hunger"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14" title="Life Below Water"></div>
     </div>
 
     <div class="project-simple project-entry" data-role="researcher" data-tags="researcher,TAGEM,AR-GE,Biodiversity">
@@ -608,8 +582,8 @@ description: Projects as project leader and researcher.
       <div class="project-funder">Supported by Republic of Türkiye, Ministry of Agriculture and Forestry, General Directorate of Agricultural Research and Policies (TAGEM)</div>
       <div class="project-meta"><strong>Project Leader:</strong> Assoc. Dr. Meral Apaydın Yağcı<br><strong>Executive Organization:</strong> Sheep Breeding Research Institute</div>
       <div class="project-chips"><span class="project-chip">TAGEM</span><span class="project-chip">AR-GE</span><span class="project-chip">Biodiversity</span></div>
-      <div class="project-sdgs"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14"><img src="{{ '/assets/img/sdg15.png' | relative_url }}" alt="SDG 15"></div>
-      <div class="project-actions"><button class="project-action" type="button" data-target="rs1" class="project-action outputs">View project outputs</button></div>
+      <div class="project-sdgs"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14" title="Life Below Water"><img src="{{ '/assets/img/sdg15.png' | relative_url }}" alt="SDG 15" title="Life on Land"></div>
+      <div class="project-actions"><button class="project-action outputs" type="button" data-target="rs1">View project outputs</button></div>
       <div class="project-panel" id="rs1"><div class="project-panel-card"><div class="project-output-group"><div class="project-output-title">Presentations</div><div class="project-output-item">2025 — Apaydın Yağcı M., Yağcı A., Çankırılıgil E. C., Kocabaş E., <em>A Preliminary Study on the Zooplankton Fauna of Gölbaşı Lake (Bursa/Kestel – Türkiye)</em>. The XVII International Rotifer Symposium, 4–8 August 2025, Rio de Janeiro, Brazil, Poster presentation.</div></div></div></div>
     </div>
 
@@ -619,7 +593,7 @@ description: Projects as project leader and researcher.
       <div class="project-funder">Supported by Republic of Türkiye, Ministry of Agriculture and Forestry, General Directorate of Agricultural Research and Policies (TAGEM)</div>
       <div class="project-meta"><strong>Project Leader:</strong> Engin Kocabaş<br><strong>Executive Organization:</strong> Sheep Breeding Research Institute</div>
       <div class="project-chips"><span class="project-chip">TAGEM</span><span class="project-chip">AR-GE</span><span class="project-chip">Water quality</span></div>
-      <div class="project-sdgs"><img src="{{ '/assets/img/sdg6.png' | relative_url }}" alt="SDG 6"><img src="{{ '/assets/img/sdg13.png' | relative_url }}" alt="SDG 13"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14"></div>
+      <div class="project-sdgs"><img src="{{ '/assets/img/sdg6.png' | relative_url }}" alt="SDG 6" title="Clean Water and Sanitation"><img src="{{ '/assets/img/sdg13.png' | relative_url }}" alt="SDG 13" title="Climate Action"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14" title="Life Below Water"></div>
     </div>
 
     <div class="project-simple project-entry" data-role="researcher" data-tags="researcher,TAGEM,AR-GE,Fisheries">
@@ -628,7 +602,7 @@ description: Projects as project leader and researcher.
       <div class="project-funder">Supported by Republic of Türkiye, Ministry of Agriculture and Forestry, General Directorate of Agricultural Research and Policies (TAGEM)</div>
       <div class="project-meta"><strong>Project Leader:</strong> Haşim İnceoğlu<br><strong>Executive Organization:</strong> Sheep Breeding Research Institute</div>
       <div class="project-chips"><span class="project-chip">TAGEM</span><span class="project-chip">AR-GE</span><span class="project-chip">Fisheries</span></div>
-      <div class="project-sdgs"><img src="{{ '/assets/img/sdg2.png' | relative_url }}" alt="SDG 2"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14"></div>
+      <div class="project-sdgs"><img src="{{ '/assets/img/sdg2.png' | relative_url }}" alt="SDG 2" title="Zero Hunger"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14" title="Life Below Water"></div>
     </div>
 
     <div class="project-simple project-entry" data-role="researcher" data-tags="researcher,TAGEM,AR-GE,Aquaculture">
@@ -637,8 +611,8 @@ description: Projects as project leader and researcher.
       <div class="project-funder">Supported by Republic of Türkiye, Ministry of Agriculture and Forestry, General Directorate of Agricultural Research and Policies (TAGEM)</div>
       <div class="project-meta"><strong>Project Leader:</strong> Nedim Örnekçi<br><strong>Executive Organization:</strong> Elazığ Fisheries Research Institute</div>
       <div class="project-chips"><span class="project-chip">TAGEM</span><span class="project-chip">AR-GE</span><span class="project-chip">Aquaculture</span></div>
-      <div class="project-sdgs"><img src="{{ '/assets/img/sdg2.png' | relative_url }}" alt="SDG 2"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14"></div>
-      <div class="project-actions"><button class="project-action" type="button" data-target="rs2" class="project-action outputs">View project outputs</button></div>
+      <div class="project-sdgs"><img src="{{ '/assets/img/sdg2.png' | relative_url }}" alt="SDG 2" title="Zero Hunger"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14" title="Life Below Water"></div>
+      <div class="project-actions"><button class="project-action outputs" type="button" data-target="rs2">View project outputs</button></div>
       <div class="project-panel" id="rs2"><div class="project-panel-card"><div class="project-output-group"><div class="project-output-title">Papers</div><div class="project-output-item">2023 — Uslu, A.A., Özel, O.T., Örnekçi, G.N., Çelik, B., Çankırılıgil, E.C., Çoşkun, İ., Uslu Şenel, G., <em>Insect Larval Meal as a Possible Alternative to Fish Meal in Rainbow Trout (Oncorhynchus mykiss) diets: Black Soldier Fly (Hermetia illucens), Mealworm (Tenebrio molitor)</em>, <em>Journal of Limnology and Freshwater Fisheries Research</em>, 9(1):43–52.</div></div><div class="project-output-group"><div class="project-output-title">Presentations</div><div class="project-output-item">2021 — Uslu A.A., Özel O.T., Çelik B., Çankırılıgil E.C., Çoşkun İ., <em>Fish Meal Replacement by Mealworm (Tenebrio molitor) Larvae Meal in Diets for Rainbow Trout (Oncorhynchus mykiss)</em>. FABA 2021, International Symposium on Fisheries and Aquatic Sciences, 7–8 September 2021, İzmir, Türkiye, Oral presentation.</div><div class="project-output-item">2021 — Uslu A.A., Özel O.T., Örnekçi N., Çankırılıgil E.C., Çoşkun İ., Şenel G.U., <em>Black Soldier Fly (Hermetia illucens) Prepupae Meal as a Possible Alternative to Fish Meal in Rainbow Trout (Oncorhynchus mykiss) Diets</em>. TURFAJ 2021, 2nd International Congress of the Turkish Journal of Agriculture - Food Science and Technology, October 2021, Gazimağusa, Oral presentation.</div></div></div></div>
     </div>
 
@@ -648,8 +622,8 @@ description: Projects as project leader and researcher.
       <div class="project-funder">Supported by Republic of Türkiye, Ministry of Agriculture and Forestry, General Directorate of Agricultural Research and Policies (TAGEM)</div>
       <div class="project-meta"><strong>Project Leader:</strong> Dr. Osman Tolga Özel<br><strong>Executive Organization:</strong> Central Fisheries Research Institute</div>
       <div class="project-chips"><span class="project-chip">TAGEM</span><span class="project-chip">AR-GE</span><span class="project-chip">Aquaculture</span><span class="project-chip">Seafood</span></div>
-      <div class="project-sdgs"><img src="{{ '/assets/img/sdg2.png' | relative_url }}" alt="SDG 2"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14"></div>
-      <div class="project-actions"><button class="project-action" type="button" data-target="rs3" class="project-action outputs">View project outputs</button></div>
+      <div class="project-sdgs"><img src="{{ '/assets/img/sdg2.png' | relative_url }}" alt="SDG 2" title="Zero Hunger"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14" title="Life Below Water"></div>
+      <div class="project-actions"><button class="project-action outputs" type="button" data-target="rs3">View project outputs</button></div>
       <div class="project-panel" id="rs3">
         <div class="project-panel-card">
           <div class="project-output-group">
@@ -680,7 +654,7 @@ description: Projects as project leader and researcher.
       <div class="project-funder">Supported by Republic of Türkiye, Ministry of Agriculture and Forestry, General Directorate of Agricultural Research and Policies (TAGEM)</div>
       <div class="project-meta"><strong>Project Leader:</strong> Dr. Atife Tuba Beken<br><strong>Executive Organization:</strong> Central Fisheries Research Institute</div>
       <div class="project-chips"><span class="project-chip">TAGEM</span><span class="project-chip">AR-GE</span><span class="project-chip">Aquaculture</span><span class="project-chip">Biotechnology</span></div>
-      <div class="project-sdgs"><img src="{{ '/assets/img/sdg2.png' | relative_url }}" alt="SDG 2"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14"></div>
+      <div class="project-sdgs"><img src="{{ '/assets/img/sdg2.png' | relative_url }}" alt="SDG 2" title="Zero Hunger"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14" title="Life Below Water"></div>
     </div>
 
     <div class="project-simple project-entry" data-role="researcher" data-tags="researcher,TAGEM,AR-GE,Water quality">
@@ -689,7 +663,7 @@ description: Projects as project leader and researcher.
       <div class="project-funder">Supported by Republic of Türkiye, Ministry of Agriculture and Forestry, General Directorate of Agricultural Research and Policies (TAGEM)</div>
       <div class="project-meta"><strong>Project Leader:</strong> Dilek Fidan<br><strong>Executive Organization:</strong> Central Fisheries Research Institute</div>
       <div class="project-chips"><span class="project-chip">TAGEM</span><span class="project-chip">AR-GE</span><span class="project-chip">Water quality</span></div>
-      <div class="project-sdgs"><img src="{{ '/assets/img/sdg6.png' | relative_url }}" alt="SDG 6"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14"></div>
+      <div class="project-sdgs"><img src="{{ '/assets/img/sdg6.png' | relative_url }}" alt="SDG 6" title="Clean Water and Sanitation"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14" title="Life Below Water"></div>
     </div>
 
     <div class="project-simple project-entry" data-role="researcher" data-tags="researcher,TAGEM,Management">
@@ -698,7 +672,7 @@ description: Projects as project leader and researcher.
       <div class="project-funder">Supported by Republic of Türkiye, Ministry of Agriculture and Forestry, General Directorate of Agricultural Research and Policies (TAGEM)</div>
       <div class="project-meta"><strong>Project Leader:</strong> Eyüp Çakmak<br><strong>Executive Organization:</strong> Central Fisheries Research Institute</div>
       <div class="project-chips"><span class="project-chip">TAGEM</span><span class="project-chip">Training</span><span class="project-chip">Management</span></div>
-      <div class="project-sdgs"><img src="{{ '/assets/img/sdg8.png' | relative_url }}" alt="SDG 8"><img src="{{ '/assets/img/sdg9.png' | relative_url }}" alt="SDG 9"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14"></div>
+      <div class="project-sdgs"><img src="{{ '/assets/img/sdg8.png' | relative_url }}" alt="SDG 8" title="Decent Work and Economic Growth"><img src="{{ '/assets/img/sdg9.png' | relative_url }}" alt="SDG 9" title="Industry, Innovation and Infrastructure"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14" title="Life Below Water"></div>
     </div>
 
     <div class="project-simple project-entry" data-role="researcher" data-tags="researcher,TAGEM,AR-GE,Aquaculture,Seafood">
@@ -707,8 +681,8 @@ description: Projects as project leader and researcher.
       <div class="project-funder">Supported by Republic of Türkiye, Ministry of Agriculture and Forestry, General Directorate of Agricultural Research and Policies (TAGEM)</div>
       <div class="project-meta"><strong>Project Leader:</strong> Dr. Ayça Altuntaş<br><strong>Executive Organization:</strong> Central Fisheries Research Institute</div>
       <div class="project-chips"><span class="project-chip">TAGEM</span><span class="project-chip">AR-GE</span><span class="project-chip">Aquaculture</span><span class="project-chip">Seafood</span></div>
-      <div class="project-sdgs"><img src="{{ '/assets/img/sdg2.png' | relative_url }}" alt="SDG 2"><img src="{{ '/assets/img/sdg13.png' | relative_url }}" alt="SDG 13"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14"></div>
-      <div class="project-actions"><button class="project-action" type="button" data-target="rs4" class="project-action outputs">View project outputs</button></div>
+      <div class="project-sdgs"><img src="{{ '/assets/img/sdg2.png' | relative_url }}" alt="SDG 2" title="Zero Hunger"><img src="{{ '/assets/img/sdg13.png' | relative_url }}" alt="SDG 13" title="Climate Action"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14" title="Life Below Water"></div>
+      <div class="project-actions"><button class="project-action outputs" type="button" data-target="rs4">View project outputs</button></div>
       <div class="project-panel" id="rs4"><div class="project-panel-card"><div class="project-output-group"><div class="project-output-title">Papers</div><div class="project-output-item">2024 — Çankırılıgil E.C., Altuntaş A., <em>Chemical Composition of Two Grey Mullet Species (Chelon auratus, Mugil cephalus): A Comparative Study on Wild and Aquaculture-Adapted Species</em>, <em>Çanakkale Onsekiz Mart University Journal of Marine Sciences and Fisheries</em>, 7(1):52–66.</div></div><div class="project-output-group"><div class="project-output-title">Presentations</div><div class="project-output-item">2017 — Çankırılıgil E.C., Güven A., Balçık Mısır G., <em>Kültüre Alınan Altınbaş Kefalin (Liza aurata) Kas Dokusu ve Atıklarının Amino Asit Kompozisyonunun Belirlenmesi</em>. 19th National Fisheries Symposium, 12–15 September 2017, Sinop, Türkiye, Poster presentation.</div><div class="project-output-item">2017 — Kasapoğlu N., Güven A., Çakmak E., Çankırılıgil E.C., Firidin Ş., <em>Karadeniz Kefal Avcılığında Hedef Dışı Av Oranları</em>. 19th National Fisheries Symposium, 12–15 September 2017, Sinop, Türkiye, Poster presentation.</div></div></div></div>
     </div>
 
@@ -718,7 +692,7 @@ description: Projects as project leader and researcher.
       <div class="project-funder">Supported by Republic of Türkiye, Ministry of Agriculture and Forestry, General Directorate of Agricultural Research and Policies (TAGEM)</div>
       <div class="project-meta"><strong>Project Leader:</strong> Dr. Bilal Akbulut<br><strong>Executive Organization:</strong> Central Fisheries Research Institute</div>
       <div class="project-chips"><span class="project-chip">TAGEM</span><span class="project-chip">AR-GE</span><span class="project-chip">Aquaculture</span></div>
-      <div class="project-sdgs"><img src="{{ '/assets/img/sdg2.png' | relative_url }}" alt="SDG 2"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14"></div>
+      <div class="project-sdgs"><img src="{{ '/assets/img/sdg2.png' | relative_url }}" alt="SDG 2" title="Zero Hunger"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14" title="Life Below Water"></div>
     </div>
 
     <div class="project-simple project-entry" data-role="researcher" data-tags="researcher,TAGEM,AR-GE,Genetics,Biodiversity">
@@ -727,8 +701,8 @@ description: Projects as project leader and researcher.
       <div class="project-funder">Supported by Republic of Türkiye, Ministry of Agriculture and Forestry, General Directorate of Agricultural Research and Policies (TAGEM)</div>
       <div class="project-meta"><strong>Project Leader:</strong> Dr. Oğuzhan Eroğlu<br><strong>Executive Organization:</strong> Central Fisheries Research Institute</div>
       <div class="project-chips"><span class="project-chip">TAGEM</span><span class="project-chip">AR-GE</span><span class="project-chip">Genetics</span><span class="project-chip">Biodiversity</span></div>
-      <div class="project-sdgs"><img src="{{ '/assets/img/sdg2.png' | relative_url }}" alt="SDG 2"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14"></div>
-      <div class="project-actions"><button class="project-action" type="button" data-target="rs5" class="project-action outputs">View project outputs</button></div>
+      <div class="project-sdgs"><img src="{{ '/assets/img/sdg2.png' | relative_url }}" alt="SDG 2" title="Zero Hunger"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14" title="Life Below Water"></div>
+      <div class="project-actions"><button class="project-action outputs" type="button" data-target="rs5">View project outputs</button></div>
       <div class="project-panel" id="rs5"><div class="project-panel-card"><div class="project-output-group"><div class="project-output-title">Papers</div><div class="project-output-item">2019 — Çakmak E., Çankırılıgil E.C., Düzgüneş Z.D., Özel O.T., Eroğlu O., Firidin Ş., <em>Triploid Black Sea Trout (Salmo labrax Pallas, 1814) Induced by Heat Shock and Evaluation of Triploidy with Different Techniques</em>, <em>Genetics of Aquatic Organisms (GenAqua)</em>, 3(1):01–07.</div></div></div></div>
     </div>
 
@@ -738,8 +712,8 @@ description: Projects as project leader and researcher.
       <div class="project-funder">Supported by Republic of Türkiye, Ministry of Agriculture and Forestry, General Directorate of Agricultural Research and Policies (TAGEM)</div>
       <div class="project-meta"><strong>Project Leader:</strong> Eyüp Çakmak<br><strong>Executive Organization:</strong> Central Fisheries Research Institute</div>
       <div class="project-chips"><span class="project-chip">TAGEM</span><span class="project-chip">AR-GE</span><span class="project-chip">Aquaculture</span></div>
-      <div class="project-sdgs"><img src="{{ '/assets/img/sdg2.png' | relative_url }}" alt="SDG 2"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14"></div>
-      <div class="project-actions"><button class="project-action" type="button" data-target="rs6" class="project-action outputs">View project outputs</button></div>
+      <div class="project-sdgs"><img src="{{ '/assets/img/sdg2.png' | relative_url }}" alt="SDG 2" title="Zero Hunger"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14" title="Life Below Water"></div>
+      <div class="project-actions"><button class="project-action outputs" type="button" data-target="rs6">View project outputs</button></div>
       <div class="project-panel" id="rs6"><div class="project-panel-card"><div class="project-output-group"><div class="project-output-title">Papers</div><div class="project-output-item">2023 — Özel O.T., Çakmak E., Çankırılıgil E.C., Düzgüneş Z.D., Çimagil R., Batır E., <em>Comparison of reproductive performance of Black Sea salmon broodstock (Salmo labrax PALLAS, 1814) reaching first sexual maturity at different ages</em>, <em>Ege Journal of Fisheries</em>, 40(3):166–173.</div><div class="project-output-item">2023 — Özel O.T., Çakmak E., Çankırılıgil E.C., Çimagil R., Düzgüneş Z.D., <em>Reproductive Performance of Hatchery-Originated Black Sea Salmon Broodstocks' (Salmo labrax PALLAS, 1814) F5 and F6 Filial Generations</em>, <em>Acta Aquatica Turcica</em>, 40(3):166–173.</div><div class="project-output-item">2022 — Çakmak E., Firidin Ş., Aksungur N., Çavdar Y., Kurtoğlu İ.Z., Aksungur M., Özel O.T., Çankırılıgil E.C., Düzgüneş Z.D., Esin B., <em>Improving Reproductive Yield of the Black Sea Salmon (Salmo labrax PALLAS, 1814) with a Selective Breeding Program</em>, <em>Aquatic Sciences and Engineering</em>, 37(3):161–168.</div></div><div class="project-output-group"><div class="project-output-title">Presentations</div><div class="project-output-item">2022 — Özel O.T., Çakmak E., Çankırılıgil E.C., Düzgüneş Z.D., Çimagil R., <em>Farklı Yaşlarda Cinsel Olgunluğa Ulaşan Karadeniz Somonu Anaçlarının (Salmo labrax PALLAS, 1811) Üreme Performansı</em>. 6th National Trout Symposium, 15–16 September 2022, Isparta, Türkiye, Oral presentation.</div><div class="project-output-item">2022 — Özel O.T., Çakmak E., Çankırılıgil E.C., Çimagil R., Düzgüneş Z.D., <em>Kuluçkahane Kökenli F5 ve F6 Nesil Karadeniz Somonu Anaçlarının (Salmo labrax PALLAS, 1811) Üreme Performansı İlişkisi</em>. 6th National Trout Symposium, 15–16 September 2022, Isparta, Türkiye, Oral presentation.</div><div class="project-output-item">2016 — Çankırılıgil E.C., Çakmak E., Özcan Akpınar İ., <em>Histological Development of the Digestive Tract of Black Sea Trout (Salmo trutta labrax PALLAS, 1811) During Larval Ontogeny</em>. 41st CIESM Congress, Living Resources & Marine Ecosystems Committee, 12–16 September 2016, Kiel, Germany, Full-text.</div><div class="project-output-item">2016 — Kasapoğlu N., Çakmak E., Çankırılıgil E.C., <em>Differences Between Cultured and Wild Black Sea Trout (Salmo trutta labrax) Otoliths: A Comparative Study</em>. 41st CIESM Congress, Living Resources & Marine Ecosystems Committee, 12–16 September 2016, Kiel, Germany, Full-text.</div></div></div></div>
     </div>
 
@@ -749,8 +723,8 @@ description: Projects as project leader and researcher.
       <div class="project-funder">Supported by Çanakkale Onsekiz Mart University, COMU-BAP</div>
       <div class="project-meta"><strong>Project Leader:</strong> Prof. Dr. Nermin Berik<br><strong>Executive Organization:</strong> Çanakkale Onsekiz Mart University, Marine Sciences and Technology Faculty</div>
       <div class="project-chips"><span class="project-chip">COMU</span><span class="project-chip">COMU-BAP</span><span class="project-chip">BAP</span><span class="project-chip">AR-GE</span><span class="project-chip">Seafood</span></div>
-      <div class="project-sdgs"><img src="{{ '/assets/img/sdg2.png' | relative_url }}" alt="SDG 2"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14"></div>
-      <div class="project-actions"><button class="project-action" type="button" data-target="rs7" class="project-action outputs">View project outputs</button></div>
+      <div class="project-sdgs"><img src="{{ '/assets/img/sdg2.png' | relative_url }}" alt="SDG 2" title="Zero Hunger"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14" title="Life Below Water"></div>
+      <div class="project-actions"><button class="project-action outputs" type="button" data-target="rs7">View project outputs</button></div>
       <div class="project-panel" id="rs7">
         <div class="project-panel-card">
           <div class="project-output-group">
