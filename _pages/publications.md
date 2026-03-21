@@ -51,6 +51,25 @@ description: Publications.
   .citation-note{margin-top:1.5rem;font-size:.88rem;color:#777;font-style:italic}
   .pub-empty{display:none;margin-top:1rem;color:var(--global-text-color)}
   @media (max-width:768px){.pub-entry{grid-template-columns:76px 1fr;gap:.85rem}.pub-thumb{width:76px;height:108px}.pub-meta-row{flex-direction:column;align-items:flex-start;gap:.6rem}}
+.project-action.outputs {
+  margin-left: auto;
+  font-weight: 700;
+  color: var(--global-theme-color);
+}
+
+#researcherTitle {
+  margin-top: 3rem;
+}
+
+.project-sdgs img {
+  width: 60px;
+  height: 60px;
+  transition: transform 0.2s ease;
+}
+
+.project-sdgs img:hover {
+  transform: scale(1.1);
+}
 </style>
 
 <div class="section-card">
