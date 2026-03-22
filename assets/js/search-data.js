@@ -58,8 +58,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/committees/";
           },
-        },{id: "nav-lt-strong-gt-teaching-lt-strong-gt",
-          title: "&lt;strong&gt;Teaching&lt;/strong&gt;",
+        },{id: "nav-teaching",
+          title: "Teaching",
           description: "Teaching &amp; Training Activities (as Instructor).",
           section: "Navigation",
           handler: () => {
