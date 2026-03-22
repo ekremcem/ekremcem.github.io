@@ -1,6 +1,6 @@
 ---
 layout: page
-title: <strong>Teaching</strong>
+title: Teaching
 permalink: /teaching/
 nav: true
 nav_order: 8
