@@ -1,6 +1,6 @@
 ---
 layout: page
-title: <strong>Publications</strong>
+title: Publications
 permalink: /publications/
 nav: true
 nav_order: 4
