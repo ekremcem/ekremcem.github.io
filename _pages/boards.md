@@ -1,6 +1,6 @@
 ---
 layout: page
-title: <strong>Committees</strong>
+title: Committees
 permalink: /committees/
 nav: true
 nav_order: 7
