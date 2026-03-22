@@ -44,8 +44,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/presentations/";
           },
-        },{id: "nav-lt-strong-gt-editorial-amp-review-lt-strong-gt",
-          title: "&lt;strong&gt;Editorial &amp; Review&lt;/strong&gt;",
+        },{id: "nav-editorial-amp-review",
+          title: "Editorial &amp; Review",
           description: "Editorial roles and peer-review contributions.",
           section: "Navigation",
           handler: () => {
