@@ -1,6 +1,6 @@
 ---
 layout: page
-title: <strong>Editorial & Review</strong>
+title: Editorial & Review
 permalink: /editorial-review/
 nav: true
 nav_order: 6
