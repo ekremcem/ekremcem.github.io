@@ -51,8 +51,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/editorial-review/";
           },
-        },{id: "nav-lt-strong-gt-committees-lt-strong-gt",
-          title: "&lt;strong&gt;Committees&lt;/strong&gt;",
+        },{id: "nav-committees",
+          title: "Committees",
           description: "Working groups, committees, and conference roles.",
           section: "Navigation",
           handler: () => {
