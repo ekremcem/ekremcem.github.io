@@ -1,0 +1,37 @@
+---
+layout: null
+permalink: /sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://ekremcem.github.io/</loc>
+  </url>
+  <url>
+    <loc>https://ekremcem.github.io/publications/</loc>
+  </url>
+  <url>
+    <loc>https://ekremcem.github.io/projects/</loc>
+  </url>
+  <url>
+    <loc>https://ekremcem.github.io/cv/</loc>
+  </url>
+  <url>
+    <loc>https://ekremcem.github.io/education/</loc>
+  </url>
+  <url>
+    <loc>https://ekremcem.github.io/experience/</loc>
+  </url>
+  <url>
+    <loc>https://ekremcem.github.io/editorial-review/</loc>
+  </url>
+  <url>
+    <loc>https://ekremcem.github.io/boards-committees/</loc>
+  </url>
+  <url>
+    <loc>https://ekremcem.github.io/impact/</loc>
+  </url>
+  <url>
+    <loc>https://ekremcem.github.io/presentations/</loc>
+  </url>
+</urlset>
