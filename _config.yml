@@ -2,41 +2,39 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Ekrem Cem Çankırılıgil
 first_name: Ekrem Cem
 middle_name:
-last_name: ÇANKIRILIGİL
+last_name: Çankırılıgil
 contact_note: >
   Looking for partnerships on seafood chemistry, macroalgae biochemistry, marine bioactive compounds, and polar science.
 description: >
-  Academic cv for Dr. Ekrem Cem Çankırılıgil
+  Official academic website of Dr. Ekrem Cem Çankırılıgil, researcher in aquaculture, seafood chemistry, marine natural products, Antarctic macroalgae, and fisheries science.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: marine biology, seafood, seaweed, aquaculture # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+keywords: Ekrem Cem Çankırılıgil, Ekrem Cem Cankiriligil, aquaculture, seafood chemistry, marine natural products, macroalgae, Antarctic macroalgae, fisheries science, polar science
+lang: en
+icon: ⚛️
 
-url: https://ekremcem.github.io # the base hostname & protocol for your site
-baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
-impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
-back_to_top: true # set to false to disable the back to top button
+url: "https://ekremcem.github.io"
+baseurl:
+last_updated: false
+impressum_path:
+back_to_top: true
 
 # -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------
 
-# repo color theme
-repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_light: default
+repo_theme_dark: dark
 repo_trophies:
   enabled: true
-  theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
-  theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
+  theme_light: flat
+  theme_dark: gitdimmed
 
-# External service URLs for repository page
 external_services:
   github_readme_stats_url: https://github-readme-stats.vercel.app
   github_profile_trophy_url: https://github-profile-trophy.vercel.app
@@ -52,15 +50,14 @@ socials_in_search: true
 posts_in_search: true
 bib_search: true
 
-# Dimensions
 max_width: 1200px
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 
-serve_og_meta: false
-serve_schema_org: false
+serve_og_meta: true
+serve_schema_org: true
 og_image:
 
 # -----------------------------------------------------------------------------
@@ -253,8 +250,8 @@ display_categories: ["external-services"]
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Çankırılıgil, Cankiriligil, ÇANKIRILIGİL, CANKIRILIGIL]
+  first_name: [Ekrem Cem, Ekrem, E. C.]
 
   style: apa
   locale: en
@@ -608,7 +605,7 @@ third_party_libraries:
 
 jekyll_get_json:
   - data: resume
-    json: assets/json/resume.json # it can also be an url
+    json: assets/json/resume.json
 
 jsonresume:
   - basics
