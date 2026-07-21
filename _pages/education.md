@@ -166,9 +166,27 @@ description: Academic background.
   </div>
 
   <div class="section-card">
-    <h2 class="section-title">Cources</h2>
+    <h2 class="section-title">Courses</h2>
 
     <div class="course-list">
+      <div class="course-entry">
+        <div class="course-year">2026</div>
+        <div class="course-title">Info Session – Call for Tender: Copernicus Marine National Collaboration Programme</div>
+        <p class="course-support">Copernicus, the Copernicus Marine Service and Mercator Ocean International, 7 July 2026 (Virtual)</p>
+      </div>
+
+      <div class="course-entry">
+        <div class="course-year">2026</div>
+        <div class="course-title">From Monitoring to Management of Marine Ecosystems</div>
+        <p class="course-support">NECCTON – New Copernicus Capability for Trophic Ocean Networks Project, 28 April 2026 (Virtual)</p>
+      </div>
+
+      <div class="course-entry">
+        <div class="course-year">2026</div>
+        <div class="course-title">Marine Data for Maritime Spatial Planning (MSP) Workshop</div>
+        <p class="course-support">Mercator Ocean International, 31 March 2026 (Virtual)</p>
+      </div>
+
       <div class="course-entry">
         <div class="course-year">2026</div>
         <div class="course-title">Webinar of Ocean Sessions – Future of the High Seas</div>
