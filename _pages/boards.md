@@ -68,6 +68,12 @@ description: Working groups, committees, and conference roles.
 
     <div class="committee-list">
       <div class="committee-entry">
+        <div class="committee-date">2026</div>
+        <div class="committee-role">Scientific Committee</div>
+        <p class="committee-name">11th National Limnology Symposium, 31 August–2 September 2026, Balıkesir, Türkiye</p>
+      </div>
+
+      <div class="committee-entry">
         <div class="committee-date">2023</div>
         <div class="committee-role">Scientific Committee</div>
         <p class="committee-name">Workshop on the Biodiversity of Horseshoe Island and Glacier Lakes, 5–6 December 2023, Erzurum, Türkiye</p>
