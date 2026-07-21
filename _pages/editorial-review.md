@@ -319,7 +319,6 @@ description: Editorial roles and peer-review contributions.
         <div class="peer-review-row"><span class="peer-review-journal">Cahiers de Biologie Marine</span><span class="peer-review-count">1</span><span class="peer-review-years">2023</span></div>
         <div class="peer-review-row"><span class="peer-review-journal">Food &amp; Function</span><span class="peer-review-count">1</span><span class="peer-review-years">2016</span></div>
         <div class="peer-review-row"><span class="peer-review-journal">Journal of Animal Science and Veterinary Medicine</span><span class="peer-review-count">1</span><span class="peer-review-years">2020</span></div>
-        <div class="peer-review-row"><span class="peer-review-journal">Oriental Journal of Chemistry</span><span class="peer-review-count">1</span><span class="peer-review-years">2019</span></div>
       </div>
 
       <div class="peer-review-column">
@@ -332,11 +331,12 @@ description: Editorial roles and peer-review contributions.
         <div class="peer-review-row"><span class="peer-review-journal">Asian Fisheries Science</span><span class="peer-review-count">2</span><span class="peer-review-years">2019</span></div>
         <div class="peer-review-row"><span class="peer-review-journal">International Journal of Fisheries Science and Research</span><span class="peer-review-count">2</span><span class="peer-review-years">2017–2019</span></div>
         <div class="peer-review-row"><span class="peer-review-journal">Thalassas: An International Journal of Marine Sciences</span><span class="peer-review-count">2</span><span class="peer-review-years">2021</span></div>
-        <div class="peer-review-row"><span class="peer-review-journal">Aquaculture International</span><span class="peer-review-count">2</span><span class="peer-review-years">2025-2026</span></div>
+        <div class="peer-review-row"><span class="peer-review-journal">Aquaculture International</span><span class="peer-review-count">2</span><span class="peer-review-years">2025–2026</span></div>
         <div class="peer-review-row"><span class="peer-review-journal">Aquatic Sciences and Engineering</span><span class="peer-review-count">1</span><span class="peer-review-years">2021</span></div>
         <div class="peer-review-row"><span class="peer-review-journal">Fisheries &amp; Aquatic Life</span><span class="peer-review-count">1</span><span class="peer-review-years">2025</span></div>
         <div class="peer-review-row"><span class="peer-review-journal">International Journal of Analytical Techniques</span><span class="peer-review-count">1</span><span class="peer-review-years">2017</span></div>
         <div class="peer-review-row"><span class="peer-review-journal">Marine Life Science &amp; Technology</span><span class="peer-review-count">1</span><span class="peer-review-years">2020</span></div>
+        <div class="peer-review-row"><span class="peer-review-journal">Oriental Journal of Chemistry</span><span class="peer-review-count">1</span><span class="peer-review-years">2019</span></div>
       </div>
     </div>
 
