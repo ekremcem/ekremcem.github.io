@@ -306,11 +306,11 @@ description: Editorial roles and peer-review contributions.
     <div class="peer-review-grid">
       <div class="peer-review-column">
         <div class="peer-review-row"><span class="peer-review-journal">Food Chemistry</span><span class="peer-review-count">87</span><span class="peer-review-years">2016–2026</span></div>
-        <div class="peer-review-row"><span class="peer-review-journal">Algal Research</span><span class="peer-review-count">21</span><span class="peer-review-years">2023–2025</span></div>
+        <div class="peer-review-row"><span class="peer-review-journal">Algal Research</span><span class="peer-review-count">25</span><span class="peer-review-years">2023–2025</span></div>
         <div class="peer-review-row"><span class="peer-review-journal">Current Research in Nutrition and Food Science Journal</span><span class="peer-review-count">13</span><span class="peer-review-years">2019–2020</span></div>
-        <div class="peer-review-row"><span class="peer-review-journal">Aquatic Food Studies</span><span class="peer-review-count">5</span><span class="peer-review-years">2025</span></div>
+        <div class="peer-review-row"><span class="peer-review-journal">Aquatic Food Studies</span><span class="peer-review-count">6</span><span class="peer-review-years">2025</span></div>
         <div class="peer-review-row"><span class="peer-review-journal">Çanakkale Onsekiz Mart University Journal of Marine Sciences and Fisheries</span><span class="peer-review-count">5</span><span class="peer-review-years">2019–2023</span></div>
-        <div class="peer-review-row"><span class="peer-review-journal">Aquaculture Studies</span><span class="peer-review-count">3</span><span class="peer-review-years">2024–2025</span></div>
+        <div class="peer-review-row"><span class="peer-review-journal">Aquaculture Studies</span><span class="peer-review-count">4</span><span class="peer-review-years">2024–2025</span></div>
         <div class="peer-review-row"><span class="peer-review-journal">Journal of Applied Phycology</span><span class="peer-review-count">3</span><span class="peer-review-years">2020–2021</span></div>
         <div class="peer-review-row"><span class="peer-review-journal">Environmental Monitoring and Assessment</span><span class="peer-review-count">2</span><span class="peer-review-years">2021</span></div>
         <div class="peer-review-row"><span class="peer-review-journal">Journal of the Black Sea Mediterranean Environment</span><span class="peer-review-count">2</span><span class="peer-review-years">2023</span></div>
@@ -326,7 +326,7 @@ description: Editorial roles and peer-review contributions.
         <div class="peer-review-row"><span class="peer-review-journal">LWT - Food Science and Technology</span><span class="peer-review-count">39</span><span class="peer-review-years">2017–2021</span></div>
         <div class="peer-review-row"><span class="peer-review-journal">Food Research International</span><span class="peer-review-count">19</span><span class="peer-review-years">2017–2020</span></div>
         <div class="peer-review-row"><span class="peer-review-journal">Biological Trace Element Research</span><span class="peer-review-count">8</span><span class="peer-review-years">2021</span></div>
-        <div class="peer-review-row"><span class="peer-review-journal">Turkish Journal of Fisheries and Aquatic Sciences</span><span class="peer-review-count">5</span><span class="peer-review-years">2017–2018</span></div>
+        <div class="peer-review-row"><span class="peer-review-journal">Turkish Journal of Fisheries and Aquatic Sciences</span><span class="peer-review-count">6</span><span class="peer-review-years">2017–2018</span></div>
         <div class="peer-review-row"><span class="peer-review-journal">Food Chemistry Advances</span><span class="peer-review-count">4</span><span class="peer-review-years">2022–2024</span></div>
         <div class="peer-review-row"><span class="peer-review-journal">European Food Research and Technology</span><span class="peer-review-count">3</span><span class="peer-review-years">2022–2024</span></div>
         <div class="peer-review-row"><span class="peer-review-journal">Asian Fisheries Science</span><span class="peer-review-count">2</span><span class="peer-review-years">2019</span></div>
