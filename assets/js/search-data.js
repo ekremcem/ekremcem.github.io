@@ -37,6 +37,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-presentations",
+          title: "Presentations",
+          description: "Conference and other presentations in reverse chronological order.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/presentations/";
+          },
         },{id: "nav-editorial-amp-review",
           title: "Editorial &amp; Review",
           description: "Editorial roles and peer-review contributions.",
