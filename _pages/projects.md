@@ -304,35 +304,35 @@ description: Projects as project leader and researcher.
       min-height: 220px;
     }
   }
-.project-action.outputs { margin-left:auto; }
 
-.project-action.outputs {
-  margin-left: auto !important;
-  font-weight: 700 !important;
-  color: var(--global-theme-color) !important;
-}
+  .project-action.outputs { margin-left:auto; }
 
-.sdg-hover-tooltip{
-  position: fixed;
-  z-index: 9999;
-  background: #111;
-  color: #fff;
-  padding: 5px 8px;
-  border-radius: 6px;
-  font-size: 0.78rem;
-  line-height: 1.2;
-  white-space: nowrap;
-  pointer-events: none;
-  opacity: 0;
-  transform: translate(-50%, -8px);
-  transition: opacity 0.08s ease;
-}
-.sdg-hover-tooltip.show{
-  opacity: 1;
-}
+  .project-action.outputs {
+    margin-left: auto !important;
+    font-weight: 700 !important;
+    color: var(--global-theme-color) !important;
+  }
 
+  .sdg-hover-tooltip{
+    position: fixed;
+    z-index: 9999;
+    background: #111;
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 6px;
+    font-size: 0.78rem;
+    line-height: 1.2;
+    white-space: nowrap;
+    pointer-events: none;
+    opacity: 0;
+    transform: translate(-50%, -8px);
+    transition: opacity 0.08s ease;
+  }
+
+  .sdg-hover-tooltip.show{
+    opacity: 1;
+  }
 </style>
-
 
 <div class="section-card">
   <div class="project-controls">
@@ -403,7 +403,7 @@ description: Projects as project leader and researcher.
           </div>
         </div>
         <div class="project-body">
-          <div class="project-year">2027–2030 (Proposal stage)</div>
+          <div class="project-year">2027–2030</div>
           <div class="project-title">Assessment of the Bioecological Characteristics of Oyster Species in the Changing Sea of Marmara Ecosystem and Evaluation of Marine Heatwave Impacts on Their Reproductive Biology</div>
           <div class="project-funder">Supported by Republic of Türkiye, Ministry of Agriculture and Forestry, General Directorate of Agricultural Research and Policies (TAGEM)</div>
           <div class="project-meta"><strong>Project Leader:</strong> Dr. Ekrem Cem Çankırılıgil<br><strong>Executive Organization:</strong> Sheep Breeding Research Institute</div>
@@ -547,6 +547,33 @@ description: Projects as project leader and researcher.
 
   <h2 class="section-title project-section-title" id="researcherTitle">As a Researcher</h2>
   <div class="project-researcher-list" id="researcherList">
+
+    <div class="project-simple project-entry" data-role="researcher" data-tags="researcher,TAGEM,AR-GE,Fisheries,Management">
+      <div class="project-year">2027–2030</div>
+      <div class="project-title">GEN-KARADENİZ: Küçük Pelajik Türlerde Genetik Yaklaşımlı İzleme Altyapısının Oluşturulması</div>
+      <div class="project-funder">Supported by Republic of Türkiye, Ministry of Agriculture and Forestry, General Directorate of Agricultural Research and Policies (TAGEM)</div>
+      <div class="project-meta"><strong>Project Leader:</strong> Dr. Zehra Duygu Düzgüneş<br><strong>Executive Organization:</strong> Central Fisheries Research Institute</div>
+      <div class="project-chips"><span class="project-chip">TAGEM</span><span class="project-chip">AR-GE</span><span class="project-chip">Fisheries</span><span class="project-chip">Management</span></div>
+      <div class="project-sdgs"><img src="{{ '/assets/img/sdg2.png' | relative_url }}" alt="SDG 2"><img src="{{ '/assets/img/sdg13.png' | relative_url }}" alt="SDG 13"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14"></div>
+    </div>
+
+    <div class="project-simple project-entry" data-role="researcher" data-tags="researcher,TAGEM,AR-GE,Aquaculture">
+      <div class="project-year">2027–2030</div>
+      <div class="project-title">Determination of Maintenance and Growth Requirements in Black Sea Salmon (<em>Salmo labrax</em>) Using a Factorial Approach</div>
+      <div class="project-funder">Supported by Republic of Türkiye, Ministry of Agriculture and Forestry, General Directorate of Agricultural Research and Policies (TAGEM)</div>
+      <div class="project-meta"><strong>Project Leader:</strong> Dr. Osman Tolga Özel<br><strong>Executive Organization:</strong> Central Fisheries Research Institute</div>
+      <div class="project-chips"><span class="project-chip">TAGEM</span><span class="project-chip">AR-GE</span><span class="project-chip">Aquaculture</span></div>
+      <div class="project-sdgs"><img src="{{ '/assets/img/sdg2.png' | relative_url }}" alt="SDG 2"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14"></div>
+    </div>
+
+    <div class="project-simple project-entry" data-role="researcher" data-tags="researcher,BAP,AR-GE,Aquaculture">
+      <div class="project-year">2026–2027</div>
+      <div class="project-title">Yavru (Fingerling) Karaca Mersin (<em>Acipenser gueldenstaedtii</em>) Balıklarında Protein İhtiyaçlarının Belirlenmesi Üzerine Bir Araştırma</div>
+      <div class="project-funder">Supported by Çukurova University, BAP</div>
+      <div class="project-meta"><strong>Project Leader:</strong> Prof. Dr. Oğuz Taşbozan<br><strong>Executive Organization:</strong> Çukurova University, The Faculty of Fisheries</div>
+      <div class="project-chips"><span class="project-chip">BAP</span><span class="project-chip">AR-GE</span><span class="project-chip">Aquaculture</span></div>
+      <div class="project-sdgs"><img src="{{ '/assets/img/sdg2.png' | relative_url }}" alt="SDG 2"><img src="{{ '/assets/img/sdg14.png' | relative_url }}" alt="SDG 14"></div>
+    </div>
 
     <div class="project-simple project-entry" data-role="researcher" data-tags="researcher,TÜBİTAK,KUTUP-1001,AR-GE,Polar Science">
       <div class="project-year">2026–2028</div>
@@ -897,7 +924,6 @@ description: Projects as project leader and researcher.
   clearAll();
 })();
 </script>
-
 
 <script>
 (function () {
